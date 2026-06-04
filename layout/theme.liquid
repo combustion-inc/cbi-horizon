@@ -32,6 +32,24 @@
     {%- render 'theme-styles-variables' -%}
     {%- render 'color-schemes' -%}
 
+    {%- comment -%} Combustion retheme: self-hosted brand font + override CSS vars {%- endcomment -%}
+    {%- assign custom_font_url = 'ScandiaWebRegular.woff2' | file_url -%}
+    {%- if custom_font_url -%}
+      <link rel="preload" as="font" href="{{ custom_font_url }}" type="font/woff2" crossorigin>
+    {%- endif -%}
+    <style>
+      {% render 'combustion-fonts' %}
+      :root {
+        {% assign families = "body, paragraph, heading, subheading, accent" |split: ", " %}
+        {% for item in families %}
+            --font-{{ item }}--family: ScandiaWeb, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        {% endfor %}
+      }
+    </style>
+    {{ 'combustion.css' | asset_url | stylesheet_tag }}
+    {%- comment -%} Combustion retheme: head tracking/integration scripts {%- endcomment -%}
+    {% render 'custom-head-scripts' %}
+
     {% if request.design_mode %}
       {%- render 'theme-editor' -%}
     {% endif %}
@@ -134,5 +152,8 @@
     {% if settings.quick_add or settings.mobile_quick_add %}
       {% render 'quick-add-modal' %}
     {% endif %}
+
+    {%- comment -%} Combustion retheme: end-of-body scripts (Stamped reviews init) {%- endcomment -%}
+    {% render 'custom-body-scripts' %}
   </body>
 </html>

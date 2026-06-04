@@ -1,0 +1,74 @@
+{%- comment -%} MS CLARITY START {%- endcomment -%}
+	<script type="text/javascript">
+	    (function(c,l,a,r,i,t,y){
+	        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+	        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+	        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+	    })(window, document, "clarity", "script", "ahjgk67gcp");
+	</script>
+{%- comment -%} MS CLARITY END {%- endcomment -%}
+
+{%- comment -%} VIMEO LITE START - combustion version {%- endcomment -%}
+	{%- comment -%}
+		<script type="module" src="https://cdn.jsdelivr.net/npm/@slightlyoff/lite-vimeo@0.1.1/lite-vimeo.js"></script>
+	{%- endcomment -%}
+		<script type="module" src="{{ 'lite-vimeo.js' | asset_url }}"></script>
+{%- comment -%} VIMEO LITE END {%- endcomment -%}
+
+{%- comment -%} Custom 3/29/23 google search console {%- endcomment -%}
+<meta name="google-site-verification" content="QdyeqWP6MQCI_QpHhAXpXlkS6LLPn7C0kMc1tOLYmME" />
+{%- comment -%} End Custom 3/29/23 google search console {%- endcomment -%}
+
+{%- comment -%} Custom 4/25/23 klaviyo form tracking {%- endcomment -%}
+<script> 
+	window.addEventListener("klaviyoForms", function(e) {
+	if (e.detail.type == 'open' || e.detail.type == 'embedOpen') {
+		gtag('event', 'form_open', {
+			'form': 'Klaviyo form',
+			'form_id': e.detail.formId
+		});
+	}
+	if (e.detail.type == 'submit') {
+		gtag('event', 'form_submit', {
+			'form': 'Klaviyo form',
+			'form_id': e.detail.formId
+		});
+		fbq('track', 'Lead');
+	}
+	if (e.detail.type == 'stepSubmit') {
+		gtag('event', 'form_step_submit', {
+			'form': 'Klaviyo form',
+			'step_name': e.detail.metaData.$step_name
+		});
+	}
+	if (e.detail.type == 'redirectedToUrl') {
+		gtag('event', 'form_url_redirect', {
+			'form': 'Klaviyo form',
+			'form_id': e.detail.formId
+		});
+	}
+	if (e.detail.type == 'close') {
+		gtag('event', 'form_close', {
+			'form': 'Klaviyo form',
+			'form_id': e.detail.formId
+		});
+	}
+});
+</script>
+{%- comment -%} End Custom 4/25/23 {%- endcomment -%}
+
+{%- comment -%} Custom 5/30/23 VWO START {%- endcomment -%}
+<!-- Start VWO Async SmartCode -->
+<script type="text/javascript">
+window._vwo_code = window._vwo_code || (function(){
+var account_id=715756,
+settings_tolerance=4000,
+library_tolerance=4000,
+use_existing_jquery=false,
+is_spa=1,
+hide_element='body',
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document,code={use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.fetchPriority='high';b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){window.settings_timer=setTimeout(function () {_vwo_code.finish() },settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; }());
+</script>
+<!-- End VWO Async SmartCode -->
+{%- comment -%} End Custom 5/30/23 VWO END{%- endcomment -%}

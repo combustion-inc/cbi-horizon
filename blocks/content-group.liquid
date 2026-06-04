@@ -1,53 +1,46 @@
-{% capture children %}
-  {% content_for 'blocks' %}
-{% endcapture %}
+{%- liquid
+  assign entry = block.settings.mobj
+  assign type = entry.system.type
+  assign object = metaobjects[type][entry]
+-%}
+
+{%- capture children -%}
+  {%- if object != blank -%}
+    {%- for item in object.content_blocks.value -%}
+      {% content_for 'blocks', closest.metaobject.setup_step: item %}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endcapture -%}
 
 {% render 'group', children: children, settings: block.settings, shopify_attributes: block.shopify_attributes %}
-{%- comment -%} 
-Custom adds to schema:
-- allow buy buttons inside the group
-- 
-{%- endcomment -%}
+
+{%- if block.settings.liquid != blank -%}
+  {{ block.settings.liquid }}
+{%- endif -%}
+
 {% schema %}
 {
-  "name": "t:names.group",
+  "name": "Content group",
   "tag": null,
   "blocks": [
     {
-      "type": "text"
-    },
-    {
-      "type": "image"
-    },
-    {
-      "type": "price"
-    },
-    {
-      "type": "review"
-    },
-    {
-      "type": "sku"
-    },
-    {
-      "type": "swatches"
-    },
-    {
-      "type": "_product-card-group"
-    },
-    {
-      "type": "product-title"
-    },
-    {
-      "type": "custom-liquid"
+      "type": "@theme"
     },
     {
       "type": "@app"
     },
     {
-      "type": "buy-buttons"
+      "type": "_divider"
     }
   ],
   "settings": [
+    {
+      "type": "metaobject",
+      "id": "mobj",
+      "label": "Content group",
+      "metaobject_type": "content_group",
+      "info": "Select a content_group entry. Add blocks below to lay out its content blocks."
+    },
     {
       "type": "header",
       "content": "t:content.layout"
@@ -475,6 +468,12 @@ Custom adds to schema:
       "default": false
     },
     {
+      "type": "text",
+      "id": "placeholder",
+      "label": "t:settings.image",
+      "visible_if": "{{ false }}"
+    },
+    {
       "type": "header",
       "content": "t:content.padding"
     },
@@ -517,12 +516,16 @@ Custom adds to schema:
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "liquid",
+      "id": "liquid",
+      "label": "Custom Liquid"
     }
   ],
   "presets": [
     {
-      "name": "t:names.group",
-      "category": "t:categories.layout"
+      "name": "Content group"
     }
   ]
 }

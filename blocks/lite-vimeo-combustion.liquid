@@ -1,0 +1,42 @@
+<div class="cbi-lite-vimeo {{ block.settings.class }}" {{ block.shopify_attributes }}>
+  <lite-vimeo-combustion
+    videoid="{{ block.settings.videoid }}"
+    videotitle="{{ block.settings.videotitle }}"
+    {% if block.settings.autoload %}autoload{% endif %}
+    {% if block.settings.autoplay %}autoplay{% endif %}
+    {% if block.settings.muted %}muted{% endif %}
+    {% if block.settings.loop %}loop{% endif %}
+    {% if block.settings.aspect != 'none' %}{{ block.settings.aspect }}{% endif %}
+  ></lite-vimeo-combustion>
+</div>
+
+{% schema %}
+{
+  "name": "CBI lite-vimeo",
+  "settings": [
+    { "type": "text", "id": "videoid", "label": "Video ID" },
+    { "type": "text", "id": "videotitle", "label": "Video title" },
+    { "type": "text", "id": "class", "label": "CSS classes", "info": "e.g. hidden--desktop, hidden--mobile" },
+    {
+      "type": "select",
+      "id": "aspect",
+      "label": "Aspect ratio",
+      "options": [
+        { "value": "none", "label": "Default (16:9)" },
+        { "value": "mobileAspect", "label": "Mobile aspect" },
+        { "value": "fourfive", "label": "4:5" },
+        { "value": "vertical", "label": "Vertical" }
+      ],
+      "default": "none"
+    },
+    { "type": "header", "content": "Playback" },
+    { "type": "checkbox", "id": "autoload", "label": "Autoload", "default": true },
+    { "type": "checkbox", "id": "autoplay", "label": "Autoplay", "default": true },
+    { "type": "checkbox", "id": "muted", "label": "Muted", "default": true },
+    { "type": "checkbox", "id": "loop", "label": "Loop", "default": true }
+  ],
+  "presets": [
+    { "name": "CBI lite-vimeo" }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,24 @@
+{%- if block.settings.gradient != blank -%}
+  {%- style -%}
+    .group-block:has(> .group-block-content > .shopify-block > .cbi-gradient-{{ block.id }}) {
+      background: {{ block.settings.gradient }};
+    }
+    .section-wrapper:has(> .section > .custom-section-content > .section-content-wrapper > .shopify-block > .cbi-gradient-{{ block.id }}) > .section-background {
+      background: {{ block.settings.gradient }};
+    }
+  {%- endstyle -%}
+{%- endif -%}
+
+<div class="cbi-gradient-{{ block.id }}" {{ block.shopify_attributes }}></div>
+
+{% schema %}
+{
+  "name": "cbi-gradient",
+  "settings": [
+    { "type": "color_background", "id": "gradient", "label": "Gradient" }
+  ],
+  "presets": [
+    { "name": "cbi-gradient" }
+  ]
+}
+{% endschema %}
