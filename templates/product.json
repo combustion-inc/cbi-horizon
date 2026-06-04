@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "main": {
       "type": "product-information",
@@ -25,6 +25,7 @@
             "slideshow_mobile_controls_style": "dots",
             "thumbnail_position": "right",
             "thumbnail_width": 44,
+            "thumbnail_radius": 0,
             "aspect_ratio": "adapt",
             "constrain_to_viewport": true,
             "media_fit": "contain",
@@ -71,8 +72,6 @@
               "type": "group",
               "name": "Header",
               "settings": {
-                "link": "",
-                "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -96,11 +95,13 @@
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
-                "placeholder": "",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -186,6 +187,33 @@
               },
               "blocks": {}
             },
+            "fly_bundles_quantity_breaks_app_block_upsell_block_ehxAbH": {
+              "type": "shopify://apps/fly-bundles-quantity-breaks/blocks/app-block-upsell-block/26807bdc-c2ed-4a25-afb2-06e6b1ebf843",
+              "settings": {
+                "isStyleEnabled": false,
+                "hTextColor": "#303030",
+                "subhTextColor": "#303030",
+                "borRadius": 8,
+                "bgColor": "#f0f0f0",
+                "borColor": "#303030",
+                "pTitleColor": "#303030",
+                "pPriceColor": "#303030",
+                "pDiscountedPriceColor": "#303030",
+                "pImageSize": 100,
+                "pImageObjectFit": "contain",
+                "pImgBorRadius": 5,
+                "varBorRadius": 5,
+                "varBgColor": "#303030",
+                "varColor": "#303030",
+                "varBorColor": "#303030",
+                "qtyLabelColor": "#303030",
+                "tPriceLabelColor": "#303030",
+                "tPriceColor": "#303030",
+                "tDiscountedPriceColor": "#303030",
+                "atbBorRadius": 5,
+                "atbPadding": 5
+              }
+            },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
@@ -252,6 +280,7 @@
             "group_icgrde",
             "divider_VJhene",
             "variant_picker_R3rGDr",
+            "fly_bundles_quantity_breaks_app_block_upsell_block_ehxAbH",
             "buy_buttons_eYQEYi",
             "text_aEtTtq"
           ]
@@ -263,6 +292,7 @@
         "equal_columns": false,
         "limit_details_width": false,
         "gap": 48,
+        "enable_sticky_add_to_cart": true,
         "color_scheme": "",
         "padding-block-start": 0,
         "padding-block-end": 0
