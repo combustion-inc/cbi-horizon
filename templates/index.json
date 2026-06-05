@@ -1153,7 +1153,7 @@
       },
       "name": "Bundles",
       "settings": {
-        "collection": "bundles",
+        "collection": "test",
         "layout_type": "carousel",
         "carousel_on_mobile": true,
         "max_products": 12,
