@@ -1105,12 +1105,49 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "buy_buttons_qcDyzG": {
+              "type": "buy-buttons",
+              "name": "t:names.product_buy_buttons",
+              "settings": {
+                "stacking": false,
+                "show_pickup_availability": true,
+                "gift_card_form": true,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "quantity": {
+                  "type": "quantity",
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                },
+                "add-to-cart": {
+                  "type": "add-to-cart",
+                  "static": true,
+                  "settings": {
+                    "style_class": "button-secondary"
+                  },
+                  "blocks": {}
+                },
+                "accelerated-checkout": {
+                  "type": "accelerated-checkout",
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": []
             }
           },
           "block_order": [
             "pcg",
             "pt",
-            "pp"
+            "pp",
+            "buy_buttons_qcDyzG"
           ]
         }
       },
@@ -1641,7 +1678,7 @@
       ],
       "custom_css": [
         ".group-block:not(:has(.anx)):not(:first-of-type) p {color: #fff;}",
-        ".group-block:not(:has(.anx)):has(.spacer-block) {max-width: 20rem; min-width: 280px; max-height:35rem;}",
+        ".group-block:not(:has(.anx)):has(.spacer-block) {max-width: 20rem; min-width: 280px; max-height: 35rem;}",
         ".section-content-wrapper > .group-block > .group-block-content {flex-wrap: wrap;}",
         ".h5 p {font-weight: var(--font-subheading--weight);}",
         ".button {font-size: 0.875rem; font-weight: 500; padding: 0.5rem 1.5rem;}"
