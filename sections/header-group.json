@@ -87,7 +87,7 @@
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
       "settings": {
-        "custom_liquid": "{% style %}\n  :root {\n    {%- for n in (1..6) -%}\n      {%- assign key = 'type_size_h' | append: n -%}\n      {%- assign px = settings[key] | times: 1 -%}\n      --font-h{{ n }}--size: clamp(calc({{ px | times: 0.7 }}rem / 16), {{ px | times: 0.1 }}vw, calc({{ px }}rem / 16));\n    {%- endfor -%}\n{%- assign ppx = settings.type_size_paragraph | times: 1 -%}\n    --font-paragraph--size: clamp(calc({{ ppx | times: 0.9 }}rem / 16), {{ ppx | times: 0.05 | plus: 0.7 }}vw, calc({{ ppx }}rem / 16));\n  }\n  }\n{% endstyle %}",
+        "custom_liquid": "{% style %}\n  :root {\n    {%- for n in (1..6) -%}\n      {%- assign key = 'type_size_h' | append: n -%}\n      {%- assign px = settings[key] | times: 1 -%}\n      --font-h{{ n }}--size: clamp(calc({{ px | times: 0.7 }}rem / 16), {{ px | times: 0.1 }}vw, calc({{ px }}rem / 16));\n    {%- endfor -%}\n{%- assign ppx = settings.type_size_paragraph | times: 1 -%}\n    --font-paragraph--size: clamp(calc({{ ppx | times: 0.9 }}rem / 16), {{ ppx | times: 0.05 | plus: 0.7 }}vw, calc({{ ppx }}rem / 16));\n  }\n.quick-add__button .add-to-cart-text__content > span span {\n  opacity: 1 !important;\n  translate: 0 0;\nfilter: blur(0);\n}\n\n\n{% endstyle %}",
         "color_scheme": "",
         "section_width": "page-width",
         "padding-block-start": 0,
