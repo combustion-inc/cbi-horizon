@@ -585,8 +585,7 @@
         "variant-picker {font-size: 0.6em;}",
         "fieldset {display: grid; grid-template-columns: 1fr 1fr;}",
         ".collection-card {flex: 0 0 auto;}",
-        "ul {padding: 0;}",
-        "::marker {color: #BD010C;}"
+        "ul {padding: 0;}"
       ],
       "settings": {
         "content_width": "content-center-aligned",
