@@ -530,7 +530,7 @@
                   "type": "custom-liquid",
                   "name": "t:names.custom_liquid",
                   "settings": {
-                    "custom_liquid": "{% assign meta = product.selected_or_first_available_variant.metafields.custom.best_for %}\n{% unless meta == blank%}\n<script>\ndocument.addEventListener('variant:update', (event) => {\n  const html = event.detail.data.html;\n  const el = html?.querySelector('[data-variant-metafield]');\n  document.querySelector('#variant-metafield').textContent = el?.textContent || '';\n});\n</script>\n<span \nstyle=\"font-size: 1rem; line-height: unset;\"\nclass=\"best-for\" id=\"variant-metafield\" data-variant-metafield=\"{{ meta.value }}\">\n  Best for: {{ meta.value }}\n</span>\n{% endunless %}"
+                    "custom_liquid": "{% assign meta = product.selected_or_first_available_variant.metafields.custom.best_for %}\n{% unless meta == blank%}\n<script>\ndocument.addEventListener('variant:update', (event) => {\n  const html = event.detail.data.html;\n  const el = html?.querySelector('[data-variant-metafield]');\n  document.querySelector('#variant-metafield').textContent = el?.textContent || '';\n});\n</script>\n<p\nstyle=\"font-size: 1rem; line-height: unset; margin:0;\"\nclass=\"best-for\" id=\"variant-metafield\" data-variant-metafield=\"{{ meta.value }}\">\n  <strong>Best for:</strong> {{ meta.value }}\n</p>\n{% endunless %}"
                   },
                   "blocks": {}
                 }
@@ -666,7 +666,8 @@
         "ul {padding: 0; margin-left: 1rem;}",
         "::marker {color: #bd010c;}",
         ".filled-star {fill: var(--color-primary);}",
-        ".sticky-add-to-cart__bar {width: 90vw;}"
+        ".sticky-add-to-cart__bar {width: 90vw;}",
+        ".best-for {line-height: 1;}"
       ],
       "settings": {
         "content_width": "content-center-aligned",
