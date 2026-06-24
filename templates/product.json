@@ -486,9 +486,9 @@
               },
               "blocks": {}
             },
-            "group_nD7NeT": {
+            "group_ietxDj": {
               "type": "group",
-              "name": "t:names.group",
+              "name": "Best for",
               "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -497,7 +497,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 0,
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -505,14 +505,14 @@
                 "height": "fit",
                 "custom_height": 100,
                 "inherit_color_scheme": false,
-                "color_scheme": "scheme-66226a50-1657-4088-8fe6-ad4ac22107e7",
+                "color_scheme": "scheme-2",
                 "background_media": "none",
                 "video_position": "cover",
                 "background_image_position": "cover",
-                "border": "none",
+                "border": "solid",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 0,
+                "border_radius": 12,
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
@@ -520,12 +520,24 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "placeholder": "",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "padding-block-start": 20,
+                "padding-block-end": 20,
+                "padding-inline-start": 20,
+                "padding-inline-end": 20
               },
-              "blocks": {}
+              "blocks": {
+                "custom_liquid_MdQeRX": {
+                  "type": "custom-liquid",
+                  "name": "t:names.custom_liquid",
+                  "settings": {
+                    "custom_liquid": "{% assign meta = product.selected_or_first_available_variant.metafields.custom.best_for %}\n{% unless meta == blank%}\n<script>\ndocument.addEventListener('variant:update', (event) => {\n  const html = event.detail.data.html;\n  const el = html?.querySelector('[data-variant-metafield]');\n  document.querySelector('#variant-metafield').textContent = el?.textContent || '';\n});\n</script>\n<span \nstyle=\"font-size: 1rem; line-height: unset;\"\nclass=\"best-for\" id=\"variant-metafield\" data-variant-metafield=\"{{ meta.value }}\">\n  Best for: {{ meta.value }}\n</span>\n{% endunless %}"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "custom_liquid_MdQeRX"
+              ]
             },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
@@ -601,7 +613,7 @@
             "fly_bundles_quantity_breaks_app_block_fbt_fzycjQ",
             "price_TxBFTN",
             "variant_picker_dCDJRn",
-            "group_nD7NeT",
+            "group_ietxDj",
             "buy_buttons_eYQEYi",
             "text_aEtTtq",
             "eb_easy_bundle_builder_app_block_mix_and_match_bundle_t6z6R4"
@@ -610,7 +622,7 @@
       },
       "custom_css": [
         ".product-information {--page-width: 90rem;}",
-        "variant-picker {font-size: var(--font-size--md)}",
+        "variant-picker {font-size: var(--font-size--md);}",
         "fieldset {display: flex;}",
         ".variant-option__button-label {flex: 0 1 20%;}",
         ".collection-card {flex: 0 0 auto;}",
