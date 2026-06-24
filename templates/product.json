@@ -1224,11 +1224,24 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "custom_liquid_cdnTdk": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.custom.specs_tables.value != blank %}\n<div class=\"page-width\" id=\"specs\">\n<h2 class=\"h3\" style=\"--animation-order: 0;\">\n                <strong>Specs and tech</strong>\n              </h2>\n{% assign specs_tables = product.metafields.custom.specs_tables.value %}\n{% assign delim = \"~~\" %}\n{% for table in specs_tables %}\n{% assign title = table.title %}\n\t\t<table id=\"{{ title | split: delim | first | trim |handleize }}\">\n\t\t<caption><h3>{{ title | split: delim | first | trim }}</h3></caption>\n\t\t<tbody>\n\t\t\t{% for row in table.rows.value %}\n\t\t\t\t<tr>\n\t\t\t\t\t<th>\n\t\t\t\t\t\t{{ row.spec | split: delim | first | trim }}\n\t\t\t\t\t</th>\n\t\t\t\t\t<td>\n\t\t\t\t\t\t{{ row.data | newline_to_br }}\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t{% endfor %}\n\t\t</tbody>\n\t</table>\n{% endfor %}\n</div>\n{% else %}\n{% style %}\n#shopify-section-{{ section.id }} {\ndisplay: none;\n}\n{% endstyle %}\n{% endif %}\n{%- style -%}\n #specs table {\n  width: 100%;\n  font-size: calc(var(--font-h6--size) * 0.9 );\n  margin-bottom: 1.5rem;\n  box-shadow: #c4c0c0 0px 0px 0px 1px inset;\n  border-spacing: 0px;\n  border-radius: 0 0 12px 12px;\n    border-collapse: collapse;\n}\n#specs th,\n#specs td {\n  border: 0;\n}\n#specs tr {\n  border: 1px solid #c4c0c0;\n}\n#specs th {\n  text-align: left;\n  width: 33%;\n  font-size: calc(var(--font-h6--size) * .65);\n  letter-spacing: 0.03rem;\n  text-transform: uppercase;\n}\n#specs h3 {\n  font-size: var(--font-h6--size);\n  text-align: left;\n  margin: 0;\ncolor: white;\n}\n#specs caption {\n  padding: .75rem 1rem;\n  background-color: #606263;\n  border-radius: 12px 12px 0 0;\n}\n#specs table:not([class]) td, table:not([class]) th {\npadding: .5rem;\n}\n{%- endstyle -%}",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
     "main",
     "section_UV9PJd",
-    "product_recommendations_qggXJq"
+    "product_recommendations_qggXJq",
+    "custom_liquid_cdnTdk"
   ]
 }
