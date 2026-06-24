@@ -426,31 +426,6 @@
               },
               "blocks": {}
             },
-            "fly_bundles_quantity_breaks_app_block_fbt_fzycjQ": {
-              "type": "shopify://apps/fly-bundles-quantity-breaks/blocks/app-block-fbt/26807bdc-c2ed-4a25-afb2-06e6b1ebf843",
-              "settings": {
-                "isStyleEnabled": false,
-                "hTextColor": "#303030",
-                "subhTextColor": "#303030",
-                "bgColor": "#f0f0f0",
-                "pTitleColor": "#303030",
-                "pPriceColor": "#303030",
-                "pDiscountedPriceColor": "#303030",
-                "pImageSize": 100,
-                "pImageObjectFit": "contain",
-                "pImgBorRadius": 5,
-                "varBorRadius": 5,
-                "varBgColor": "#303030",
-                "varColor": "#f0f0f0",
-                "varBorColor": "#303030",
-                "qtyLabelColor": "#303030",
-                "tPriceLabelColor": "#303030",
-                "tPriceColor": "#303030",
-                "tDiscountedPriceColor": "#303030",
-                "atbBorRadius": 5,
-                "atbPadding": 5
-              }
-            },
             "price_TxBFTN": {
               "type": "price",
               "settings": {
@@ -530,7 +505,7 @@
                   "type": "custom-liquid",
                   "name": "t:names.custom_liquid",
                   "settings": {
-                    "custom_liquid": "{% assign meta = product.selected_or_first_available_variant.metafields.custom.best_for %}\n{% unless meta == blank%}\n<script>\ndocument.addEventListener('variant:update', (event) => {\n  const html = event.detail.data.html;\n  const el = html?.querySelector('[data-variant-metafield]');\n  document.querySelector('#variant-metafield').textContent = el?.textContent || '';\n});\n</script>\n<p\nstyle=\"font-size: 1rem; line-height: unset; margin:0;\"\nclass=\"best-for\" id=\"variant-metafield\" data-variant-metafield=\"{{ meta.value }}\">\n  <strong>Best for:</strong> {{ meta.value }}\n</p>\n{% endunless %}"
+                    "custom_liquid": "{% assign meta = product.selected_or_first_available_variant.metafields.custom.best_for %}\n{% unless meta == blank%}\n<script>\ndocument.addEventListener('variant:update', (event) => {\n  const html = event.detail.data.html;\n  const el = html?.querySelector('[data-variant-metafield]');\n  document.querySelector('#variant-metafield').textContent = el?.textContent || '';\n});\n</script>\n<p\nstyle=\"font-size: 1rem; line-height: unset; margin:0;\"\nclass=\"best-for\" >\n  <strong>Best for:</strong><span id=\"variant-metafield\" data-variant-metafield=\"{{ meta.value }}\"> {{ meta.value }}</span>\n</p>\n{% endunless %}"
                   },
                   "blocks": {}
                 }
@@ -574,10 +549,6 @@
                 }
               },
               "block_order": []
-            },
-            "eb_easy_bundle_builder_app_block_mix_and_match_bundle_t6z6R4": {
-              "type": "shopify://apps/eb-easy-bundle-builder/blocks/app-block-mixAndMatchBundle/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
-              "settings": {}
             },
             "accordion_y79mNz": {
               "type": "accordion",
@@ -647,12 +618,10 @@
             "group_icgrde",
             "group_iFA9jX",
             "divider_VJhene",
-            "fly_bundles_quantity_breaks_app_block_fbt_fzycjQ",
             "price_TxBFTN",
             "variant_picker_dCDJRn",
             "group_ietxDj",
             "buy_buttons_eYQEYi",
-            "eb_easy_bundle_builder_app_block_mix_and_match_bundle_t6z6R4",
             "accordion_y79mNz"
           ]
         }
