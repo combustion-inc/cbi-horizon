@@ -63,6 +63,7 @@
     "auto_open_cart_drawer": true,
     "show_cart_note": false,
     "show_add_discount_code": true,
+    "show_accelerated_checkout_buttons": false,
     "drawer_drop_shadow": true,
     "icon_stroke": "default",
     "input_border_width": 2,
@@ -215,15 +216,15 @@
       "scheme-4": {
         "settings": {
           "background": "{{ shop.brand.colors.primary[0].foreground }}",
-          "foreground_heading": "#0C55B1",
-          "foreground": "#0C55B1",
-          "primary": "#0C55B1",
+          "foreground_heading": "#0c55b1",
+          "foreground": "#0c55b1",
+          "primary": "#0c55b1",
           "primary_hover": "#000000",
-          "border": "#0C55B1",
+          "border": "#0c55b1",
           "shadow": "#000000",
           "primary_button_background": "#000000",
           "primary_button_text": "#ffffff",
-          "primary_button_border": "#0C55B1",
+          "primary_button_border": "#0c55b1",
           "primary_button_hover_background": "#333333",
           "primary_button_hover_text": "#ffffff",
           "primary_button_hover_border": "#000000",
@@ -239,7 +240,7 @@
           "input_hover_background": "#ffffff5c",
           "variant_background_color": "#ffffff",
           "variant_text_color": "#000000",
-          "variant_border_color": "#0C55B1",
+          "variant_border_color": "#0c55b1",
           "variant_hover_background_color": "#f5f5f5",
           "variant_hover_text_color": "#000000",
           "variant_hover_border_color": "#e6e6e6",
@@ -1209,7 +1210,7 @@
       "product-card .quick-add__button {opacity: 1;}",
       ".quick-add__button:not(:hover) {border-color: #0c55b1;}",
       ".quick-add__button .add-to-cart-text__content {grid-template-columns: 1fr; font-size: var(--font-size--sm);}",
-      "quick-add-component:not(:is(.card-gallery>*)) {--quick-add-display: flex; --quick-add-mobile-display: flex; --quick-add-mobile-opacity: 1;}"
+      "quick-add-component:not(:is(.card-gallery > *)) {--quick-add-display: flex; --quick-add-mobile-display: flex; --quick-add-mobile-opacity: 1;}"
     ]
   }
 }
