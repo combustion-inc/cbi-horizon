@@ -1206,7 +1206,7 @@
       "summary .svg-wrapper {height: var(--icon-size-lg); width: var(--icon-size-lg);}",
       "lite-vimeo-combustion {border-radius: 1rem; overflow: hidden;}",
       "div.shopify-block:has(.cbi-lite-vimeo) {width: 100%;}",
-      "variant-picker {font-size: var(--font-size--xs);}",
+      ".product-card variant-picker {font-size: var(--font-size--xs);}",
       "product-card .quick-add__button {opacity: 1;}",
       ".quick-add__button:not(:hover) {border-color: #0c55b1;}",
       ".quick-add__button .add-to-cart-text__content {grid-template-columns: 1fr; font-size: var(--font-size--sm);}",

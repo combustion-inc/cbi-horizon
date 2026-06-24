@@ -327,7 +327,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 0,
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -339,7 +339,7 @@
                 "background_media": "none",
                 "video_position": "cover",
                 "background_image_position": "cover",
-                "border": "none",
+                "border": "solid",
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 12,
@@ -352,17 +352,43 @@
                 "placeholder": "",
                 "padding-block-start": 20,
                 "padding-block-end": 20,
-                "padding-inline-start": 45,
-                "padding-inline-end": 15
+                "padding-inline-start": 20,
+                "padding-inline-end": 20
               },
               "blocks": {
+                "text_jVg4Tx": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<h2>What's inside</h2>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-subheading--family)",
+                    "font_size": "0.875rem",
+                    "line_height": "tight",
+                    "letter_spacing": "loose",
+                    "case": "uppercase",
+                    "wrap": "pretty",
+                    "color": "var(--color-primary)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "text_nqd7jC": {
                   "type": "text",
                   "name": "Contents",
                   "settings": {
                     "text": "{{ product.metafields.description.includes | metafield_tag }}",
                     "width": "fit-content",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "custom",
                     "font": "var(--font-body--family)",
@@ -370,7 +396,7 @@
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
-                    "wrap": "pretty",
+                    "wrap": "nowrap",
                     "color": "var(--color-foreground)",
                     "background": false,
                     "background_color": "#00000026",
@@ -384,6 +410,7 @@
                 }
               },
               "block_order": [
+                "text_jVg4Tx",
                 "text_nqd7jC"
               ]
             },
@@ -503,9 +530,9 @@
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
-                "stacking": true,
+                "stacking": false,
                 "show_pickup_availability": false,
-                "gift_card_form": true,
+                "gift_card_form": false,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -582,10 +609,12 @@
         }
       },
       "custom_css": [
-        "variant-picker {font-size: 0.6em;}",
-        "fieldset {display: grid; grid-template-columns: 1fr 1fr;}",
+        ".product-information {--page-width: 90rem;}",
+        "variant-picker {font-size: var(--font-size--md)}",
+        "fieldset {display: flex;}",
+        ".variant-option__button-label {flex: 0 1 20%;}",
         ".collection-card {flex: 0 0 auto;}",
-        "ul {padding: 0;}",
+        "ul {padding: 0; margin-left: 1rem;}",
         "::marker {color: #bd010c;}"
       ],
       "settings": {
@@ -593,9 +622,9 @@
         "desktop_media_position": "left",
         "equal_columns": false,
         "limit_details_width": false,
-        "gap": 48,
+        "gap": 20,
         "enable_sticky_add_to_cart": true,
-        "color_scheme": "",
+        "color_scheme": "inverse",
         "padding-block-start": 60,
         "padding-block-end": 0
       }
