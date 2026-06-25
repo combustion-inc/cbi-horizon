@@ -12,7 +12,7 @@
     "custom_liquid_OhbVrp": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% style %}\n.header-wrapper.color-inverse.gradient {\n    background-color: #ffcf4c;\n}\n.splide__slide {\n  border-radius: 1rem;\n  overflow: hidden;\n}\n.splide__slide__container {\n  border-radius: .625rem;\n  overflow: hidden;\n}\n.splide__pagination {\n  position: relative !important;\n  bottom: unset !important;\npadding: 1.6rem !important;\n}\n.splide__pagination__page {\n    vertical-align: middle;\n}\n\n.splide__pagination li {\n  display: flex;\n  align-items: center !important;\n  justify-content: center !important;\n}\n.splide__arrow:disabled {\n  display: none;\n}\n:root {\n--heading-letter-spacing: 0;\n}\n.collection__title p {\n  font-size: min(max(18px, calc(1.125rem + ((1vw - 4px) * 0.8475))), 23px);\nline-height: normal;\n}\n.collection__title h2 {\nfont-size: min(max(24px, calc(1.5rem + ((1vw - 4px) * 2.2857))), 32px);\n  align-self: flex-start;\n}\n@media screen and (min-width: 990px) {\n  .collection .slider--desktop.grid--3-col-desktop .grid__item {\n    width: min(\n      350px,\n      calc((100% - var(--desktop-margin-left-first-item)) / 3 - 20px * 4)\n    );\n  }\n}\n\n.multicolumn__title {\n  justify-content: center;\n}\n.splide__arrows .splide__arrow {\n    background: #ffcf4c;\n    opacity: 1;\n}\na:not([href]):has(.splide) {\n    cursor: default;\n}\n.splide img {\n    cursor: grab;\n}\n                    button.splide__pagination__page {\n                        background: none;\n                        border: .1rem solid var(--color-foreground);\n                        width: 1rem;\n                        height: 1rem;\n                        opacity: 1;\n                    }\n{% endstyle %}",
+        "custom_liquid": "{% style %}\n#header-group, #header-component {\n    background-color: #ffcf4c;\n}\n.splide__slide {\n  border-radius: 1rem;\n  overflow: hidden;\n}\n.splide__slide__container {\n  border-radius: .625rem;\n  overflow: hidden;\n}\n.splide__pagination {\n  position: relative !important;\n  bottom: unset !important;\npadding: 1.6rem !important;\n}\n.splide__pagination__page {\n    vertical-align: middle;\n}\n\n.splide__pagination li {\n  display: flex;\n  align-items: center !important;\n  justify-content: center !important;\n}\n.splide__arrow:disabled {\n  display: none;\n}\n:root {\n--heading-letter-spacing: 0;\n}\n.collection__title p {\n  font-size: min(max(18px, calc(1.125rem + ((1vw - 4px) * 0.8475))), 23px);\nline-height: normal;\n}\n.collection__title h2 {\nfont-size: min(max(24px, calc(1.5rem + ((1vw - 4px) * 2.2857))), 32px);\n  align-self: flex-start;\n}\n@media screen and (min-width: 990px) {\n  .collection .slider--desktop.grid--3-col-desktop .grid__item {\n    width: min(\n      350px,\n      calc((100% - var(--desktop-margin-left-first-item)) / 3 - 20px * 4)\n    );\n  }\n}\n\n.multicolumn__title {\n  justify-content: center;\n}\n.splide__arrows .splide__arrow {\n    background: #ffcf4c;\n    opacity: 1;\n}\na:not([href]):has(.splide) {\n    cursor: default;\n}\n.splide img {\n    cursor: grab;\n}\n                    button.splide__pagination__page {\n                        background: none;\n                        border: .1rem solid var(--color-foreground);\n                        width: 1rem;\n                        height: 1rem;\n                        opacity: 1;\n                    }\n{% endstyle %}",
         "color_scheme": "scheme-1",
         "section_width": "page-width",
         "padding-block-start": 0,
@@ -796,7 +796,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "content_direction": "column",
+                "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
@@ -831,7 +831,64 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {}
+              "blocks": {
+                "variant_picker_naTUVB": {
+                  "type": "variant-picker",
+                  "name": "t:names.product_variant_picker",
+                  "settings": {
+                    "variant_style": "buttons",
+                    "show_swatches": true,
+                    "alignment": "left",
+                    "padding-block-start": 0,
+                    "padding-block-end": 8,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "buy_buttons_MBBayN": {
+                  "type": "buy-buttons",
+                  "name": "t:names.product_buy_buttons",
+                  "settings": {
+                    "stacking": false,
+                    "show_pickup_availability": true,
+                    "gift_card_form": true,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "quantity": {
+                      "type": "quantity",
+                      "disabled": true,
+                      "static": true,
+                      "settings": {},
+                      "blocks": {}
+                    },
+                    "add-to-cart": {
+                      "type": "add-to-cart",
+                      "static": true,
+                      "settings": {
+                        "style_class": "button"
+                      },
+                      "blocks": {}
+                    },
+                    "accelerated-checkout": {
+                      "type": "accelerated-checkout",
+                      "disabled": true,
+                      "static": true,
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": []
+                }
+              },
+              "block_order": [
+                "variant_picker_naTUVB",
+                "buy_buttons_MBBayN"
+              ]
             },
             "text_mrmjbB": {
               "type": "text",
@@ -858,59 +915,21 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "buy_buttons_dpJrma": {
-              "type": "buy-buttons",
-              "name": "t:names.product_buy_buttons",
-              "settings": {
-                "stacking": false,
-                "show_pickup_availability": true,
-                "gift_card_form": true,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "quantity": {
-                  "type": "quantity",
-                  "disabled": true,
-                  "static": true,
-                  "settings": {},
-                  "blocks": {}
-                },
-                "add-to-cart": {
-                  "type": "add-to-cart",
-                  "static": true,
-                  "settings": {
-                    "style_class": "button-secondary"
-                  },
-                  "blocks": {}
-                },
-                "accelerated-checkout": {
-                  "type": "accelerated-checkout",
-                  "disabled": true,
-                  "static": true,
-                  "settings": {},
-                  "blocks": {}
-                }
-              },
-              "block_order": []
             }
           },
           "block_order": [
             "group_trUGWL",
-            "text_mrmjbB",
-            "buy_buttons_dpJrma"
+            "text_mrmjbB"
           ]
         }
       },
       "custom_css": [
-        ".product-information__media {display: none;}"
+        ".product-information__media {display: none;}",
+        "variant-picker {font-size: 0.6em;}"
       ],
       "name": "t:names.featured_product_information",
       "settings": {
-        "product": "predictive-thermometer-gen2",
+        "product": "wifi-display-starter-kit",
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
         "equal_columns": false,
