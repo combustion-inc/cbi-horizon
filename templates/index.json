@@ -1034,7 +1034,7 @@
         "group_HMqeip"
       ],
       "custom_css": [
-        ".content {padding: 1rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(37, 40, 42, 0.5); width: calc(100% - 2 * 1.5rem); border-radius: 2rem;}",
+        ".content {padding: .625rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(37, 40, 42, 0.5); width: calc(100% - 2 * 1rem); border-radius: .75rem;}",
         ".content p {color: white; font-weight: 500;}"
       ],
       "name": "t:names.custom_section",
