@@ -866,51 +866,10 @@
             "is_featured_product": true,
             "featured_product_handle": "predictive-thermometer-gen2"
           }
-        },
-        "text_LheM9q": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h2>Rave reviews from real cooks</h2>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "stamped_reviews_site_badge_m8WwiK": {
-          "type": "shopify://apps/stamped-reviews/blocks/site-badge/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "badge_type": "minimal",
-            "color_outer": "rgba(0,0,0,0)",
-            "color_inner": "rgba(0,0,0,0)",
-            "color_ribbon": "rgba(0,0,0,0)",
-            "color_text": "#363636",
-            "color_stars": "#BD010C",
-            "title_size": 24,
-            "title": "Verified Reviews"
-          }
         }
       },
       "block_order": [
-        "stamped_reviews_star_rating_badge_ttPLRy",
-        "text_LheM9q",
-        "stamped_reviews_site_badge_m8WwiK"
+        "stamped_reviews_star_rating_badge_ttPLRy"
       ],
       "custom_css": [
         "#stamped-badge-total {font-family: unset;}"
@@ -947,25 +906,156 @@
     "section_6bwLbx": {
       "type": "section",
       "blocks": {
-        "splide_block_8Ut4Y8": {
-          "type": "splide-block",
-          "name": "Splide",
+        "group_BijfPP": {
+          "type": "group",
+          "name": "t:names.group",
           "settings": {
-            "include_margins": false,
-            "title": "Social Posts",
-            "splide_autoplay": false,
-            "parameters": "breakpoints: {\n 749: {\n  arrows: false,\ngap: '20px'\n }\n},\ntype: 'slide',\narrows: true,\n// autowidth: true,\ndrag: true,\ngap: '20px',\n// padding: { right: '10rem', left: '1rem' },\npadding: '1rem',\nfixedWidth: '29rem',\npagination: true,\npaginationKeyboard: true,\n// pauseOnFocus: false,\n// pauseOnHover: false,\n// perPage: 4,\nupdateOnMove: true,",
-            "slides": "{% assign slides = metaobjects.content_group[\"hp-social\"].mixed_blocks_reviews.value %}\n{% for slide in slides %}\n<li class=\"splide__slide\">\n{% if slide.system.type == 'review' %}\n{% assign image = slide.background %}\n{% else %}\n{% assign image = slide.image %}\n{% endif %}\n{{ image | image_url: height: 1080 | image_tag }}\n{% if slide.body %}\n\t\t<div class=\"content\">\n\t\t\t{{ slide.body | metafield_tag }}\n<p class=\"name\">{{ slide.name }}</p>\n\t\t</div>\n{% if slide.name %}\n{% endif %}\n{% endif %}\n</li>\n{% endfor %}",
-            "liquid_before": "",
-            "liquid_after_inside": "",
-            "padding_top": 36,
-            "padding_bottom": 36
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "text_hnkFAH": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>Rave reviews from real cooks</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "stamped_reviews_site_badge_bgnMmT": {
+              "type": "shopify://apps/stamped-reviews/blocks/site-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+              "settings": {
+                "badge_type": "minimal",
+                "color_outer": "rgba(0,0,0,0)",
+                "color_inner": "rgba(0,0,0,0)",
+                "color_ribbon": "rgba(0,0,0,0)",
+                "color_text": "#363636",
+                "color_stars": "#BD010C",
+                "title_size": 24,
+                "title": "Verified Reviews"
+              }
+            }
+          },
+          "block_order": [
+            "text_hnkFAH",
+            "stamped_reviews_site_badge_bgnMmT"
+          ]
+        },
+        "group_HMqeip": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "splide_block_dQcccr": {
+              "type": "splide-block",
+              "name": "Splide",
+              "settings": {
+                "include_margins": false,
+                "title": "Social Posts",
+                "splide_autoplay": false,
+                "parameters": "breakpoints: {\n 749: {\n  arrows: false,\ngap: '20px'\n }\n},\ntype: 'slide',\narrows: true,\n// autowidth: true,\ndrag: true,\ngap: '20px',\n// padding: { right: '10rem', left: '1rem' },\npadding: '1rem',\nfixedWidth: '29rem',\npagination: true,\npaginationKeyboard: true,\n// pauseOnFocus: false,\n// pauseOnHover: false,\n// perPage: 4,\nupdateOnMove: true,\nwidth: '100%',",
+                "slides": "{% assign slides = metaobjects.content_group[\"hp-social\"].mixed_blocks_reviews.value %}\n{% for slide in slides %}\n<li class=\"splide__slide\">\n{% if slide.system.type == 'review' %}\n{% assign image = slide.background %}\n{% else %}\n{% assign image = slide.image %}\n{% endif %}\n{{ image | image_url: height: 1080 | image_tag }}\n{% if slide.body %}\n\t\t<div class=\"content\">\n\t\t\t{{ slide.body | metafield_tag }}\n<p class=\"name\">{{ slide.name }}</p>\n\t\t</div>\n{% if slide.name %}\n{% endif %}\n{% endif %}\n</li>\n{% endfor %}",
+                "liquid_before": "",
+                "liquid_after_inside": "",
+                "padding_top": 36,
+                "padding_bottom": 36
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "splide_block_dQcccr"
+          ]
         }
       },
       "block_order": [
-        "splide_block_8Ut4Y8"
+        "group_BijfPP",
+        "group_HMqeip"
       ],
       "custom_css": [
         ".autoplay-controls {display: flex; justify-content: center; align-items: center;}",
@@ -976,7 +1066,7 @@
       ],
       "name": "t:names.custom_section",
       "settings": {
-        "content_direction": "column",
+        "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
