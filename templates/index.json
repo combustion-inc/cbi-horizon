@@ -24,7 +24,7 @@
       "type": "custom-liquid",
       "name": "styles",
       "settings": {
-        "custom_liquid": "{% style %}\n.splide__slide {\n  border-radius: 1rem;\n  overflow: hidden;\n}\n.splide__slide__container {\n  border-radius: .625rem;\n  overflow: hidden;\n}\n\n{% endstyle %}",
+        "custom_liquid": "{% style %}\n.splide__slide {\n  border-radius: 1rem;\n  overflow: hidden;\n}\n.splide__slide__container {\n  border-radius: .625rem;\n  overflow: hidden;\n}\nbutton.splide__pagination__page {\n    background: none;\n    border: .1rem solid var(--color-foreground);\n    width: 1rem;\n    height: 1rem;\n    opacity: 1;\n}\n.splide__pagination {\n  position: relative !important;\n  bottom: unset !important;\npadding: 1.6rem !important;\n}\n.splide__pagination__page {\n    vertical-align: middle;\n}\n.splide__pagination li {\n  display: flex;\n  align-items: center !important;\n  justify-content: center !important;\n}\n{% endstyle %}",
         "color_scheme": "scheme-1",
         "section_width": "page-width",
         "padding-block-start": 0,
@@ -1014,7 +1014,7 @@
                 "include_margins": false,
                 "title": "Social Posts",
                 "splide_autoplay": false,
-                "parameters": "perPage: 2,\ngap: '20px',",
+                "parameters": "perPage: 2,\ngap: '20px',\npaginationKeyboard: true,\ntype: 'loop',",
                 "slides": "{% assign slides = metaobjects.content_group[\"hp-social\"].mixed_blocks_reviews.value %}\n{% for slide in slides %}\n<li class=\"splide__slide\">\n{% if slide.system.type == 'review' %}\n{% assign image = slide.background %}\n{% else %}\n{% assign image = slide.image %}\n{% endif %}\n{{ image | image_url: height: 1080 | image_tag }}\n{% if slide.body %}\n\t\t<div class=\"content\">\n\t\t\t{{ slide.body | metafield_tag }}\n<p class=\"name\">{{ slide.name }}</p>\n\t\t</div>\n{% if slide.name %}\n{% endif %}\n{% endif %}\n</li>\n{% endfor %}",
                 "liquid_before": "",
                 "liquid_after_inside": "",
