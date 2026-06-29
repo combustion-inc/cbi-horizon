@@ -1211,7 +1211,8 @@
       "product-card .quick-add__button {opacity: 1;}",
       ".quick-add__button:not(:hover) {border-color: #0c55b1;}",
       ".quick-add__button .add-to-cart-text__content {grid-template-columns: 1fr; font-size: var(--font-size--sm);}",
-      "quick-add-component:not(:is(.card-gallery > *)) {--quick-add-display: flex; --quick-add-mobile-display: flex; --quick-add-mobile-opacity: 1;}"
+      "quick-add-component:not(:is(.card-gallery > *)) {--quick-add-display: flex; --quick-add-mobile-display: flex; --quick-add-mobile-opacity: 1;}",
+      ".quick-add__button .add-to-cart-text__content>span span {opacity: 1;}"
     ]
   }
 }
