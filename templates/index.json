@@ -854,55 +854,6 @@
         "padding-block-end": 40
       }
     },
-    "section_NW4XrU": {
-      "type": "section",
-      "blocks": {
-        "stamped_reviews_star_rating_badge_ttPLRy": {
-          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
-          "disabled": true,
-          "settings": {
-            "use_metafields": false,
-            "sku_tagtype": "sku",
-            "is_featured_product": true,
-            "featured_product_handle": "predictive-thermometer-gen2"
-          }
-        }
-      },
-      "block_order": [
-        "stamped_reviews_star_rating_badge_ttPLRy"
-      ],
-      "custom_css": [
-        "#stamped-badge-total {font-family: unset;}"
-      ],
-      "name": "t:names.custom_section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "small",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "section_6bwLbx": {
       "type": "section",
       "blocks": {
@@ -1075,7 +1026,7 @@
         "vertical_alignment_flex_direction_column": "center",
         "gap": 12,
         "section_width": "page-width",
-        "section_height": "small",
+        "section_height": "",
         "section_height_custom": 50,
         "color_scheme": "scheme-2",
         "background_media": "none",
@@ -5780,7 +5731,6 @@
     "section_8nT8kt",
     "section_WC9RyV",
     "featured_product_information_REHwGM",
-    "section_NW4XrU",
     "section_6bwLbx",
     "product_list_jdYKPa",
     "product_list_7BkyLC",
