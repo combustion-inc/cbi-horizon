@@ -1014,7 +1014,7 @@
                 "include_margins": false,
                 "title": "Social Posts",
                 "splide_autoplay": false,
-                "parameters": "perPage: 2,",
+                "parameters": "perPage: 2,\ngap: '20px',",
                 "slides": "{% assign slides = metaobjects.content_group[\"hp-social\"].mixed_blocks_reviews.value %}\n{% for slide in slides %}\n<li class=\"splide__slide\">\n{% if slide.system.type == 'review' %}\n{% assign image = slide.background %}\n{% else %}\n{% assign image = slide.image %}\n{% endif %}\n{{ image | image_url: height: 1080 | image_tag }}\n{% if slide.body %}\n\t\t<div class=\"content\">\n\t\t\t{{ slide.body | metafield_tag }}\n<p class=\"name\">{{ slide.name }}</p>\n\t\t</div>\n{% if slide.name %}\n{% endif %}\n{% endif %}\n</li>\n{% endfor %}",
                 "liquid_before": "",
                 "liquid_after_inside": "",
@@ -1034,7 +1034,7 @@
         "group_HMqeip"
       ],
       "custom_css": [
-        ".content {padding: .625rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(37, 40, 42, 0.5); width: calc(100% - 2 * 1rem); border-radius: .75rem;}",
+        ".content {padding: 0.625rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(37, 40, 42, 0.5); width: calc(100% - 2 * 1rem); border-radius: 0.75rem;}",
         ".content p {color: white; font-weight: 500;}"
       ],
       "name": "t:names.custom_section",
