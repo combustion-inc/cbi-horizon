@@ -854,39 +854,155 @@
         "padding-block-end": 40
       }
     },
-    "splide_fnoGMb": {
-      "type": "splide",
+    "section_NW4XrU": {
+      "type": "section",
       "blocks": {
-        "custom_liquid_G77Xqf": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "</div>\n{% style %}\n  #shopify-section-{{ section.id }}  .stars {\n  color: #d7282f;\n}\n\n#shopify-section-{{ section.id }} .stars,\n\n#shopify-section-{{ section.id }} p.number {\n  font-size: 3.6rem;\n  margin: 0 1rem;\n}\n\n#shopify-section-{{ section.id }} .total {\n  font-size: 2.7rem;\nmargin-top:0;\n}\n#shopify-section-{{ section.id }} .rating {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n#shopify-section-{{ section.id }} .center {\n  font-weight: 500;\n}\n\n#shopify-section-{{ section.id }} .content {\n    padding: 1rem;\nposition: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\nbackground: rgba(37, 40, 42, 0.50);\nwidth: calc(100% - 2 * 1.5rem);\nborder-radius: 2rem;\n}\n\n#shopify-section-{{ section.id }} .name, #shopify-section-{{ section.id }} .content p {\n  font-size: 1.6rem;\nfont-weight: 500;\nmargin: 0;\n}\n#shopify-section-{{ section.id }} .content p.name {\n    margin-top: revert;\n}\n#shopify-section-{{ section.id }} .content p {\ncolor: white;\n}\n{% endstyle %}"
-          }
-        },
-        "custom_liquid_g9peaG": {
-          "type": "custom_liquid",
+        "stamped_reviews_star_rating_badge_ttPLRy": {
+          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<div class=\"collection__title title-wrapper title-wrapper page-width title-wrapper--self-padded-tablet-down collection__title--desktop-slider\"\nstyle=\"margin-top: 2rem;\">\n<h2 class=\"title inline-richtext h1 scroll-trigger animate--slide-in\" style=\"font-size:min(max(24px, calc(1.5rem + ((1vw - 4px) * 2.2857))), 32px);\">\nUnconditional love, guaranteed.\n</h2>\n<p style=\"font-weight:500\">We stand behind our products with a 30-day money-back “love it or else” guarantee. Plus the longest warranty in the category: 2 years! </p>\n </div>\n{% style %}\n@media screen and (max-width: 749px) {\n  #shopify-section-{{ section.id }} .title-wrapper--self-padded-tablet-down {\n        padding-left: 2rem;\n        padding-right: 2rem;\n    }\n}\n{% endstyle %}"
+            "use_metafields": false,
+            "sku_tagtype": "sku",
+            "is_featured_product": true,
+            "featured_product_handle": "predictive-thermometer-gen2"
+          }
+        },
+        "text_LheM9q": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Rave reviews from real cooks</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "stamped_reviews_site_badge_m8WwiK": {
+          "type": "shopify://apps/stamped-reviews/blocks/site-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "badge_type": "minimal",
+            "color_outer": "rgba(0,0,0,0)",
+            "color_inner": "rgba(0,0,0,0)",
+            "color_ribbon": "rgba(0,0,0,0)",
+            "color_text": "#363636",
+            "color_stars": "#BD010C",
+            "title_size": 24,
+            "title": "Verified Reviews"
           }
         }
       },
       "block_order": [
-        "custom_liquid_G77Xqf",
-        "custom_liquid_g9peaG"
+        "stamped_reviews_star_rating_badge_ttPLRy",
+        "text_LheM9q",
+        "stamped_reviews_site_badge_m8WwiK"
       ],
-      "name": "Social Proof",
+      "custom_css": [
+        "#stamped-badge-total {font-family: unset;}"
+      ],
+      "name": "t:names.custom_section",
       "settings": {
-        "color_scheme": "scheme-fd9568a8-329b-4041-93d6-4e747df2f1a5",
-        "include_margins": true,
-        "title": "Social Posts",
-        "splide_autoplay": false,
-        "parameters": "breakpoints: {\n 749: {\n  arrows: false,\ngap: '{{ settings.spacing_grid_horizontal | divided_by: 2}}px'\n }\n},\ntype: 'slide',\narrows: true,\n// autowidth: true,\ndrag: true,\ngap: '{{ settings.spacing_grid_horizontal }}px',\n// padding: { right: '10rem', left: '1rem' },\npadding: '1rem',\nfixedWidth: '29rem',\npagination: true,\npaginationKeyboard: true,\n// pauseOnFocus: false,\n// pauseOnHover: false,\n// perPage: 4,\nupdateOnMove: true,",
-        "slides": "{% assign slides = metaobjects.content_group[\"hp-social\"].mixed_blocks_reviews.value %}\n{% for slide in slides %}\n<li class=\"splide__slide\">\n{% if slide.system.type == 'review' %}\n{% assign image = slide.background %}\n{% else %}\n{% assign image = slide.image %}\n{% endif %}\n{{ image | image_url: height: 1080 | image_tag }}\n{% if slide.body %}\n\t\t<div class=\"content\">\n\t\t\t{{ slide.body | metafield_tag }}\n<p class=\"name\">{{ slide.name }}</p>\n\t\t</div>\n{% if slide.name %}\n{% endif %}\n{% endif %}\n</li>\n{% endfor %}",
-        "liquid_before": "<div class=\"custom-flex\"><div class=\"center rte\" style=\"max-width: 70rem; margin: 0 auto;\">\n    <h2>Rave reviews from&nbsp;real cooks</h2>\n    <div class=\"rating center\">\n        <p class=\"stars\" style=\"color:#d7282f;\">★★★★★</p>\n        <p class=\"number\">4.8</p>\n    </div>\n    <p class=\"total\">1017 <a href=\"#stamped-reviews-widget\">verified reviews</a></p>\n</div>",
-        "liquid_after_inside": "</div>\n{% style %}\n  #shopify-section-{{ section.id }} .custom-flex {\ndisplay:flex;\nflex-direction: row;\ngrid-gap: 2rem;\n}\n  #shopify-section-{{ section.id }} rte {\n width: calc(33% - 2rem);\n  }\n#social-posts {\nwidth: calc(66% - 2rem);\n}\n@media screen and (max-width: 749px) {\n  #shopify-section-{{ section.id }} .custom-flex {\ndisplay: flex;\nflex-direction: column;\n}\n  #shopify-section-{{ section.id }} .custom-flex>* {\nwidth: 100%;\n}\n}\n@media screen and (min-width: 750px) {\n  #shopify-section-{{ section.id }} .center.rte {\ndisplay:flex;\nflex-direction:column;\njustify-content: center;\npadding-bottom: 6rem;\n}\n}\n{% endstyle %}",
-        "padding_top": 100,
-        "padding_bottom": 56
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_6bwLbx": {
+      "type": "section",
+      "blocks": {
+        "splide_block_8Ut4Y8": {
+          "type": "splide-block",
+          "name": "Splide",
+          "settings": {
+            "include_margins": false,
+            "title": "Social Posts",
+            "splide_autoplay": false,
+            "parameters": "breakpoints: {\n 749: {\n  arrows: false,\ngap: '20px'\n }\n},\ntype: 'slide',\narrows: true,\n// autowidth: true,\ndrag: true,\ngap: '20px',\npadding: '1rem',\nfixedWidth: '29rem',\npagination: true,\npaginationKeyboard: true,\n// pauseOnFocus: false,\n// pauseOnHover: false,\n// perPage: 4,\nupdateOnMove: true,",
+            "slides": "{% assign slides = metaobjects.content_group[\"hp-social\"].mixed_blocks_reviews.value %}\n{% for slide in slides %}\n<li class=\"splide__slide\">\n{% if slide.system.type == 'review' %}\n{% assign image = slide.background %}\n{% else %}\n{% assign image = slide.image %}\n{% endif %}\n{{ image | image_url: height: 1080 | image_tag }}\n{% if slide.body %}\n\t\t<div class=\"content\">\n\t\t\t{{ slide.body | metafield_tag }}\n<p class=\"name\">{{ slide.name }}</p>\n\t\t</div>\n{% if slide.name %}\n{% endif %}\n{% endif %}\n</li>\n{% endfor %}",
+            "liquid_before": "",
+            "liquid_after_inside": "",
+            "padding_top": 36,
+            "padding_bottom": 36
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "splide_block_8Ut4Y8"
+      ],
+      "custom_css": [
+        "img {width: 100%; height: 100%;}",
+        ".autoplay-controls {display: flex; justify-content: center; align-items: center;}",
+        "button.splide__toggle {width: 2.625rem; border: none; background: none; padding: 1rem; color: black;}",
+        ".splide__toggle svg {vertical-align: middle;}",
+        ".splide__video__wrapper {background: none;}",
+        ".touch-overlay {position: absolute; width: 100%; height: 100%; top: 0; touch-action: pan-y; display: block;}",
+        "h3 {font-weight: var(--font-subheading--weight);}"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "product_list_jdYKPa": {
@@ -5576,7 +5692,8 @@
     "section_8nT8kt",
     "section_WC9RyV",
     "featured_product_information_REHwGM",
-    "splide_fnoGMb",
+    "section_NW4XrU",
+    "section_6bwLbx",
     "product_list_jdYKPa",
     "product_list_7BkyLC",
     "product_list_cXihdy",
