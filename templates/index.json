@@ -220,7 +220,7 @@
         "group_BXYM39"
       ],
       "custom_css": [],
-      "name": "t:names.custom_section",
+      "name": "hero",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -633,7 +633,7 @@
         ".group-block:has(.divider) {max-width: clamp( 22.5rem, calc(22.5rem + ((1vw - 0.1875rem) * 34.7826)), 37.5rem ); align-items: baseline;}",
         ".group-block-content:has(.divider) {align-items: baseline;}"
       ],
-      "name": "t:names.custom_section",
+      "name": "hero bullets",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
