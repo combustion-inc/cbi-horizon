@@ -935,11 +935,24 @@
                 "title_size": 24,
                 "title": "Verified Reviews"
               }
+            },
+            "divider_AqQcF7": {
+              "type": "_divider",
+              "name": "t:names.divider",
+              "settings": {
+                "thickness": 1,
+                "corner_radius": "square",
+                "width_percent": 100,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_hnkFAH",
-            "stamped_reviews_site_badge_bgnMmT"
+            "stamped_reviews_site_badge_bgnMmT",
+            "divider_AqQcF7"
           ]
         },
         "group_HMqeip": {
@@ -1013,7 +1026,8 @@
         "button.splide__toggle {width: 2.625rem; border: none; background: none; padding: 1rem; color: black;}",
         ".splide__toggle svg {vertical-align: middle;}",
         ".splide__video__wrapper {background: none;}",
-        "h3 {font-weight: var(--font-subheading--weight);}"
+        "h3 {font-weight: var(--font-subheading--weight);}",
+        ".group-block::not(has(.divider)) {}"
       ],
       "name": "t:names.custom_section",
       "settings": {
