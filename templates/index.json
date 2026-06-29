@@ -968,7 +968,6 @@
         "splide_block_8Ut4Y8"
       ],
       "custom_css": [
-        "img {width: 100%; height: 100%;}",
         ".autoplay-controls {display: flex; justify-content: center; align-items: center;}",
         "button.splide__toggle {width: 2.625rem; border: none; background: none; padding: 1rem; color: black;}",
         ".splide__toggle svg {vertical-align: middle;}",
