@@ -1027,7 +1027,7 @@
         ".splide__toggle svg {vertical-align: middle;}",
         ".splide__video__wrapper {background: none;}",
         "h3 {font-weight: var(--font-subheading--weight);}",
-        ".group-block-content::not(has(.divider))>div {max-width: 100%;}"
+        ".group-block-content:not(:has(.divider)) > div {max-width: 100%;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
