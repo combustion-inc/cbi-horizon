@@ -786,14 +786,14 @@
           "input_text_color": "#333333",
           "input_border_color": "#dfdfdf",
           "input_hover_background": "#00000003",
-          "variant_background_color": "#FFEBB8",
+          "variant_background_color": "#ffebb8",
           "variant_text_color": "#000000",
           "variant_border_color": "#363636",
           "variant_hover_background_color": "#f5f5f5",
           "variant_hover_text_color": "#000000",
           "variant_hover_border_color": "#e6e6e6",
           "selected_variant_background_color": "#000000",
-          "selected_variant_text_color": "#FFEBB8",
+          "selected_variant_text_color": "#ffebb8",
           "selected_variant_border_color": "#000000",
           "selected_variant_hover_background_color": "#1a1a1a",
           "selected_variant_hover_text_color": "#ffffff",
@@ -1200,7 +1200,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "sticky-add-to-cart {font-size: 0.8em;}",
+      "sticky-add-to-cart>* {font-size: .7em;}",
       ".button {font-weight: bold;}",
       "body,.paragraph:not(.button),.paragraph > *,.text-block.paragraph :is(h1, h2, h3, h4, h5, h6) {--font-paragraph--size: clamp(1.09375rem, 2.5vw, 1.5625rem);}",
       ":root {--narrow-page-width: 1000px;}",
@@ -1214,7 +1214,8 @@
       "product-card .quick-add__button {opacity: 1;}",
       ".quick-add__button:not(:hover) {border-color: var(--color-foreground);}",
       ".quick-add__button .add-to-cart-text__content {grid-template-columns: 1fr; font-size: var(--font-size--sm);}",
-      "quick-add-component:not(:is(.card-gallery > *)) {--quick-add-display: flex; --quick-add-mobile-display: flex; --quick-add-mobile-opacity: 1;}"
+      "quick-add-component:not(:is(.card-gallery > *)) {--quick-add-display: flex; --quick-add-mobile-display: flex; --quick-add-mobile-opacity: 1;}",
+      ".filled-star {fill: var(--color-primary);}"
     ]
   }
 }

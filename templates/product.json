@@ -351,7 +351,7 @@
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 20,
-                "padding-block-end": 20,
+                "padding-block-end": 10,
                 "padding-inline-start": 20,
                 "padding-inline-end": 20
               },
@@ -386,7 +386,7 @@
                   "type": "text",
                   "name": "Contents",
                   "settings": {
-                    "text": "<p>{{ product.metafields.description.includes | metafield_tag }}</p>",
+                    "text": "{{ product.metafields.description.includes | metafield_tag }}",
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
@@ -641,9 +641,9 @@
             },
             "custom_liquid_z9KxVt": {
               "type": "custom-liquid",
-              "name": "display tags styles",
+              "name": " styles",
               "settings": {
-                "custom_liquid": "{%- style -%}\n.h6>ul {\ndisplay: flex;\nlist-style-type: none;\nflex-wrap: wrap;\ngap: .5rem;\nmargin:0;\npadding: 0;\n}\n.h6>ul>li {\nbackground-color: #f1f1f1;\npadding: .75rem;\nfont-weight: 400;\nfont-size: var(--font-size--xs);\nmargin: 0;\nborder-radius: .5rem;\n}\n{%- endstyle -%}"
+                "custom_liquid": "{%- style -%}\n.h6>ul {\ndisplay: flex;\nlist-style-type: none;\nflex-wrap: wrap;\ngap: .5rem;\nmargin:0;\npadding: 0;\n}\n.h6>ul>li {\nbackground-color: #f1f1f1;\npadding: .75rem;\nfont-weight: 400;\nfont-size: var(--font-size--xs);\nmargin: 0;\nborder-radius: .5rem;\n}\n.variant-option__button-label {\n    padding: var(--padding-xs);\n}\n{%- endstyle -%}"
               },
               "blocks": {}
             }
@@ -664,16 +664,14 @@
       },
       "custom_css": [
         ".product-information {--page-width: 90rem;}",
-        "variant-picker {font-size: var(--font-size--sm);}",
+        "variant-picker {font-size: 0.85rem;}",
         "fieldset {display: flex;}",
-        ".variant-option__button-label {flex: 0 1 20%;}",
         ".collection-card {flex: 0 0 auto;}",
         "ul:not(.h6 > ul) {padding: 0; margin-left: 1rem;}",
         "::marker {color: #bd010c;}",
-        ".filled-star {fill: var(--color-primary);}",
         "@media screen and (min-width: 750px) {.sticky-add-to-cart__bar {width: var(--narrow-page-width); max-width: 90vw; }}",
-        ".best-for {line-height: 1;}",
-        ".group-block:has(> .group-block-content > div:empty:only-child) {display: none;}"
+        ".group-block:has(> .group-block-content > div:empty:only-child) {display: none;}",
+        ".best-for > span,.metafield-rich_text_field {font-size: var(--font-size--sm);}"
       ],
       "settings": {
         "content_width": "content-center-aligned",
