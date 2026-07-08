@@ -386,7 +386,7 @@
                   "type": "text",
                   "name": "Contents",
                   "settings": {
-                    "text": "{{ product.metafields.description.includes | metafield_tag }}",
+                    "text": "<p>{{ product.metafields.description.includes | metafield_tag }}</p>",
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
@@ -554,7 +554,7 @@
               "type": "accordion",
               "name": "t:names.accordion",
               "settings": {
-                "icon": "caret",
+                "icon": "plus",
                 "dividers": true,
                 "type_preset": "h6",
                 "inherit_color_scheme": true,
@@ -573,7 +573,7 @@
                   "type": "_accordion-row",
                   "settings": {
                     "heading": "Description",
-                    "open_by_default": false,
+                    "open_by_default": true,
                     "icon": "none",
                     "width": 20
                   },
@@ -585,9 +585,9 @@
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "rte",
+                        "type_preset": "custom",
                         "font": "var(--font-body--family)",
-                        "font_size": "1rem",
+                        "font_size": "1.125rem",
                         "line_height": "normal",
                         "letter_spacing": "normal",
                         "case": "none",
