@@ -636,14 +636,15 @@
         "::marker {color: #bd010c;}",
         ".filled-star {fill: var(--color-primary);}",
         ".sticky-add-to-cart__bar {width: 90vw;}",
-        ".best-for {line-height: 1;}"
+        ".best-for {line-height: 1;}",
+        ".group-block:has(> .group-block-content > div:empty:only-child) {display: none;}"
       ],
       "settings": {
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
         "equal_columns": false,
         "limit_details_width": false,
-        "gap": 20,
+        "gap": 32,
         "enable_sticky_add_to_cart": true,
         "color_scheme": "inverse",
         "padding-block-start": 60,
