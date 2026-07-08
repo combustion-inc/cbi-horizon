@@ -841,8 +841,8 @@
       "scheme-70b04294-6f50-4f76-9d34-ba4a4262d40e": {
         "settings": {
           "background": "{{ shop.brand.colors.secondary[0].foreground }}",
-          "foreground_heading": "{{ shop.brand.colors.primary[0].foreground }}",
-          "foreground": "{{ shop.brand.colors.primary[0].foreground }}",
+          "foreground_heading": "#FFEBB8",
+          "foreground": "#FFEBB8",
           "primary": "{{ shop.brand.colors.primary[0].foreground }}",
           "primary_hover": "{{ shop.brand.colors.primary[0].foreground }}",
           "border": "{{ shop.brand.colors.primary[0].foreground }}",
