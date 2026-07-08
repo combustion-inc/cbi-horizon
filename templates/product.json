@@ -514,6 +514,15 @@
                 "custom_liquid_MdQeRX"
               ]
             },
+            "rebuy_personalization_engine_rebuy_widget_GJxJaz": {
+              "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+              "settings": {
+                "enabled": true,
+                "id": "181541",
+                "product_id_enabled": true,
+                "collection_id_enabled": false
+              }
+            },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
@@ -655,6 +664,7 @@
             "price_TxBFTN",
             "variant_picker_dCDJRn",
             "group_ietxDj",
+            "rebuy_personalization_engine_rebuy_widget_GJxJaz",
             "buy_buttons_eYQEYi",
             "accordion_y79mNz",
             "text_y6V49K",
