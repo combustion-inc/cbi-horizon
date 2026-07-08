@@ -612,6 +612,40 @@
               "block_order": [
                 "accordion_row_9jFADz"
               ]
+            },
+            "text_y6V49K": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "{{ closest.product.metafields.custom.display_tags | metafield_tag }}",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "custom_liquid_z9KxVt": {
+              "type": "custom-liquid",
+              "name": "display tags styles",
+              "settings": {
+                "custom_liquid": "{%- style -%}\n.h6>ul {\ndisplay: flex;\nlist-style-type: none;\nflex-wrap: wrap;\ngap: .5rem;\nmargin:0;\npadding: 0;\n}\n.h6>ul>li {\nbackground-color: #f1f1f1;\npadding: .75rem;\nfont-weight: 400;\nfont-size: var(--font-size--xs);\nmargin: 0;\nborder-radius: .5rem;\n}\n{%- endstyle -%}"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -622,17 +656,19 @@
             "variant_picker_dCDJRn",
             "group_ietxDj",
             "buy_buttons_eYQEYi",
-            "accordion_y79mNz"
+            "accordion_y79mNz",
+            "text_y6V49K",
+            "custom_liquid_z9KxVt"
           ]
         }
       },
       "custom_css": [
         ".product-information {--page-width: 90rem;}",
-        "variant-picker {font-size: var(--font-size--md);}",
+        "variant-picker {font-size: var(--font-size--sm);}",
         "fieldset {display: flex;}",
         ".variant-option__button-label {flex: 0 1 20%;}",
         ".collection-card {flex: 0 0 auto;}",
-        "ul {padding: 0; margin-left: 1rem;}",
+        "ul:not(.h6 > ul) {padding: 0; margin-left: 1rem;}",
         "::marker {color: #bd010c;}",
         ".filled-star {fill: var(--color-primary);}",
         "@media screen and (min-width: 750px) {.sticky-add-to-cart__bar {width: var(--narrow-page-width); max-width: 90vw; }}",
