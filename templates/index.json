@@ -1037,10 +1037,11 @@
       },
       "custom_css": [
         ".product-information__media,.add-to-cart-icon {display: none;}",
-        "variant-picker,.button {font-size: 0.6em;}",
+        "variant-picker {font-size: 0.55em; line-height: 1.1;}",
         ".product-information__grid {grid-template-columns: 1fr;}",
         ".product-form-buttons button {width: 100%; padding: 0.5rem 1.2rem; min-height: 44px; height: auto; font-size: 1.5rem;}",
-        ".product-details {grid-column: 1;}"
+        ".product-details {grid-column: 1;}",
+        ".variant-option__button-label {min-height: 42px;}"
       ],
       "name": "t:names.featured_product_information",
       "settings": {
