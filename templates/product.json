@@ -635,7 +635,7 @@
         "ul {padding: 0; margin-left: 1rem;}",
         "::marker {color: #bd010c;}",
         ".filled-star {fill: var(--color-primary);}",
-        ".sticky-add-to-cart__bar {width: 90vw;}",
+        ".sticky-add-to-cart__bar {width: var(--narrow-page-width);}",
         ".best-for {line-height: 1;}",
         ".group-block:has(> .group-block-content > div:empty:only-child) {display: none;}"
       ],
