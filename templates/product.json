@@ -1025,6 +1025,7 @@
         "group_LQtQfY",
         "group_rwN7wb"
       ],
+      "disabled": true,
       "name": "Features",
       "settings": {
         "content_direction": "row",
@@ -1211,7 +1212,7 @@
   "order": [
     "main",
     "section_UV9PJd",
-    "product_recommendations_qggXJq",
-    "custom_liquid_cdnTdk"
+    "custom_liquid_cdnTdk",
+    "product_recommendations_qggXJq"
   ]
 }
