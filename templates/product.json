@@ -505,7 +505,7 @@
                   "type": "custom-liquid",
                   "name": "t:names.custom_liquid",
                   "settings": {
-                    "custom_liquid": "{% assign meta = product.selected_or_first_available_variant.metafields.custom.best_for %}\n{% unless meta == blank%}\n<script>\ndocument.addEventListener('variant:update', (event) => {\n  const html = event.detail.data.html;\n  const el = html?.querySelector('[data-variant-metafield]');\n  document.querySelector('#variant-metafield').textContent = el?.textContent || '';\n});\n</script>\n<p\nstyle=\"font-size: 1rem; line-height: unset; margin:0;\"\nclass=\"best-for\" >\n  <strong>Best for:</strong><span id=\"variant-metafield\" data-variant-metafield=\"{{ meta.value }}\"> {{ meta.value }}</span>\n</p>\n{% endunless %}"
+                    "custom_liquid": "{%- assign meta = product.selected_or_first_available_variant.metafields.custom.best_for -%}\n{%- unless meta == blank -%}\n<script>\ndocument.addEventListener('variant:update', (event) => {\n  const html = event.detail.data.html;\n  const el = html?.querySelector('[data-variant-metafield]');\n  document.querySelector('#variant-metafield').textContent = el?.textContent || '';\n});\n</script>\n<p\nstyle=\"font-size: 1rem; line-height: unset; margin:0;\"\nclass=\"best-for\" >\n  <strong>Best for:</strong><span id=\"variant-metafield\" data-variant-metafield=\"{{ meta.value }}\"> {{ meta.value }}</span>\n</p>\n{%- endunless -%}"
                   },
                   "blocks": {}
                 }
