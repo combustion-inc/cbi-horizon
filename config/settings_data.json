@@ -1200,9 +1200,9 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "sticky-add-to-cart>* {font-size: .7em;}",
+      "sticky-add-to-cart > * {font-size: 0.7em;}",
       ".button {font-weight: bold;}",
-      "body,.paragraph:not(.button),.paragraph > *,.text-block.paragraph :is(h1, h2, h3, h4, h5, h6) {--font-paragraph--size: clamp(1.09375rem, 2.5vw, 1.5625rem);}",
+      "body,.paragraph:not(.button),.paragraph > *:not(.paragraph.menu__item>*),.text-block.paragraph :is(h1, h2, h3, h4, h5, h6) {--font-paragraph--size: clamp(1.09375rem, 2.5vw, 1.5625rem);}",
       ":root {--narrow-page-width: 1000px;}",
       ".button {font-weight: 500;}",
       ".product-card .rating-wrapper {flex-direction: column; align-items: unset; gap: var(--gap-3xs);}",
