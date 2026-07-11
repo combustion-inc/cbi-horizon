@@ -415,7 +415,7 @@
           "background": "{{ shop.brand.colors.secondary[0].background }}",
           "foreground_heading": "{{ shop.brand.colors.secondary[0].foreground }}",
           "foreground": "{{ shop.brand.colors.secondary[0].foreground }}",
-          "primary": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "primary": "{{ shop.brand.colors.secondary[1].background }}",
           "primary_hover": "{{ shop.brand.colors.secondary[0].foreground }}",
           "border": "{{ shop.brand.colors.secondary[0].foreground }}",
           "shadow": "#121212",
@@ -607,7 +607,7 @@
       },
       "scheme-47bd8756-5512-4c6d-afc2-5c48aae8a355": {
         "settings": {
-          "background": "#121212",
+          "background": "#000000",
           "foreground_heading": "{{ shop.brand.colors.secondary[0].background }}",
           "foreground": "{{ shop.brand.colors.secondary[0].background }}",
           "primary": "{{ shop.brand.colors.secondary[0].background }}",
@@ -727,7 +727,7 @@
           "background": "#f5f5f7",
           "foreground_heading": "#121212",
           "foreground": "#121212",
-          "primary": "#121212",
+          "primary": "{{ shop.brand.colors.primary[0].background }}",
           "primary_hover": "#121212",
           "border": "#121212",
           "shadow": "#121212",
@@ -1202,7 +1202,7 @@
     "custom_css": [
       "sticky-add-to-cart > * {font-size: 0.7em;}",
       ".button {font-weight: bold;}",
-      "body,.paragraph:not(.button),.paragraph > *:not(.paragraph.menu__item>*),.text-block.paragraph :is(h1, h2, h3, h4, h5, h6) {--font-paragraph--size: clamp(1.09375rem, 2.5vw, 1.5625rem);}",
+      "body,.paragraph:not(.button),.paragraph > *:not(.paragraph.menu__item > *),.text-block.paragraph :is(h1, h2, h3, h4, h5, h6) {--font-paragraph--size: clamp(1.09375rem, 2.5vw, 1.5625rem);}",
       ":root {--narrow-page-width: 1000px;}",
       ".button {font-weight: 500;}",
       ".product-card .rating-wrapper {flex-direction: column; align-items: unset; gap: var(--gap-3xs);}",

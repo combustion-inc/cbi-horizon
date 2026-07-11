@@ -1,0 +1,1065 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_direction": "column",
+        "gap": 32,
+        "color_scheme": "background-1",
+        "padding-block-start": 36,
+        "padding-block-end": 36
+      }
+    },
+    "rich_text_WBaoGm": {
+      "type": "section",
+      "blocks": {
+        "text_dGNYt9": {
+          "type": "text",
+          "name": "t:names.title",
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h1",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_bAkBHB": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>CURRENT VERSIONS</p><ul><li><strong>iOS : 2.1.1</strong></li><li><strong>Android: 2.4.3</strong></li><li><strong>Thermometer firmware: v2.2.1</strong></li><li><strong>Display Firmware: v2.3.3</strong></li><li><strong>Booster Firmware: v2.3.3</strong></li></ul><p><strong>iOS app </strong>in the <a href=\"https://apps.apple.com/us/app/combustion-inc/id1658858290\" target=\"_blank\" title=\"https://apps.apple.com/us/app/combustion-inc/id1658858290\">App Store </a></p><p><strong>Android app</strong> on <a href=\"https://play.google.com/store/apps/details?id=inc.combustion.app\" target=\"_blank\" title=\"https://play.google.com/store/apps/details?id=inc.combustion.app\">Google Play</a></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_dGNYt9",
+        "text_bAkBHB"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "background-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "rich_text_mLcuky": {
+      "type": "section",
+      "blocks": {
+        "text_whoaaH": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Predictive Thermometer + Display + Booster</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_JcTSNX": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>This is to let you know <strong>what’s working well, what’s not</strong> (and <strong>what we’re doing about it)</strong>, and <strong>what’s up next</strong> for Combustion tools.</p><p>We're always looking for ways to improve our products, and that doesn't stop when you get it.</p><p>Firmware updates (to the onboard software) are how we can make our products better and better over the life of the tool. </p><p>The Predictive Thermometer already is <strong>the most advanced cooking thermometer ever built</strong> (not exaggerating), and we’re not even done yet. Stick with us, you’ll see. </p><p>If you run into a snag, please check the <a href=\"/pages/faq\" target=\"_blank\" title=\"FAQ\">help center.</a> </p><p>If you don’t find the answer you need, <a href=\"mailto:support@combustion.inc\" title=\"mailto:support@combustion.inc\">email us.</a></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_whoaaH",
+        "text_JcTSNX"
+      ],
+      "name": "Core",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-49e1d817-004d-4dc3-a9b8-2a41d3b594ee",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
+    },
+    "section_B9p9xC": {
+      "type": "section",
+      "blocks": {
+        "text_xCKWNX": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2><strong>Firmware</strong></h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_D9BWhz": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>The most important functions of the Predictive Thermometer are software-controlled — there's a remarkable amount of computing power stuffed in there. It makes all kinds of important calculations, including predictions. </p><p>The more cooking data we feed into our algorithm ( Predictive Engine), the better it gets. Our new Predictive Engine is better than the one from a month ago (and the next one will be even better). </p><p>It also means we can add new features like advanced cooking predictions, without having to rebuild anything. <strong>New firmware is like getting a free upgrade to your hardware.</strong></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_GPUmMK": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "type_preset": "h5",
+            "inherit_color_scheme": true,
+            "color_scheme": "background-1",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_pyiRfr": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How to update firmware (CPT, Display, and Booster)",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_fbtVkW": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>You'll need the \"<strong>Combustion Inc.</strong>\" app to apply firmware updates. Links to each are in the footer of this site.</p><p>Please update your tools one at a time (e.g. do the Predictive Thermometer first, then the Display). </p><p>First of all, you’ll probably see an “update” banner (or two) on the main screen. Tap it! Then let it happen. That’s all. </p><p>Otherwise, follow the usual steps:</p><ol><li>Open the Combustion Inc app</li><li>Tap the Combustion logo (or \"...\" for settings)</li><li>Tap 'update devices'</li><li>Tap the tool you want to update</li><li>Wait for the update to finish</li><li>Repeat 1-5 for any other Combustion tools</li><li>Recharge your device(s)</li></ol><p><em>NOTE: A Booster will not update if it's currently holding a Thermometer (that turns its radio off).</em><br/><br/><strong>Troubles?</strong><br/>If the update does not complete, close the app and re-open it. </p><p></p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_fbtVkW"
+              ]
+            },
+            "accordion_row_yhiAxh": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Thermometer Firmware Release Notes",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_zyMBX3": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>April 2025</p><ul><li>Added ‘Always On Mode’</li><li>Added ‘Reset Thermometer’ command</li><li>Reverted to EWMA predictions.</li><li>Fix for firmware update issue.</li></ul><p></p><p>Feb 2025</p><ul><li>Minor fixes and improvements</li></ul><p>Jan 2025</p><ul><li>Fixes a bug that creates (very annoying) disappearing predictions and random disconnects</li></ul><p>(Dec 2024)</p><ul><li>Adds Probe V2 support</li><li>Improved BLE communication reliability (fast lane)</li></ul><p>(July 2024)</p><ul><li>SafeCook feature (upgrade from USDA Food Safe) now calculates accumulated bacterial destruction for multiple sensors in the food (in addition to the virtual core sensor)</li><li>CPT will remember your most recent SafeCook settings when being put back in the charger</li><li>Better overall prediction performance</li><li>New cook mode detects low+slow cooking</li><li>More accurate “time to cook” predictions (5%-100%) during low+slow</li><li>“Time to cook” predictions can be up to 24hrs</li><li>Prevents erratic prediction behavior during low+slow (bug fix)</li></ul><p>(Mar 2024)</p><ul><li>Raises upper temperature (overheat) limit to 600ºF (315ºC) for the Predictive Thermometer.</li><li>Adds “game meat” as another option in the USDA Food Safe settings.</li></ul><p></p><p>(Mar 2024)</p><ul><li>Important bugfix. Fixes startup issue at low battery voltage. Addresses rare lockup bug.</li></ul><p></p><p>(Jan 2024)</p><ul><li>New physics engine phase 1 </li><li>Update probe firmware to 1.5.1</li><li>Faster ballpark predictions </li><li>Firmware update stability improvements</li></ul><p>(Dec 2023)</p><p>Added <strong>USDA Food Safe </strong>(major feature) - enter protein and serving time, the CPT will automatically notify you (via the app) when your food reaches the USDA recommendations for food safety according to user-selected “simplified” (temp) or “integrated” (time at temps) standards.  </p><p>(previously)</p><p>Changed \"standby\" behavior to support moisture-rich cooking scenarios like sous vide. </p><p>Thermometer will no longer immediately enter standby if placed in an unpowered charger.</p><p>Thermometer will immediately enter charging-mode/standby if placed in a powered charger or Booster. </p><p>Prior to this update, a thermometer would enter standby if the charging post (on the butt of thermometer) was shorted to the tube. </p><p>This could happen by accident if a conductive material (like water or meat juice) formed a bridge.   </p><p></p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_zyMBX3"
+              ]
+            },
+            "accordion_row_Aqgjkj": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Booster Firmware Release Notes",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_a4AxFw": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>April 2025</p><ul><li>Added ‘Always On Mode’ and ‘Reset Thermometer’ command support.</li><li>Added support for hardware revision 4.4 and 4.5.</li><li>Bugfix for BLE and Wi-Fi power state getting out of sync.</li><li>Fix for Wi-Fi SSIDs and passwords with apostrophes in the name.</li><li>This contains fixes for a couple other MeatNet bugs</li><li>Repeater network stability improvements</li></ul><p></p><p>Feb 2025</p><ul><li>Minor fixes and improvements</li></ul><p></p><p>(Dec 2024)</p><ul><li>Adds support for WiFi-enabled Boosters</li><li>Improves BLE communication reliability (fast lane)</li><li>Miscellaneous fixes and reliability improvements</li></ul><p></p><p>(Dec 2023)</p><ul><li>Added MeatNet™ support for <strong>USDA Food Safe</strong> (major feature)</li><li>Bug fix: Fixed issue with serial numbers not appearing in MeatNet Heartbeat messages, which allows us to fully understand how all devices are connected to each other, and monitor each connection’s signal strength </li></ul><p></p><p>Sept 2023 Release Notes:</p><ul><li>Improved cooking log download rate over Meatnet (graphs populate faster, data logs load faster)</li></ul><p></p><p>August 2023 Release Notes:</p><ul><li>MeatNet Repeater Network performance improvements and bug fixes</li><li>Unplugging + plugging in a fully-charged Booster will properly indicate it’s fully charged instead of showing charging for ~60 seconds</li><li>Improved button responsiveness when charging a thermometer</li><li>“Charging” LED state is solid amber instead of blinking</li><li>Fixes issue where a fully-charged thermometer would broadcast its data for 60 seconds after being inserted into Booster rather than shutting off immediately</li><li></li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_a4AxFw"
+              ]
+            },
+            "accordion_row_c4fweK": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Display Firmware Release Notes",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_DVQVKm": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>April 2025</p><ul><li>Added support for ‘Always On Mode’ and ‘Reset Thermometer’ BLE commands.</li><li>Fixed issues with apostrophes in SSID and password.</li><li>Added showing ‘Err’ for error temperature values.</li><li>Improved stability of Wi-Fi configuration.</li><li>Repeater network stability improvements</li><li>This contains fixes for a couple other MeatNet bugs</li></ul><p></p><p>Feb 2025</p><ul><li>Minor fixes and improvements</li></ul><p>Dec 2024: </p><ul><li>Adds support for WiFi-enabled Displays</li><li>Improves BLE communication reliability (fast lane)</li><li>Miscellaneous fixes and reliability improvements</li></ul><p>July 2024:</p><ul><li>Small tweaks to support new low+slow (predictions) mode</li></ul><p>Mar 2024:</p><ul><li>Raised overheat alarm threshold to 600ºF (315ºC) for upper sensors. </li></ul><p>Dec 2023:</p><ul><li>Added MeatNet™ support for USDA Food Safe (major feature)</li><li>Noticeably improved alarm (beeper) volume for Display v6 (improvements vary depending on build version)</li><li>Bug fix: Fixed issue with serial numbers not appearing in MeatNet Heartbeat messages (which allow us to fully understand how all devices are connected to each other, and monitor each connection’s signal strength)</li></ul><p></p><p>Sept 2023:</p><ul><li>Improved log download rate over Meatnet (graphs populate faster, data logs load faster)</li><li>More accurate temp targets in Celsius mode (bug fix) </li></ul><p></p><p>August 2023 Release Notes:</p><ul><li>MeatNet Repeater Network performance improvements and bug fixes</li><li>More reliable transfer of log data records over MeatNet Repeater Network</li><li>Fixed bug causing Android app to only use one repeater in some circumstances</li><li>Fixed issue where you might see error codes  (-20℃ / -4℉ values) when repeater nodes were connecting</li><li>Fixed issue with “phantom” thermometers with no data showing up on the Display in some circumstances</li><li>Fixed issues with dropped messages occurring in with certain connection schemes between Repeater nodes (that led to things like set points timing out and log messages not downloading)</li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_DVQVKm"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_pyiRfr",
+            "accordion_row_yhiAxh",
+            "accordion_row_Aqgjkj",
+            "accordion_row_c4fweK"
+          ]
+        }
+      },
+      "block_order": [
+        "text_xCKWNX",
+        "text_D9BWhz",
+        "accordion_GPUmMK"
+      ],
+      "name": "Firmware",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "background-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "section_tLWWCB": {
+      "type": "section",
+      "blocks": {
+        "text_ihQcHw": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2><strong>Hardware</strong></h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_cB6NGd": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>We pushed the limits of what is possible, and some of those limits pushed back. Real-world testing revealed some limitations in the physical product - stuff we didn’t discover until we had more people cooking with different appliances in a wider variety of different ways. </p><p>Some of these issues can be fixed, but some are bumping up against the laws of physics and thermodynamics and we just need to work around them. </p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_M93FA8": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "type_preset": "h5",
+            "inherit_color_scheme": true,
+            "color_scheme": "background-1",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_FAc43J": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Standby-mode Predictive Thermometer battery life",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_xfQdBT": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p><strong>Newest models</strong> (Summer 2023 or newer): 40-50 days standby</p><p><strong>Other models</strong> (Before Summer 2023): 30 days standby</p><p><strong>Early models</strong> (Dec 2022): 17 days standby</p><p><strong>Any Predictive Thermometer in a Booster</strong>: up to 6 months standby</p><p>With early models, we discovered a power leak during standby mode, which cuts standby time down to two weeks (from four). It’s a small but significant leak. </p><p>The best answer for this problem is the Combustion Booster, released in Summer 2023. The Booster has its own battery (a strong one) that can maintain a thermometer in standby mode for up to 6 months. With a Booster, you know your thermometer is always ready to cook!</p><p>Without a Booster, charging up the thermometer after it’s been in the drawer a couple weeks is probably a good rule of thumb. </p><p><em>(Personally, I got in the habit of topping mine off with a 5 minute zap on any day I’m going to use it. Not ideal, but you probably won’t ever notice if you’re using it regularly. Edit - and now I have a Booster, so I don't even think about it.) </em></p><p>With software and hardware improvements, the next iteration of the Predictive Thermometer saw a significant increase in standby life. </p><p>The newest version of the Predictive Thermometer includes a new type of battery. It required a minor hardware adjustment, but made the battery last significantly longer in standby and during active cooking. Progress!</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_xfQdBT"
+              ]
+            },
+            "accordion_row_Qtfhek": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Signal strength and heavy metal grills",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_4gGgK7": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Rec-tec defeated us. Sort of. </p><p>(If you didn’t know, they’re a brand that builds grills that weigh about the same as a battleship.)  </p><p>The thicker the metal, the more it blocks radio. Even a strong transmitter (like the one inside the Predictive Thermometer) inside a bomb-proof 10-gauge plate-metal enclosure is going to have signal issues. </p><p>A Predictive Thermometer inside one of these monster grills can get a weakened signal through – though reception depends on the proximity and orientation of the display. </p><p>We plan to release a set of universal rabbit ears that will mount to any smoker or grill (just kidding --- unless??). </p><p>For now, we sussed out a different way to make the most of mostly-blocked signals.</p><p>Thankfully, the Predictive Thermometer is doing the heavy  calculations, so an intermittent connection is enough to keep your Display up-to-date. </p><p>And even though this ties your display closely to the grill, you'll be able to use it as a range-booster and track your progress on the app from much farther away. </p><p>Or you can use the Booster near that monster grill and place your Display where you normally would! </p><p>Either repeater gets you another 100m (330ft) of potential signal. So unless your bomb-proof grill is also in a bunker, you should be freed up a bit.</p><p>More about RF and Bluetooth and MeatNet on the main FAQ (<a href=\"/pages/faq#all-about-wireless\" title=\"/pages/faq#all-about-wireless\">\"All about wireless\"</a>). </p><p></p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_4gGgK7"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_FAc43J",
+            "accordion_row_Qtfhek"
+          ]
+        }
+      },
+      "block_order": [
+        "text_ihQcHw",
+        "text_cB6NGd",
+        "accordion_M93FA8"
+      ],
+      "name": "Hardware",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-49e1d817-004d-4dc3-a9b8-2a41d3b594ee",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "section_BdtURH": {
+      "type": "section",
+      "blocks": {
+        "text_fcifPX": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Apps</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_fGVb7g": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Even if you don’t plan to cook using an app, you’ll need it in order to update your firmware (it’s bone-simple to do so, we promise).</p><p>The app shows you temperatures in and around your food, and let you know when your food will be done. </p><p>The apps also unlock an important feature of the Combustion Display (or Booster): the Range Extender. When using the display or booster + app, total BLE strength is best-in-class. </p><p>In non-ideal conditions, it's plenty strong for almost any set-up. </p><p>If that's not enough, you can use <strong>MeatNet™ Cloud</strong> to extend your range as far as the internet reaches. </p><p>You'll need to create an account in the app, in order to connect remotely and label your cook data (for later use by you!). </p><p>With this cloud sync service, you'll need either: </p><ul><li>A Combustion accessory with onboard Wifi (WiFi Booster, WiFi Display, or Giant Grill Gauge)</li><li>2 \"instances\" of the app running - one to bridge data from the BlueTooth network to the cloud, and the other to view it. </li></ul><p>More details <a href=\"/blogs/news/meatnet-cloud-monitor-ongoing-cooks-from-anywhere\" target=\"_blank\" title=\"MeatNet Cloud: Monitor ongoing cooks from anywhere\">here.</a></p><p>We intentionally kept the app very streamlined. It won’t push ads or recipes or other content at you. </p><p><strong>No fluff. </strong></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_ybhhmP": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "type_preset": "h5",
+            "inherit_color_scheme": true,
+            "color_scheme": "background-1",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_AK88T7": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "iOS – Combustion Inc. app release notes",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_JPdrch": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p><a href=\"https://apps.apple.com/us/app/combustion-inc/id1658858290\"><span style=\"text-decoration:underline\"><strong>iOS </strong></span></a></p><p><strong>April 2025</strong></p><ul><li>Reworked main screen interface</li><li>Offline thermometers are now listed together at the bottom of the screen.</li></ul><p>--&gt; These can be expanded so their most recent data can be accessed, reviewed and exported.</p><p>--&gt; New “Edit & Identify” screen for reordering your probes and identifying which ones are nearby.</p><ul><li>Added ‘Always On Mode’ so you can force your thermometer to stay on, even in sous vide</li><li>Added ability to reset thermometer from the app, clearing your graph and starting a new cook session</li><li>Reordered Settings screen</li><li>Fixed a number of UI bugs</li><li>Added feature where iOS app can recover a device left stuck in its bootloader by a failed Android DFU</li><li>Performance improvements</li></ul><p></p><p><strong>Feb 2025</strong></p><ul><li>Minor fixes and improvements</li></ul><p><strong>Jan 2025</strong></p><ul><li>Important bug fixes</li><li>Fixed MacOS crash issue</li><li>Prevents false “Disconnect” notifications when backgrounding the app in Cloud Mode</li><li>New thermometer firmware </li></ul><p></p><p><strong>Dec 2024</strong></p><ul><li>Set-up and management for Combustion WiFi tools + connectivity</li><li>Critical firmware for WiFi Booster, WiFi Display</li><li>Firmware updates for 1st and 2nd Gen Predictive Thermometers </li><li>Prioritized command messaging (“fast lane”) for BLE Displays and all Predictive Thermometers</li><li>Bug fixes + reliability improvements</li></ul><p></p><p><strong>Nov 2024</strong></p><ul><li>Live Activities: see live cooking data for one of your probes on the <strong>Lock Screen,</strong> on your <strong>Apple Watch</strong>, and in the <strong>Dynamic Island</strong></li><li>Improved graphing controls + improvements for long or multistage cooking</li><li>Target temp (cooking to) and predicted (ready-in) time are now visible on the graph</li><li>Graph \"scrubbing\"</li></ul><p></p><p><strong>July 2024</strong></p><ul><li>Added MeatNet Cloud feature - sync all your cooking data and settings to the cloud</li><li>Allows remote viewing of cook data using the internet (if using a second connected device to upload)</li><li>Added “app linking” feature to support cloud sync </li><li>App linking prevents accidental interception of data from unlinked thermometers</li><li>Streamlined + redesigned food safety feature</li><li>“USDA Safe” feature is now called “SafeCook™”</li><li>Added mid-cook progress indicators for food safety</li><li>Changed prediction limits to include cooks &gt;6 hrs (for low +slow cooking, up to 24 hrs)</li></ul><p></p><p><strong>Mar 2024 (1.8.3)</strong></p><ul><li>Raises upper temperature (overheat) limit to 600ºF (315ºC) for the Predictive Thermometer, and adjusts related alarms on the Display + App.</li><li>Adds “game meat” as another option in the USDA Food Safe settings.</li><li>Includes firmware update for CPT and Display. </li></ul><p></p><p><strong>Mar 2024 (1.8.2)</strong></p><ul><li>Update probe firmware to 1.5.3 --&gt;(Important bugfix. Fixes CPT startup issue at low battery voltage.)</li></ul><p></p><p><strong>(Jan 2024)(1.8.1)</strong></p><ul><li>New physics engine phase 1 </li><li>Update probe firmware to 1.5.1</li><li>Faster ballpark predictions </li><li>Firmware update-related bug fixes, including: </li><li>Allows only one device to update at a time (improves reliability)</li><li>Mitigates a post-update thermometer lockup issue</li></ul><p></p><p><strong>(Dec 2023)(1.7.4)</strong></p><ul><li>Added scrolling to the Set Prediction screen for very small phones to fix display issue where predict button was hard to access.</li></ul><p></p><p><strong>(Dec 2023)(1.7.3)</strong></p><ul><li><strong>USDA Food Safe</strong> (major feature) - enter protein and serving time, the Combustion app will automatically notify you when your food reaches the USDA recommendations for food safety according to user-selected “simplified” (temp) or “integrated” (time at temps) standards. </li><li>Includes updated firmware (Thermometer, Display, Booster)</li><li>Bug fixes</li></ul><p></p><p>(Sept 2023)</p><ul><li>Photo ID: snap a pic to easily tell thermometers apart</li><li>Improved interface for setting predictions</li><li>Graph visibility improvements during download</li><li>Cook data download progress wheel</li><li>Updated firmware (Thermometer, Display, Booster)</li></ul><p></p><p>(August 22, 2023)</p><ul><li>New, friendlier user interface for Prediction information during a cook</li><li>Thermometers now stay where they are in the list; no more reordering when a set-point is configured</li><li>Improved communication with thermometers over MeatNet repeaters</li><li>Smarter failure timeouts with multiple MeatNet repeaters in a network</li><li>App will warn the user if Bluetooth is turned off</li><li>Fixes bug where a second thermometer couldn’t use the same set-point as the first</li><li>Fixes bug where old temperatures would be briefly displayed when restoring the app from the background</li><li>Fixes issue where Graph was always showing timestamps in 24-hour format</li></ul><p>(July 13, 2023)</p><ul><li>Adds support for MeatNet!</li><li>Adds support for Booster</li><li>Firmware updates</li><li>Adds option to keep app foreground while cooking</li><li>Notification controls</li><li>New help/onboarding content</li><li>Bug fixes</li></ul><p></p><p>(May 12, 2023)</p><p>• Fixed memory leak that could cause the app to shut down in the background.</p><p>(May 08, 2023)</p><p>Release notes:</p><ul><li>Bug fixes</li><li>Stability improvements</li><li>Fixing the update rate of \"Elapsed Time\"</li><li>Removing the flicker from the drop down menu</li><li>Fixing the font size of temperature text in Advanced mode</li><li>Added \"Not Connected\" text to bottom of card when disconnected</li><li>Keeping the graph displayed when downloading additional records from probe</li></ul><p>(April 19, 2023)</p><p>Release notes:</p><ul><li>Graph your cooking data in real time!</li><li>Full readings from all 8 sensors - now visible in \"Advanced Mode\" </li><li>App can now receive full cook data (logs) forwarded by the Display </li><li>Redesigned user interface</li><li>Show/hide tenths digit</li><li>Miscellaneous bugfixes</li><li>New engineering “Debug mode” (for power users) shows current signal strength, battery level, hop count and more</li></ul><p>(March 4, 2023)</p><p>Release notes:</p><ul><li><strong>Thermometer naming</strong>! Give your thermometer an easy-to-remember name. <em>Especially useful when you have more than one Predictive Thermometer. </em></li><li><strong>CSV data export. </strong>When the app is in range of the thermometer (not using the Display as a booster), you can export the FULL COOKING DATA. We use that data to improve predictions and stuff, but you can do whatever you want with it inside Excel or Sheets (or your spreadsheet of choice). Data export paves the way for the next major feature: graphing!</li><li>Bug fixes and reliability improvements. </li></ul><p></p><p>(Feb 10, 2023)</p><ul><li>Disconnect alerts are now less aggressive (sorry about that)</li><li>Reconnect notification removed</li><li>Disconnect alert will now only fire after 60 seconds and only when a cook is active (\"cooking to\" is set)</li><li>Reconnecting will now clear any disconnect alert</li></ul><p></p><p>(Feb 06, 2023)</p><ul><li>Advanced alerts now play when the app is in the background </li><li>Ready, 5-min Warning, Overheat, Disconnect, and Low Battery notifications</li><li>Persistent \"ready\" alarm</li><li>New overheat warnings</li><li>Reconfigured, less-sensitive overheat \"red alert\"</li><li>Stabilized ready-in countdowns</li><li>Bug fixes and reliability improvements</li></ul><p></p><p>(Dec 23, 2022)</p><p>•Update firmware with minimal effort </p><p>•Set target (cooking to) temps</p><p>•View ambient, surface, and core temps </p><p>•Shows predictions </p><p>•Wander farther from the cooking area (see below)</p><p>When using the app, the display (timer) acts as a repeater – you can control and monitor your cook from another room, or across a small city park, or from a low-flying hot air balloon if necessary.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_JPdrch"
+              ]
+            },
+            "accordion_row_XiTLEj": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Android – Combustion Inc app release notes",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_jia44i": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p><a href=\"https://play.google.com/store/apps/details?id=inc.combustion.app\" target=\"_blank\" title=\"https://play.google.com/store/apps/details?id=inc.combustion.app\"><strong>Android </strong></a></p><p><strong>April 2025</strong></p><ul><li>Added ‘Always On Mode’ so you can force your thermometer to stay on, even in sous vide</li><li>Added ability to reset thermometer from the app, clearing your graph and starting a new cook session</li><li>Added feature where Android app can recover a device left stuck in its bootloader by a failed DFU</li><li>Updated how error data is displayed in the graph</li><li>Fixed issue with Samsung phones not showing graph data after being app being backgrounded</li><li>Added new firmware for Thermometers, Displays, and Boosters</li><li>MeatNet stability and performance improvements for all repeater devices</li></ul><p></p><p><strong>Feb 2025</strong></p><ul><li>Minor fixes and improvements</li></ul><p><strong>Jan 2025</strong></p><ul><li>Important bug fixes</li><li>New thermometer firmware</li><li>Prevented crash that could occur when starting the app when 3-4 probes were in range</li><li>WiFi Devices screen updates</li><li>Framework update to improve status and error handling with WiFi Devices</li></ul><p><strong>Dec 2024</strong></p><ul><li>Set-up and management for Combustion WiFi tools + connectivity</li><li>Critical firmware for WiFi Booster, WiFi Display</li><li>Firmware updates for 1st and 2nd Gen Predictive Thermometers </li><li>Prioritized command messaging (“fast lane”) for BLE Displays and all Predictive Thermometers</li><li>Bug fixes + reliability improvements</li></ul><p><strong>Nov 2024</strong></p><ul><li>Improved graphing controls + improvements for long or multistage cooking</li><li>Target temp (cooking to) and predicted (ready-in) time are now visible on the graph</li><li>Graph \"scrubbing\"</li></ul><p></p><p><strong>July 2024</strong></p><ul><li>Added MeatNet Cloud feature - sync all your cooking data and settings to the cloud!</li><li>Allows remote viewing of cook data using the internet (if using a second connected device to upload)</li><li>Added “app linking” feature to support cloud sync </li><li>App linking prevents accidental interception of data from unlinked thermometers</li><li>Streamlined + redesigned food safety feature</li><li>“USDA Safe” feature is now called “SafeCook™”</li><li>Added mid-cook progress indicators for food safety</li><li>Changed prediction limits to include cooks &gt;6 hrs (for low +slow cooking, up to 24 hrs)</li></ul><p></p><p><strong>Mar 2024 (1.8.3)</strong></p><ul><li>Raises upper temperature (overheat) limit to 600ºF (315ºC) for the Predictive Thermometer, and adjusts related alarms on the Display + App.</li><li>Adds “game meat” as another option in the USDA Food Safe settings.</li><li>Includes firmware update for CPT and Display. </li></ul><p></p><p><strong>Mar 2024 (1.8.2)</strong></p><ul><li>Update probe firmware to 1.5.3 --&gt;(Important bugfix. Fixes CPT startup issue at low battery voltage.)</li></ul><p></p><p><strong>(Jan 2024)</strong></p><ul><li>New physics engine phase 1 </li><li>Update probe firmware to 1.5.1</li><li>Faster ballpark predictions </li><li>Firmware update-related bug fixes, including: </li><li>Mitigates a post-update thermometer lockup issue</li></ul><p></p><p><strong>(Dec 2023)</strong></p><ul><li>Bug fix. Fixes connection issues in previous version (v1.4.1)</li></ul><p></p><p><strong>(Dec 2023)</strong></p><ul><li><strong>USDA Food Safe </strong>(major feature) - enter protein and serving time, the Combustion app will automatically notify you when your food reaches the USDA recommendations for food safety according to user-selected “simplified” (temp) or “integrated” (time at temps) standards. </li><li>Includes updated firmware (Thermometer, Display, Booster)</li><li>Bug fixes (below)</li></ul><ol><li>Added modal spinner dialog while set prediction or USDA Food Safe commands are in transit</li><li>Fixed issue with photo maximized state persistence</li><li>Fixed issue with temperature unit persistence</li><li>Fixed issue where pressing back arrow multiple times can lead to blank screen</li><li>Fixed issue where disconnect notifications were to frequent</li><li>Fixed issue where alarms re-appear after being silenced</li><li>Fixed issue where incorrect prediction value was being displayed</li><li>Fixed issue where set prediction screen had disabled UI on wrong value</li><li>Fixed issue with default prediction value being 0ºC</li></ol><p></p><p><strong>(Nov 2023)</strong></p><ul><li>Fixed notification support for Android 14.</li><li>Fixed issue where set prediction screen didn’t match same set point on device card.</li><li>Fixed issue with rounding on set prediction screen.</li><li>Updated to use latest BLE framework version.</li></ul><p><strong>(October 2023)</strong></p><ul><li>Added progress indicator when cooking graph is loading data. </li><li>Updated Welcome/First Launch screen button placement to better manage larger fonts and zoomed display.</li><li>Fixed bug with \"Export CSV\" (in some countries, CSVs were corrupted because of comma/period decimal standards)</li></ul><p></p><p><strong>(October 2023)</strong></p><ul><li>Fixed accessing set prediction screen when using large font or display zoom</li><li>Fixed accessing launch screen when using large font or display zoom</li><li>Fixed issue with removing  Photo ID</li></ul><p></p><p><strong>(September 2023)</strong></p><ul><li>Flexible notification settings (turn on/off individual notifications and sounds)</li><li>Option to leave screen on (so phone won’t go to sleep mid-cook!)</li><li>Photo ID: snap a pic to easily tell thermometers apart</li><li>Improved interface for setting predictions</li><li>Updated firmware (Thermometer, Display, Booster)</li><li>Bug fixes</li><li>Performance improvements</li></ul><p></p><p><strong>(August 22, 2023)</strong></p><ul><li>New, friendlier interface for prediction info during a cook</li><li>Thermometers now stay where they are in the list; no more reordering when a set-point is configured</li><li>Improved communication with thermometers over MeatNet repeaters</li><li>Smarter failure timeouts with multiple MeatNet repeaters in a network</li><li>Fixed rounding bug with Fahrenheit temperatures</li><li>Improved firmware update reliability by limiting to one device at a time</li><li>Fixed issue where enabling Bluetooth wouldn’t start the search for Combustion devices</li><li>Fixed issue where a thermometer reset might not be detected over MeatNet repeater network</li><li>Fixed issue with setting prediction indicating it timed out over MeatNet even though it was successful</li><li>Fixed for miscellaneous crashes and UI glitches.</li></ul><p><strong>(July 13, 2023)</strong></p><ul><li>Adds support for MeatNet!</li><li>Adds support for Booster</li><li>Firmware updates</li><li>Adds option to keep app foreground while cooking</li><li>Notification controls</li><li>New help/onboarding content</li><li>Bug fixes</li></ul><p></p><p><strong>(May 9, 2023)</strong></p><p><strong>Release notes:</strong></p><ul><li>Improvements </li><li>Bug fixes</li><li>Fixed issue with elapsed time showing negative values</li><li>Fixed issue where graph wouldn't hide when all channels were deselected in standard mode</li><li>Fixed some issues with long app startup time and services</li></ul><p><strong>Android v1.2.0</strong></p><ul><li>Graph your cooking data in real time!</li><li>Full readings from all 8 sensors - now visible in Advanced Mode </li><li>App can now receive full cook data (logs) forwarded by the Display</li><li>Redesigned user interface</li><li>Show/hide tenths digit</li><li>Miscellaneous bugfixes</li><li>New engineering “Debug mode” (for power users) shows current signal strength, battery level, hop count and more</li></ul><p><strong>Android v1.1.0</strong></p><ul><li>Thermometer naming! Give your thermometer an easy-to-remember name. <em>Especially useful when you have more than one Predictive Thermometer. </em></li><li>CSV data export. When the app is in range of the thermometer (not using the Display as a booster), you can export the FULL COOKING DATA. We use that data to improve predictions and stuff, but you can do whatever you want with it inside Excel or Sheets (or your spreadsheet of choice). Data export paves the way for the next major feature: graphing! </li><li>Bug fixes. Everybody loves bug fixes. </li></ul><p><strong>Android v1.0.1</strong></p><p>The Predictive Thermometer companion app lets you see the temperatures (core, surface, ambient) and predictions from your Predictive Thermometer, as well as set target temps, even from another room.</p><p><strong>As long as your Combustion Display is within range, your app will function as a receiver and secondary display, extending the functional signal range - up to 300ft (90m). </strong>This is fabulous for those of us who live in old houses or decommissioned missile silos. </p><p>Another practical use is when you’re cooking inside some radio-resistant metal enclosure like a heavy-walled grill or smoker. No problem! Place the Display near the cook to relay the signal and keep tabs with the app from a goodly distance. </p><p><strong>App Features: </strong></p><ul><li>Use with Predictive Thermometer and/or Combustion Display (timer)</li><li>Use with Combustion Display to boost signal up to 300ft (90m)</li><li>Set target “cook to” temperatures and view “ready in” cook-time predictions</li><li>Tells you when your food is ready</li><li>See key temps: including core, surface, ambient temperature</li><li>Update firmware: better performance and new features for the Predictive Thermometer and Display</li><li>No accounts or sign-ins required</li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_jia44i"
+              ]
+            },
+            "accordion_row_7DE6Ca": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "App-related questions",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_Hcwrew": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Q: When will the app be available?</p><p>A: Now!</p><p>Q: Where?</p><p>A: In the App Store (iOS) and Google Play (Android). Links are in the footer.</p><p>Q: What’s it called?</p><p>A: The app name is “Combustion Inc.”</p><p>Q: Does it work on tablets as well?</p><p>A: Yes, indeed. </p><p>Q: I thought I didn't need a phone?</p><p>A: You don't need one to cook, that's up to you. But you will need one to upgrade firmware occasionally. Maybe borrow one from your kids? Or a neighbor kid?</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_Hcwrew"
+              ]
+            },
+            "accordion_row_xgxVtQ": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Upcoming features",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_JQadr7": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>All app and firmware updates are \"backwards compatible\" with the Predictive Thermometer you already own. </p><p></p><p><span style=\"text-decoration:underline\">IN DEVELOPMENT:</span></p><p>• <strong>CARRYOVER PREDICTIONS:</strong> this is a toughie, but we haven't given up </p><p>• <strong>MULTIPLE TEMP ALERTS: </strong>nice for multi-step cooks like reverse sear or ambient temp oversight </p><p></p><p><span style=\"text-decoration:underline\">NEWLY RELEASED IN 2024</span></p><p>• <strong>MeatNet™ Cloud:</strong> <em>wifi to internet connectivity</em> - watch your meat from anywhere; <strong>(July 2024)</strong></p><p><strong>• SafeCook™</strong> food safety - easily guard your food against both bacteria and the horrors of overcooking! <strong>(July 2024)</strong></p><p><strong>• Low and Slow Mode - </strong>using the physics engine, we can now closely estimate stall duration/ready times during low heat cooking (smoking brisket for instance). <strong>(July 2024)</strong></p><p>• <strong>PHYSICS-BASED PREDICTIVE ENGINE: </strong>predicts heat flow through your food and will allow for more complex secondary predictions. <strong>(Jan 2024) </strong></p><p><span style=\"text-decoration:underline\">FEATURES ADDED IN 2023: </span></p><p>• <strong>USDA SAFE: </strong>automatic notifications for when your food reaches USDA-recommended temps or time at temps (integrated mode). <strong>(Released Dec 2023)</strong><em> </em></p><p>• <strong>Multi-node MeatNet</strong>: use multiple tools together for absurd range <strong>(released! Summer 2023)</strong></p><p>• <strong>Graphing: </strong>this is very cool and kind of hypnotic, trust me <strong>(released! April 2023)</strong></p><p>• <strong>Data exports</strong>: track your cooking results <strong>(released! March 2023)</strong></p><p>•<strong>Signal strength + management (multiple releases)</strong></p><p>• <strong>Photo ID</strong>: label a cook-in-progress with a photo to distinguish between multiple thermometers <strong>(released Sept 2023)</strong></p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_JQadr7"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_AK88T7",
+            "accordion_row_XiTLEj",
+            "accordion_row_7DE6Ca",
+            "accordion_row_xgxVtQ"
+          ]
+        }
+      },
+      "block_order": [
+        "text_fcifPX",
+        "text_fGVb7g",
+        "accordion_ybhhmP"
+      ],
+      "name": "Apps",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "background-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "section_RjrAAJ": {
+      "type": "section",
+      "blocks": {
+        "text_B4hFNU": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Didn’t find the info you needed? <a href=\"mailto:support@combustion.inc\" target=\"_blank\" title=\"mailto:support@combustion.inc\">Email us. </a></h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_bFATrG": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>You will find answers to questions you didn't even know you had on the <a href=\"https://combustion.inc/pages/faq\" target=\"_blank\" title=\"https://combustion.inc/pages/faq\">main FAQ.</a> </p><p>If you have other questions about cooking with the Predictive Thermometer, your best bet is to ask on <a href=\"https://www.reddit.com/r/combustion_inc/\" title=\"https://www.reddit.com/r/combustion_inc/\">our official subreddit.</a> (Chris - our founder - watches this and often responds personally.)</p><p><strong>Please write us if you have a problem or would like to report an issue. </strong><a href=\"mailto:support@combustion.inc\" target=\"_blank\" title=\"mailto:support@combustion.inc\">(support@combustion.inc)</a> </p><p>Your feedback is super-important, it’s a big part of how we find ways to improve the product. </p><p>Thanks for taking the time, we really appreciate it. </p><p><strong>Happy Cooking!</strong></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_6HYQyT": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "support",
+            "link": "mailto:support@combustion.inc",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_B4hFNU",
+        "text_bFATrG",
+        "button_6HYQyT"
+      ],
+      "name": "Need more?",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-49e1d817-004d-4dc3-a9b8-2a41d3b594ee",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WBaoGm",
+    "rich_text_mLcuky",
+    "section_B9p9xC",
+    "section_tLWWCB",
+    "section_BdtURH",
+    "section_RjrAAJ"
+  ]
+}

@@ -1,0 +1,1646 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_sxleFa": {
+      "type": "section",
+      "blocks": {
+        "text_SdZXUG": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Combustion Inc App</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_WdTkWI": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Quickstart Guide and Feature List</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_jBfGsH": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "iOS - download",
+            "link": "https://apps.apple.com/us/app/combustion-inc/id1658858290",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        },
+        "button_ezYwxA": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Android - download",
+            "link": "https://play.google.com/store/apps/details?id=inc.combustion.app",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_SdZXUG",
+        "text_WdTkWI",
+        "button_jBfGsH",
+        "button_ezYwxA"
+      ],
+      "name": "Combustion Inc App",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-49e1d817-004d-4dc3-a9b8-2a41d3b594ee",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "rich_text_jraQfD": {
+      "type": "section",
+      "blocks": {
+        "text_fudSru": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Getting started with the Predictive Thermometer App</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h1",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_7Ex8i3": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h3>A. Charge the Predictive Thermometer</h3>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_YU9NXW": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>15-20 min. Use included USB-C cord. Charger light turns green when charged.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_MD4wRV": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "type_preset": "h4",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_AGdyai": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Thermometer power basics (important)",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_HtSEeA": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p><strong>The Predictive Thermometer turns on when you remove it from its charger</strong>. </p><p>There are 4 possible power states:</p><p><strong>OUT OF THE CHARGER = INSTANT READ MODE  —&gt; 5.7 HR </strong></p><p>When you take it out of the charger, the thermometer starts in \"instant-read\" mode. That’s the highest level of power consumption, because it’s transmitting data the most frequently. In this mode, the expected battery life is 5.7hrs. </p><p><strong>COOKING MODE = WHEN TARGET TEMP IS SET —&gt; 24 HR</strong></p><p>When you set a “cooking to” target temp (step 4), the thermometer will change from instant read to cooking mode. With a full charge, the expected battery life while cooking is 24 hrs. </p><p><strong>IN THE CHARGER = STANDBY —&gt; 14 DAYS</strong></p><p>When the thermometer is in the charger, it enters “standby.” You can be sure it’s in standby if the Display is not showing a temp. In standby, the expected battery life is 14 days. </p><p><em>If your thermometer has been in standby for more than a week, it’s a good idea to “top off” the battery with a quick 5-min charge before starting any long cooks. </em></p><p><strong>ACTIVELY CHARGING</strong></p><p>The thermometer is only charging when it’s in the charger and the charger is plugged into USB-C power. <em>(There is no battery in the charger.) </em></p><p><strong>Red light </strong>= charging </p><p><strong>Green light</strong> = fully charged (or thermometer not detected)</p><p><strong>No light </strong>= thermometer not detected (or charger not plugged in)</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_HtSEeA"
+              ]
+            },
+            "accordion_row_ZtuuXG": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Charging details",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_RQINSm": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p><strong>Predictive Thermometer:</strong> </p><p>Snug the thermometer into its included charger. </p><p>Plug in the included USB-C cable and any USB-C power supply.</p><p>The charger light will glow only when the charger is plugged in. </p><p><strong>Red light </strong>= charging </p><p><strong>Green light</strong> = fully charged (or thermometer not detected) </p><p><strong>No light </strong>= thermometer not detected (or charger not plugged in)</p><p>Always store the thermometer in its charger. After one minute, it will go into “standby” mode. </p><p>In standby, the thermometer battery will last 2 weeks before needing a recharge. Even so, it’s never a bad idea to “top it up” by charging for 5 min before cooking.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_RQINSm"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_AGdyai",
+            "accordion_row_ZtuuXG"
+          ]
+        },
+        "text_KcQiLp": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h3>B. Download the app and update firmware</h3>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_W4jDpK": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Links above (and in footer). </p><p><strong>IMPORTANT: Enable Bluetooth when installing the app.</strong> </p><p>Remove your (charged) thermometer from its charger. </p><p>Tap the combustion \"campfire\" logo in the upper right corner, then tap \"<strong>update.</strong>\" Tap \"<strong>cancel</strong>\" to return to app home screen.</p><p><em>Overly detailed instructions below.</em></p><p></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_WMnkgY": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "type_preset": "h4",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_VaMTMq": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "iOS \"how-to\" update firmware",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_YZdldh": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>For best results, update your firmware (that's the software inside the Predictive Thermometer and Display). </p><p>Here are some <strong>step-by-step instructions</strong> for those of you who like them. </p><p><strong>For iOS (Apple devices) </strong></p><p>1. Search \"combustion inc\" on the App Store (iOS). </p><p>2. Click \"get\"</p><p>3. Click \"install\" (wait for it to finish)</p><p>4. Click \"open\"</p><p>5. Remove your fully charged thermometer from the charger. Place your mobile device very near your thermometer (within a few inches). </p><p>6. Click the fire icon (Combustion Inc logo)</p><p>7. Click \"update\" in the top area (thermometer)</p><p>8. Wait about a minute until it says \"up to date\"</p><p>9. Put your thermometer back in the charger and move it away from your mobile device. </p><p>10. Nice work! Your firmware is now up to date</p><p>11. Repeat steps 6-8 for any additional combustion devices</p><p>12. Recharge thermometer before use (5 min)</p><p>14. Press “cancel” to close out of the update screen and return to the main menu </p><p></p><p><strong>Troubleshooting firmware updates:</strong></p><p>If the app (or display) doesn’t detect or connect to the thermometer, that usually means the Predictive Thermometer isn’t fully charged. Charge it for a full 20 min (or until the light on the charger turns green).</p><p><strong>Don’t update more than one tool at a time</strong> – this can cause the app to get stuck. (That’s why the instructions have you powering on one Combustion device at a time.) </p><p>If the update gets stuck or fails to complete, restart your mobile device (yes, that’s a pain, sorry about that). Restarting clears the Bluetooth cache. After you restart, update one device at a time as described above.</p><p>If that doesn’t solve the issue, please <a href=\"mailto:orders@combustion.inc\" title=\"mailto:orders@combustion.inc\">let us know.</a></p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_YZdldh"
+              ]
+            },
+            "accordion_row_VEqecF": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Android \"how-to\" update firmware",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_nAUAhu": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>The Full <a href=\"https://play.google.com/store/apps/details?id=inc.combustion.app\" title=\"https://play.google.com/store/apps/details?id=inc.combustion.app\">Combustion Inc. Predictive Thermometer Companion app</a> is now available. </p><p>Huzzah!</p><p><strong>Please update the firmware on your tools one at a time</strong> </p><p>(i.e. Do the Predictive Thermometer first, then the Display).</p><p><em>Please note: this is really not as complex as it looks; this instruction set is just very thorough; just in case. Don’t panic.</em></p><p><strong>Step-by-step: </strong></p><p>1. Search \"combustion inc\" on Google Play - select the \"Combustion Inc\" app (not the “updater” app)</p><p>2. Tap “install”</p><p>3. Tap \"open\"</p><p>4. Allow permissions</p><p>5. Remove your fully charged thermometer from the charger. Place your mobile device very near your thermometer (within a few inches). </p><p>6. Tap the Combustion logo (fire icon) in the upper corner</p><p>7. Select the tool you want to update (thermometer)</p><p>8. Tap “update”</p><p>9. Wait about a minute until it says \"up-to-date\"</p><p>10. Put your thermometer back in the charger and move it away from your mobile device. </p><p>11. Press “start” on the Display (to turn it on)</p><p>12. Repeat steps 6-9</p><p>13. Your tools are now updated! (They should show “up-to-date” and v1.1.0)</p><p>14. If you have another thermometer, turn off your other tools (hold “start” on the Display), remove the 2nd thermometer from its charger, then repeat steps 6-9</p><p>15. That’s it!<br/></p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_nAUAhu"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_VaMTMq",
+            "accordion_row_VEqecF"
+          ]
+        }
+      },
+      "block_order": [
+        "text_fudSru",
+        "text_7Ex8i3",
+        "text_YU9NXW",
+        "accordion_MD4wRV",
+        "text_KcQiLp",
+        "text_W4jDpK",
+        "accordion_WMnkgY"
+      ],
+      "name": "Getting started with the Predictive Ther",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 40,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "background-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "rich_text_sBluTs": {
+      "type": "section",
+      "blocks": {
+        "text_OEJVOx": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Instant read mode</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_uIIBWu": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>The Predictive Thermometer wakes up in \"instant read\" mode. It shows the temp at the tip (T1 - listed as <strong>core</strong>) + the handle (T8 - <strong>ambient</strong>).</p><p><strong>Use this to quickly take a temp - for instance when cooking burgers.  </strong></p><p><em>&gt;&gt; Tap \"predict\" to set a target temp. Once the thermometer detects a cook in progress, it will determine the </em><em><strong>TrueCore</strong></em><em> and </em><em><strong>Surface</strong></em><em> temps. More below.</em></p><p></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_OEJVOx",
+        "text_uIIBWu"
+      ],
+      "name": "Instant read mode",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-49e1d817-004d-4dc3-a9b8-2a41d3b594ee",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "rich_text_OibjJc": {
+      "type": "section",
+      "blocks": {
+        "text_gUkIch": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Predictive Cooking mode</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_VobZKr": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Step-by-step instructions that make it sound a whole lot more complicated than it is. (For the first time you use it.)</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_BG4VYi": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_eIIHoG": {
+              "type": "group",
+              "name": "t:names.group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "image_IWTeVY": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "image": "shopify://shop_images/minsert-website_19fd1e62-f59e-4fb8-b5e0-cd74bdfd519d.png",
+                    "link": "",
+                    "image_ratio": "adapt",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_HnrkFd": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<h3>Be sure the minimum insertion line is inside the food.</h3>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_IWTeVY",
+                "text_HnrkFd"
+              ]
+            }
+          },
+          "block_order": [
+            "group_eIIHoG"
+          ]
+        },
+        "text_7bJKa4": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>1. Insert the thermometer</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_QjTDgX": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Insert the Predictive Thermometer into the food. </p><p>Be sure it’s at least as deep as the minimum insertion line (the three stripes halfway down).</p><p><strong>Keep the lower half below 212°F</strong> (100°C) at all times.  Higher temps can cook the electronics, and the brainy part is down near the tip.<em> It’s perfectly safe inside food because the water content of the food keeps everything below boiling. </em></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_Xfmzyb": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>2. Set target temp (predict)</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_drqzCT": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Tap \"<strong>predict</strong>\" on the main screen. </p><p>Set your temp, then tap \"<strong>begin prediction</strong>.\"</p><p>The thermometer will begin to calculate \"<strong>Ready in</strong>\" time. This number usually appears about 1/3 of the way through the total cook time.</p><p>Put the food in your oven, smoker, grill, frying pan or other heat source.</p><p><em>To choose between Cº and Fº: tap the three dots (right edge of the app, near ready in).</em></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_DFkAaa": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "type_preset": "h4",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_WqPNqp": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Predictive cooking tips",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_syoExp": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>The Prediction Engine’s initial countdown is usually within 10% of the true cooking time. It will adjust and become more stable as cooking continues.</p><p>Flipping food and changing the cooking temp will change the speed of cooking and the countdown prediction will adjust accordingly.</p><p>We recommend setting the <strong>predict</strong> temperature a few degrees below your ideal doneness. Stop cooking when the timer goes off, and watch the display.  Carve or slice the meat when the core temp reaches your target temp. This halts carryover cooking, ensuring perfect doneness!</p><p>Soon the Prediction Engine will be able to fully calculate and manage carryover cooking (we need more data to make it happen). That’s useful for some specific foods, but in general we don’t recommend prolonged resting.</p><p>Contrary to tradition, science shows that resting your meat doesn’t improve juiciness. It mainly results in cooler food and less crusty crust.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_syoExp"
+              ]
+            },
+            "accordion_row_tmXVjf": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What about low and slow?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_AlzeGV": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Until the surface temp is above the user’s target doneness, there's no point making a prediction because it's impossible for the core to get hotter than the surface. At a low temp, a slow cook will “stall” before the surface temp exceeds the target.</p><p>In practice this means it’ll happily keep an eye on your meat for as long as it takes to break the stall, then make a prediction and sound the alarm when it hits your target temp.</p><p>From there it’s up to you. Watch the surface temp and fine-tune your heat to hold that temp for as long as your super-secret recipe calls for.</p><p>We’re working on a method for predicting the temp and duration of the stall. It’ll take some time to finish, but the results will be worth the wait.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_AlzeGV"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_WqPNqp",
+            "accordion_row_tmXVjf"
+          ]
+        },
+        "text_bqirUE": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>3. Relax</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_UKctCh": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>The app will show progress by indicating <strong>%</strong> of cooking completed.</p><p>About a third of the way in, a countdown will appear: <strong>ready in</strong>. That’s the magic number!</p><p>When that number hits <strong>00:00</strong>, an alarm/alert will go off to let you know your food is ready.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_7aYiXA": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>4. Enjoy!</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_WNkdm3": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>5. Clean up and store</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_CtnrEM": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Wipe your Predictive Thermometer with a soapy sponge. Dry with a dishcloth. Basically, treat it like you would a chef's knife.</p><p>It’s safe to use an abrasive cleaner (we use steel wool) to scrub the ceramic handle.</p><p>Store your clean/dry thermometer in its charger. It will go into low-power standby mode and will hold a usable charge for about 14 days. Use USB-C to recharge (10-20 min).</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_gUkIch",
+        "text_VobZKr",
+        "group_BG4VYi",
+        "text_7bJKa4",
+        "text_QjTDgX",
+        "text_Xfmzyb",
+        "text_drqzCT",
+        "accordion_DFkAaa",
+        "text_bqirUE",
+        "text_UKctCh",
+        "text_7aYiXA",
+        "text_WNkdm3",
+        "text_CtnrEM"
+      ],
+      "name": "Predictive Cooking mode",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 40,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "background-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "collapsible_yrLsKM": {
+      "type": "section",
+      "blocks": {
+        "text_R6cmmU": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>App FAQ</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_HiRwES": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "type_preset": "h4",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_qGWWrb": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Watch-outs & warnings",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_ASbqtF": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Never cook with the thermometer inserted to less than the minimum insertion line.</p><p>Never use the thermometer to take an instant read for things much hotter than boiling water including deep fryer oil or candy. </p><p>Do not use the Predictive Thermometer in a pressure cooker, Instapot, broaster, or microwave.</p><p>Do not submerge a hot thermometer into cold water. The shock can crack the handle and cause the seals to fail.</p><p>Be careful with open flame. Flare-ups can often exceed the handle's max temperature rating (575ºF/300ºC). Direct flame can damage the main seal. A bit of flame is not a problem (it takes time for the ceramic to heat up) but continuous flame should be avoided.</p><p>Don't use the Predictive Thermometer in sous vide (at least for now, we're investigating). The negative pressure (vacuum) may distort the main seal.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_ASbqtF"
+              ]
+            },
+            "accordion_row_UhifIO": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Firmware updates",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_MtFGBi": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>The most important functions of the Predictive Thermometer are software-controlled. (There’s a teensy computer inside the Predictive Thermometer!)</p><p>Updating the onboard software (aka firmware) improves the everyday performance of all the basic stuff. </p><p>It can also unlock new, advanced cooking features. It’s like a free upgrade.</p><p>With the app, you’ll be notified as soon as new firmware is available. </p><p>To update your firmware, tap the Combustion logo in the app, then select \"update devices.\"</p><p>Choose the tool you want to update and tap the update button. That's it! </p><p>After updating firmware on the Predictive Thermometer, please recharge it (updating uses a lot of battery). </p><p><a href=\"/pages/product-release-notes\" title=\"Product Release Notes\">More details on the latest firmware and upcoming releases.</a></p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_MtFGBi"
+              ]
+            },
+            "accordion_row_CmVggi": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Graph your cook",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_PixLjj": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Graphs will only appear when a thermometer is on and connected to the app.</p><p>If the graph is not visible, tap one of the temperatures. Voila!</p><p>To hide the graph, tap the settings icon (three vertical dots) and select \"hide graph.\"</p><p>To show/hide the lines from any sensor, tap the color-coded circle below the temp. </p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_PixLjj"
+              ]
+            },
+            "accordion_row_aPAwxn": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Virtual Sensors",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_DtocjJ": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>The \"virtual\" sensors (core, surface, ambient) override the \"T\" sensor markers. </p><p>One of the lower sensors (T1-T4) will almost always be  labeled \"core.\" That's the lowest internal temp.</p><p>With the thermometer inserted, one of the sensors will be labeled \"surface.\" That's the actual applied cooking temp, and it shows the rate heat is transferring into the food! Super-useful, especially for slow-cooking. The internal temp will never exceed the surface temp. <strong>Hold that surface temp steady for edge-to-edge perfection.</strong></p><p>The \"ambient\" measurement shows you the temp near the food. This will often be significantly lower than the set temp of your cooking appliance. <strong>That's not an error! </strong></p><p>Food creates its own \"weather\" system because of the water evaporating - there's an invisible cloud of steam that surrounds the food, called the \"boundary layer.\" With larger foods (e.g. roasts), this boundary layer can easily cover the T8 sensor. </p><p>The boundary layer is your friend - it steadies the temp, keeping the food near the surface from drying out or overcooking. </p><p>The fan in a convention oven will disturb the boundary layer - that's also why convection ovens cook stuff faster and create a crispier exterior. </p><p>The risk of convection is (especially with large foods) that the food will tend to become overcooked near the surface. </p><p>They're great for french fries though.</p><p>  </p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_DtocjJ"
+              ]
+            },
+            "accordion_row_OCOofg": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Advanced mode",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_Hnojqy": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>View (and graph) temps from all 8 sensors using <strong>Advanced Mode.</strong></p><p>You'll find advanced mode in the settings menu (3 vertical dots).  </p><p>You can toggle each sensor's display on/off by tapping the color-coded circle beneath each sensor. </p><p>Sensors are labeled from T1 (closest to the tip) to Ambient/T8 (the sensor on the handle, under the screw). </p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_Hnojqy"
+              ]
+            },
+            "accordion_row_GyhzQf": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Troubleshooting: red alert",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_JgWniy": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Bad things can happen when you exceed safe operating temps. The \"red alert\" is a warning that your thermometer is in the danger zone. </p><p><strong>TEMPERATURE LIMITS:</strong></p><p>&gt; 105ºC (sensors below the min line aka \"pointy end\")</p><p>&gt; 300ºC (sensors above the min line aka \"handle\")</p><p><strong>If you get a red alert:</strong></p><p>1) Immediately remove food from heat</p><p>2) Check temps on the app - see if any reading (core, surface, ambient) is near or above the temp limits</p><p>3) Check insertion: is it at least to the min line? Was any of the lower part (below the min-line) visible (not inside the food)? </p><p>If the lower sensors have exceeded safe operating temp, the electronics may have been damaged. If the thermometer is still broadcasting (the technical term is \"advertising\" temps) – <em>if you're seeing temps on your app, it's probably ok. </em></p><p><strong>Follow these steps if a lower sensor overheat happened:</strong></p><ul><li>Confirm that the thermometer is still connecting to the app (temps are showing/updating)</li><li>Look for any erratic changes or strange temp readings (that would indicate a damaged sensor)</li><li>If you can’t connect or see erratic temps, contact support </li><li>Otherwise the thermometer should continue to work normally   </li></ul><p>If the higher sensors (handle end) have exceeded safe operating temp, it's possible the high heat has damaged the main seal (inside the handle). Your thermometer will most likely still work properly, if you follow some extra precautions. </p><p><strong>Follow these precautions after a handle-overheat red alert:</strong></p><ul><li>Hand-wash only</li><li>Do not immerse/submerge the thermometer when cooking or washing</li></ul><p>The risk is that the seal is damaged, which may allow fluid into the interior, which can eventually cause the internal electronics to short-circuit. </p><p>Damage to the seal is cumulative. The first overheating incident may or may not damage it, but the more times it happens (and the longer it stays overheated), the more likely it is that water-resistance is compromised. There is also no way to inspect the seals for their integrity. </p><p>Exceeding safe operating temperatures voids the warranty. If you have more questions, please contact <a href=\"mailto:support@combustion.inc\" title=\"mailto:support@combustion.inc\">support</a>. </p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_JgWniy"
+              ]
+            },
+            "accordion_row_qhEPRV": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Troubleshooting: firmware update",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_ezvFSn": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>A few people have run into trouble during the firmware update process. Here's what to do if that happens to you.</p><p><strong>The app (or display) doesn’t detect or connect to the thermometer?</strong> </p><p>Usually that means the Predictive Thermometer isn’t fully charged. Charge it for a full 20 min (or until the light on the charger turns green). </p><p><strong>Don’t update more than one tool at a time. </strong>This can cause the app to get stuck. Turn on only one Combustion device at a time when updating.</p><p><strong>What if the firmware update gets stuck or fails to complete?</strong> First, try closing and re-opening the app. If that doesn't help, reboot/restart your mobile device (yes, that’s a pain, sorry about that). Restarting clears the Bluetooth cache. After you restart, update one device at a time as described above.</p><p>If that doesn’t solve the issue, please <a href=\"mailto:support@combustion.inc\" title=\"mailto:support@combustion.inc\">let us know. </a> </p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_ezvFSn"
+              ]
+            },
+            "accordion_row_TOKnVg": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Debug Mode",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_rTStAj": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Inside the settings menu (three vertical dots), you can find \"debug mode.\"</p><p>There's a lot of confusing stuff in there!* But if you're having trouble with one of your tools, or the network, you may find some answers there. </p><p>If you're an engineer, you'll probably love it. </p><p>*For instance, signal strength is shown as a negative number (dBm). For reference:</p><p>-50 is fantastic</p><p>-80 is OK</p><p>-90 is marginal</p><p>And so on. </p><p></p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_rTStAj"
+              ]
+            },
+            "accordion_row_wzMaYQ": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Service & support",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 12
+              },
+              "blocks": {
+                "text_JUurIJ": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>If you're confused, try the <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a> first. It's possible someone else had that same question.</p><p><strong>Other issues? </strong></p><p><a href=\"mailto:help@combustion.inc\" title=\"mailto:help@combustion.inc\"><strong>Email: help@combustion.inc</strong></a></p><p>If there's a problem or defect with your Predictive Thermometer, Predictive Timer, or the Combustion App, we're here to help.</p><p>We stand behind our stuff and will do whatever we can to make it right.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_JUurIJ"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_qGWWrb",
+            "accordion_row_UhifIO",
+            "accordion_row_CmVggi",
+            "accordion_row_aPAwxn",
+            "accordion_row_OCOofg",
+            "accordion_row_GyhzQf",
+            "accordion_row_qhEPRV",
+            "accordion_row_TOKnVg",
+            "accordion_row_wzMaYQ"
+          ]
+        }
+      },
+      "block_order": [
+        "text_R6cmmU",
+        "accordion_HiRwES"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-49e1d817-004d-4dc3-a9b8-2a41d3b594ee",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    }
+  },
+  "order": [
+    "rich_text_sxleFa",
+    "rich_text_jraQfD",
+    "rich_text_sBluTs",
+    "rich_text_OibjJc",
+    "collapsible_yrLsKM"
+  ]
+}
