@@ -1205,7 +1205,6 @@
           ]
         }
       },
-      "disabled": true,
       "custom_css": [
         ".product-information__media,.add-to-cart-icon {display: none;}",
         "variant-picker {font-size: 0.55em; line-height: 1.1;}",
