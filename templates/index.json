@@ -2867,7 +2867,7 @@
               "type": "product-card",
               "name": "t:names.product_card",
               "settings": {
-                "product": "2-predictive-thermometers-with-wifi-display",
+                "product": "predictive-thermometer-copy",
                 "product_card_gap": 4,
                 "inherit_color_scheme": false,
                 "color_scheme": "",
