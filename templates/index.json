@@ -1476,7 +1476,6 @@
             "product_card_KbVfnE": {
               "type": "product-card",
               "name": "t:names.product_card",
-              "disabled": true,
               "settings": {
                 "product": "predictive-thermometer-wifi-booster-starter-kit",
                 "product_card_gap": 4,
@@ -2866,6 +2865,7 @@
             "product_card_Mp6hbC": {
               "type": "product-card",
               "name": "t:names.product_card",
+              "disabled": true,
               "settings": {
                 "product": "predictive-thermometer-copy",
                 "product_card_gap": 4,
