@@ -227,6 +227,17 @@
                           endif
                         endfor
                       -%}
+                      {%- comment -%} Custom 7/16/26 {%- endcomment -%}
+                      {% if item.product.metafields.card.variant %}
+                      <dl class="cart-items__properties">
+                        <div class="cart-items__property">
+                          <dt>Delivery:</dt>
+                                <dd>{{ item.product.metafields.card.variant }}
+                                  </dd>
+                              </div>
+                         </dl>
+                         {% endif %}
+                         {%- comment -%} End Custom 7/16/26 {%- endcomment -%}
                       {%- if has_visible_properties -%}
                         <dl class="cart-items__properties">
                           {%- for property in item.properties -%}
