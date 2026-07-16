@@ -2867,7 +2867,7 @@
               "name": "t:names.product_card",
               "disabled": true,
               "settings": {
-                "product": "predictive-thermometer-copy",
+                "product": "predictive-thermometer",
                 "product_card_gap": 4,
                 "inherit_color_scheme": false,
                 "color_scheme": "",
