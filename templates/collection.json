@@ -453,6 +453,13 @@
           ]
         }
       },
+      "custom_css": [
+        "p.rating-count.paragraph {font-size: var(--font-size--sm);}",
+        ".button-secondary .add-to-cart-icon {display: none;}",
+        "rte-formatter p {font-weight: 500;}",
+        "h3 {font-weight: bold;}",
+        ".quick-add__button {right: 0;}"
+      ],
       "settings": {
         "layout_type": "grid",
         "product_card_size": "medium",
