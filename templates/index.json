@@ -1681,6 +1681,7 @@
                         "text_pLaJtL": {
                           "type": "text",
                           "name": "t:names.text",
+                          "disabled": true,
                           "settings": {
                             "text": "<p>{{ closest.product.metafields.card.status.value }}</p>",
                             "width": "fit-content",
@@ -2263,6 +2264,7 @@
                         "text_UGmF9h": {
                           "type": "text",
                           "name": "t:names.text",
+                          "disabled": true,
                           "settings": {
                             "text": "<p>{{ closest.product.metafields.card.status.value }}</p>",
                             "width": "fit-content",
@@ -2361,7 +2363,7 @@
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
-                            "text": "<h3>{{ closest.product.metafields.card.title_main.value }}</h3>",
+                            "text": "<p>{{ closest.product.title }}</p>",
                             "width": "fit-content",
                             "max_width": "none",
                             "alignment": "left",
@@ -2382,37 +2384,10 @@
                             "padding-inline-end": 0
                           },
                           "blocks": {}
-                        },
-                        "text_DjfjGP": {
-                          "type": "text",
-                          "name": "t:names.text",
-                          "settings": {
-                            "text": "<p>{{ closest.product.metafields.card.title_subtitle.value }}</p>",
-                            "width": "fit-content",
-                            "max_width": "none",
-                            "alignment": "left",
-                            "type_preset": "custom",
-                            "font": "var(--font-body--family)",
-                            "font_size": "0.875rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "nowrap",
-                            "color": "var(--color-foreground)",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
                         }
                       },
                       "block_order": [
-                        "text_K8NE4X",
-                        "text_DjfjGP"
+                        "text_K8NE4X"
                       ]
                     }
                   },
@@ -2845,6 +2820,7 @@
                         "text_R8Bihe": {
                           "type": "text",
                           "name": "t:names.text",
+                          "disabled": true,
                           "settings": {
                             "text": "<p>{{ closest.product.metafields.card.status.value }}</p>",
                             "width": "fit-content",
