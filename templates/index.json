@@ -1377,7 +1377,7 @@
                 "include_margins": false,
                 "title": "Social Posts",
                 "splide_autoplay": false,
-                "parameters": "breakpoints: {\n 749: {\n  arrows: false,\ngap: '0.5rem'\n }\n},\ntype: 'slide',\narrows: true,\ndrag: true,\ngap: '1rem',\npadding: '1rem',\nfixedWidth: '29rem',\npagination: true,\npaginationKeyboard: true,\nupdateOnMove: true,",
+                "parameters": "type: 'loop',\nfixedWidth: '18rem',\ngap: '1rem'",
                 "slides": "{% assign slides = metaobjects.content_group[\"hp-social\"].mixed_blocks_reviews.value %}\n{% for slide in slides %}\n<li class=\"splide__slide\">\n{% if slide.system.type == 'review' %}\n{% assign image = slide.background %}\n{% else %}\n{% assign image = slide.image %}\n{% endif %}\n{{ image | image_url: height: 1080 | image_tag }}\n{% if slide.body %}\n\t\t<div class=\"content\">\n\t\t\t{{ slide.body | metafield_tag }}\n<p class=\"name\">{{ slide.name }}</p>\n\t\t</div>\n{% if slide.name %}\n{% endif %}\n{% endif %}\n</li>\n{% endfor %}",
                 "liquid_before": "",
                 "liquid_after_inside": "",
@@ -1401,7 +1401,8 @@
         ".content p {color: white; font-weight: 500;}",
         "img {box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%); border-radius: 1rem;}",
         ".splide__slide {overflow: unset; padding: 1rem;}",
-        "div#stamped-badge-2 > * {font-family: \"ScandiaWeb\" !important;}"
+        "div#stamped-badge-2 > * {font-family: \"ScandiaWeb\" !important;}",
+        ".shopify-block {max-width: 100%;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
