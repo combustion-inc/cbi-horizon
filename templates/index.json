@@ -2074,7 +2074,7 @@
             },
             "product_card_group_9VcyAE": {
               "type": "_product-card-group",
-              "name": "t:names.group",
+              "name": "copy me",
               "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
