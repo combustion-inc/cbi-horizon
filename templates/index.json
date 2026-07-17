@@ -1575,7 +1575,6 @@
           ]
         }
       },
-      "disabled": true,
       "custom_css": [
         ".add-to-cart-icon {display: none;}",
         ".product-form-buttons button {width: 100%; padding: 0.25rem 1.2rem; min-height: 44px; height: auto; font-size: 1.2rem; line-height: 1;}"
