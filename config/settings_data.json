@@ -81,6 +81,7 @@
     "quick_add_color_scheme": "scheme-4",
     "show_second_image_on_hover": false,
     "product_card_carousel": false,
+    "empty_state_collection": "starter-kits",
     "product_corner_radius": 16,
     "card_corner_radius": 16,
     "show_variant_image": false,

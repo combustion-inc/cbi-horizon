@@ -2296,7 +2296,7 @@
       ],
       "name": "✅ Starter Kits",
       "settings": {
-        "collection": "starter-kits-copy",
+        "collection": "starter-kits",
         "layout_type": "carousel",
         "carousel_on_mobile": true,
         "max_products": 3,
