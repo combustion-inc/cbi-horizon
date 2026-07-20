@@ -49,8 +49,7 @@
         "spacer_E3E3xi"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {.spacer-block {min-height: var(--spacer-size-mobile); }}",
-        ".color-background-1 {z-index: 0;}"
+        "@media screen and (max-width: 749px) {.spacer-block {min-height: var(--spacer-size-mobile); }}"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -296,8 +295,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 30,
-        "padding-block-end": 30
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "section_WC9RyV": {
