@@ -133,9 +133,9 @@
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "paragraph",
+                    "type_preset": "custom",
                     "font": "var(--font-subheading--family)",
-                    "font_size": "1.5rem",
+                    "font_size": "1.25rem",
                     "line_height": "tight",
                     "letter_spacing": "normal",
                     "case": "none",
@@ -144,8 +144,8 @@
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 4,
-                    "padding-block-end": 2,
+                    "padding-block-start": 2,
+                    "padding-block-end": 1,
                     "padding-inline-start": 10,
                     "padding-inline-end": 10
                   },
@@ -220,7 +220,7 @@
         "group_BXYM39"
       ],
       "custom_css": [
-        ".background-image-container {padding-top: calc(var(--header-height) * 0.66 );}"
+        ".background-image-container {padding-top: calc(var(--header-height) * 0.66);}"
       ],
       "name": "hero",
       "settings": {
