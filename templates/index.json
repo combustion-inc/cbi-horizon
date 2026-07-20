@@ -219,7 +219,9 @@
       "block_order": [
         "group_BXYM39"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".custom-section-background{z-index:8;}"
+      ],
       "name": "hero",
       "settings": {
         "content_direction": "column",
