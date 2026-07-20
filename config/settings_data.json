@@ -103,6 +103,16 @@
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
+      },
+      "9917472555018217423": {
+        "type": "shopify://apps/geolocation-flow/blocks/auto-redirects/99c42a40-4a88-4244-a03e-a752a0b4e07d",
+        "disabled": false,
+        "settings": {}
+      },
+      "17521617827283034369": {
+        "type": "shopify://apps/geolocation-flow/blocks/markets-auto-redirects/99c42a40-4a88-4244-a03e-a752a0b4e07d",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
