@@ -12,20 +12,6 @@
     "section_FpGxJp": {
       "type": "section",
       "blocks": {
-        "spacer_E3E3xi": {
-          "type": "spacer",
-          "name": "t:names.spacer",
-          "settings": {
-            "size": "pixel",
-            "percent_size": 100,
-            "pixel_size": 4,
-            "custom_mobile_size": true,
-            "size_mobile": "pixel",
-            "percent_size_mobile": 100,
-            "pixel_size_mobile": 60
-          },
-          "blocks": {}
-        },
         "custom_liquid_gQDemi": {
           "type": "custom-liquid",
           "name": "styles",
@@ -41,12 +27,29 @@
             "custom_liquid": "{%- style -%}\n.splide__slide {\n  border-radius: 1rem;\n  overflow: hidden;\n}\n.splide__slide__container {\n  border-radius: .625rem;\n  overflow: hidden;\n}\nbutton.splide__pagination__page {\n    background: none;\n    border: .1rem solid var(--color-foreground);\n    width: 1rem;\n    height: 1rem;\n    opacity: 1;\n}\n.splide__pagination {\n  position: relative !important;\n  bottom: unset !important;\npadding: 1.6rem !important;\n}\n.splide__pagination__page {\n    vertical-align: middle;\n}\n.splide__pagination li {\n  display: flex;\n  align-items: center !important;\n  justify-content: center !important;\n}\nbutton.splide__pagination__page.is-active {\n    background: var(--color, var(--color-foreground)); !important;\n}\n.splide__arrows .splide__arrow {\n    background: #ffcf4c;\n    opacity: 1;\n}\na:not([href]):has(.splide) {\n    cursor: default;\n}\n{%- endstyle -%}"
           },
           "blocks": {}
+        },
+        "spacer_E3E3xi": {
+          "type": "spacer",
+          "name": "t:names.spacer",
+          "settings": {
+            "size": "pixel",
+            "percent_size": 100,
+            "pixel_size": 4,
+            "custom_mobile_size": true,
+            "size_mobile": "pixel",
+            "percent_size_mobile": 100,
+            "pixel_size_mobile": 60
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "spacer_E3E3xi",
         "custom_liquid_gQDemi",
-        "custom_liquid_NHE7cf"
+        "custom_liquid_NHE7cf",
+        "spacer_E3E3xi"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.spacer-block {min-height: var(--spacer-size-mobile);}}"
       ],
       "name": "t:names.custom_section",
       "settings": {
