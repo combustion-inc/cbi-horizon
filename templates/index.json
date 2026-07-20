@@ -49,7 +49,8 @@
         "spacer_E3E3xi"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {.spacer-block {min-height: var(--spacer-size-mobile);}}"
+        "@media screen and (max-width: 749px) {.spacer-block {min-height: var(--spacer-size-mobile); }}",
+        ".color-background-1 {z-index: 0;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -270,7 +271,7 @@
       ],
       "custom_css": [
         ".background-image-container {padding-top: calc(var(--header-height) * 0.66);}",
-        "@media screen and (max-width: 749px) {.color-background-1 {--section-min-height: 60svh !important; }}"
+        "@media screen and (max-width: 749px) {.color-background-1 {--section-min-height: 55svh !important; }.background-image-fit img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); object-position: bottom; max-width:unset; object-fit:cover;} .background-image-container {overflow: visible; }}"
       ],
       "name": "hero",
       "settings": {
