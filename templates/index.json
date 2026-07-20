@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "name": "styles",
       "settings": {
-        "custom_liquid": "{% style %}\n#header-group, #header-component {\n    background-color: #ffcf4c;\n}\n\n:root {\n--heading-letter-spacing: 0;\n}\n.collection__title p {\n  font-size: min(max(18px, calc(1.125rem + ((1vw - 4px) * 0.8475))), 23px);\nline-height: normal;\n}\n.collection__title h2 {\nfont-size: min(max(24px, calc(1.5rem + ((1vw - 4px) * 2.2857))), 32px);\n  align-self: flex-start;\n}\n@media screen and (min-width: 990px) {\n  .collection .slider--desktop.grid--3-col-desktop .grid__item {\n    width: min(\n      350px,\n      calc((100% - var(--desktop-margin-left-first-item)) / 3 - 20px * 4)\n    );\n  }\n}\n\n.multicolumn__title {\n  justify-content: center;\n}\n\n\n.quick-add__button .add-to-cart-text__content > span span {\n  opacity: 1 !important;\n  translate: 0 0;\n  filter: blur(0);\n}\n#header-group, #header-component {\n    background-color: #ffcf4c;\n}\n{% endstyle %}",
+        "custom_liquid": "{% style %}\n\n:root {\n--heading-letter-spacing: 0;\n}\n.collection__title p {\n  font-size: min(max(18px, calc(1.125rem + ((1vw - 4px) * 0.8475))), 23px);\nline-height: normal;\n}\n.collection__title h2 {\nfont-size: min(max(24px, calc(1.5rem + ((1vw - 4px) * 2.2857))), 32px);\n  align-self: flex-start;\n}\n@media screen and (min-width: 990px) {\n  .collection .slider--desktop.grid--3-col-desktop .grid__item {\n    width: min(\n      350px,\n      calc((100% - var(--desktop-margin-left-first-item)) / 3 - 20px * 4)\n    );\n  }\n}\n\n.multicolumn__title {\n  justify-content: center;\n}\n\n\n.quick-add__button .add-to-cart-text__content > span span {\n  opacity: 1 !important;\n  translate: 0 0;\n  filter: blur(0);\n}\n\n{% endstyle %}",
         "color_scheme": "background-1",
         "section_width": "page-width",
         "padding-block-start": 0,
@@ -219,7 +219,9 @@
       "block_order": [
         "group_BXYM39"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".background-image-container {padding-top: calc(var(--header-height) * 0.66 );}"
+      ],
       "name": "hero",
       "settings": {
         "content_direction": "column",
