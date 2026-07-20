@@ -1332,7 +1332,7 @@
                   "settings": {
                     "content_direction": "row",
                     "vertical_on_mobile": true,
-                    "horizontal_alignment": "center",
+                    "horizontal_alignment": "flex-start",
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
@@ -1404,9 +1404,9 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "product_title_UahwbD": {
+                        "product_title_NdU69X": {
                           "type": "product-title",
-                          "name": "t:names.product_title",
+                          "name": "t:names.title",
                           "settings": {
                             "width": "fit-content",
                             "max_width": "normal",
@@ -1422,7 +1422,7 @@
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
-                            "padding-block-start": 4,
+                            "padding-block-start": 0,
                             "padding-block-end": 0,
                             "padding-inline-start": 0,
                             "padding-inline-end": 0
@@ -1437,7 +1437,7 @@
                             "show_installments": false,
                             "show_tax_info": false,
                             "type_preset": "h6",
-                            "width": "fit-content",
+                            "width": "100%",
                             "alignment": "left",
                             "font": "var(--font-body--family)",
                             "font_size": "1rem",
@@ -1454,7 +1454,7 @@
                         }
                       },
                       "block_order": [
-                        "product_title_UahwbD",
+                        "product_title_NdU69X",
                         "price_tn4dLg"
                       ]
                     },
@@ -1472,7 +1472,7 @@
                         "gap": 12,
                         "width": "fit-content",
                         "custom_width": 100,
-                        "width_mobile": "fill",
+                        "width_mobile": "fit-content",
                         "custom_width_mobile": 100,
                         "height": "fit",
                         "custom_height": 100,
@@ -1502,8 +1502,8 @@
                           "name": "t:names.product_buy_buttons",
                           "settings": {
                             "stacking": false,
-                            "show_pickup_availability": true,
-                            "gift_card_form": true,
+                            "show_pickup_availability": false,
+                            "gift_card_form": false,
                             "padding-block-start": 0,
                             "padding-block-end": 0,
                             "padding-inline-start": 0,
@@ -1577,7 +1577,8 @@
       },
       "custom_css": [
         ".add-to-cart-icon {display: none;}",
-        ".product-form-buttons button {width: 100%; padding: 0.25rem 1.2rem; min-height: 44px; height: auto; font-size: 1.2rem; line-height: 1;}"
+        ".product-form-buttons button {width: 100%; padding: 0.25rem 1.2rem; min-height: 44px; height: auto; font-size: 1.2rem; line-height: 1;}",
+        "p[role=\"heading\"] {text-align: left;}"
       ],
       "name": "t:names.products_grid",
       "settings": {
