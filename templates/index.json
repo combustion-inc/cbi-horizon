@@ -268,7 +268,9 @@
       "block_order": [
         "group_BXYM39"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.custom-background-1 {--section-min-height: clamp(500px,60svh,65svh);}}"
+      ],
       "name": "hero",
       "settings": {
         "content_direction": "column",
