@@ -18,7 +18,7 @@
           "settings": {
             "size": "pixel",
             "percent_size": 100,
-            "pixel_size": 0,
+            "pixel_size": 4,
             "custom_mobile_size": true,
             "size_mobile": "pixel",
             "percent_size_mobile": 100,
