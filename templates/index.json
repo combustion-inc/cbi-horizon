@@ -269,7 +269,7 @@
         "group_BXYM39"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {.custom-background-1 {--section-min-height: max(500px, 65svh) !important; }}"
+        "@media screen and (max-width: 989px) {.custom-background-1 {--section-min-height: max(500px, 65svh) !important; }}"
       ],
       "name": "hero",
       "settings": {
