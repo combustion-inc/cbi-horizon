@@ -12,6 +12,20 @@
     "section_FpGxJp": {
       "type": "section",
       "blocks": {
+        "spacer_E3E3xi": {
+          "type": "spacer",
+          "name": "t:names.spacer",
+          "settings": {
+            "size": "pixel",
+            "percent_size": 100,
+            "pixel_size": 0,
+            "custom_mobile_size": true,
+            "size_mobile": "pixel",
+            "percent_size_mobile": 100,
+            "pixel_size_mobile": 60
+          },
+          "blocks": {}
+        },
         "custom_liquid_gQDemi": {
           "type": "custom-liquid",
           "name": "styles",
@@ -30,6 +44,7 @@
         }
       },
       "block_order": [
+        "spacer_E3E3xi",
         "custom_liquid_gQDemi",
         "custom_liquid_NHE7cf"
       ],
