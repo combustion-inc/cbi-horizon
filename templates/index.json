@@ -60,7 +60,7 @@
             "width": "custom",
             "custom_width": 40,
             "width_mobile": "custom",
-            "custom_width_mobile": 60,
+            "custom_width_mobile": 65,
             "height": "custom",
             "custom_height": 30,
             "inherit_color_scheme": true,
@@ -220,7 +220,7 @@
         "group_BXYM39"
       ],
       "custom_css": [
-        ".custom-section-background{z-index:8;}"
+        ".custom-section-background {z-index: 8;}"
       ],
       "name": "hero",
       "settings": {
