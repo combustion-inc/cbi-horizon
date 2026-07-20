@@ -221,7 +221,7 @@
       ],
       "custom_css": [
         ".background-image-container {padding-top: calc(var(--header-height) * 0.66);}",
-        "@media screen and (max-width: 749px) {.color-background-1 {--section-min-height: 60svh !important; } .background-image-container {margin-top: var(--header-height); }}"
+        "@media screen and (max-width: 749px) {.color-background-1 {--section-min-height: 60svh !important; margin-top: var(--header-height); }}"
       ],
       "name": "hero",
       "settings": {
