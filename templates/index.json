@@ -271,7 +271,7 @@
       ],
       "custom_css": [
         ".background-image-container {padding-top: calc(var(--header-height) * 0.66);}",
-        "@media screen and (max-width: 749px) {.color-background-1 {--section-min-height: 55svh !important; }.background-image-fit img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); object-position: bottom; max-width:unset; object-fit:cover;} .background-image-container {overflow: visible; }}"
+        "@media screen and (max-width: 749px) {.color-background-1 {--section-min-height: 55svh !important; } .background-image-fit img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); object-position: bottom; max-width: unset; object-fit: cover; overflow: visible; } .background-image-container {overflow: visible; }}"
       ],
       "name": "hero",
       "settings": {
