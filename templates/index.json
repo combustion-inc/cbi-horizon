@@ -221,7 +221,7 @@
       ],
       "custom_css": [
         ".background-image-container {padding-top: calc(var(--header-height) * 0.66);}",
-        "@media screen and (max-width: 749px) {.color-background-1 {--section-min-height: 60svh !important; }}"
+        "@media screen and (max-width: 749px) {.color-background-1 {--section-min-height: 60svh !important; } .background-image-container {padding-top: calc(2 * var(--header-height)); }}"
       ],
       "name": "hero",
       "settings": {
@@ -249,8 +249,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
+        "padding-block-start": 30,
+        "padding-block-end": 30
       }
     },
     "section_WC9RyV": {
