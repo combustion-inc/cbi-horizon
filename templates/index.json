@@ -60,7 +60,7 @@
             "width": "custom",
             "custom_width": 40,
             "width_mobile": "custom",
-            "custom_width_mobile": 70,
+            "custom_width_mobile": 75,
             "height": "custom",
             "custom_height": 30,
             "inherit_color_scheme": true,
