@@ -48,8 +48,7 @@
         }
       },
       "custom_css": [
-        "#header-component .header__drawer {display: block;}",
-        "#header-component header-menu.header-menu {display: none;}"
+        "@media screen and (min-width: 750px) {#header-component .header__drawer {display: block;}#header-component header-menu.header-menu {display: none;}}"
       ],
       "settings": {
         "logo_position": "left",
