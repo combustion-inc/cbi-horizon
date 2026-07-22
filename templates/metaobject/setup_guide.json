@@ -163,6 +163,21 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "lite_vimeo_combustion_6FGpgN": {
+                  "type": "lite-vimeo-combustion",
+                  "name": "CBI lite-vimeo",
+                  "settings": {
+                    "videoid": "{{ closest.metaobject.setup_guide.vimeo_id.value }}",
+                    "videotitle": "",
+                    "class": "",
+                    "aspect": "vertical",
+                    "autoload": true,
+                    "autoplay": false,
+                    "muted": true,
+                    "loop": false
+                  },
+                  "blocks": {}
+                },
                 "custom_liquid_IYfXTH": {
                   "type": "custom-liquid",
                   "name": "t:names.custom_liquid",
@@ -173,6 +188,7 @@
                 }
               },
               "block_order": [
+                "lite_vimeo_combustion_6FGpgN",
                 "custom_liquid_IYfXTH"
               ]
             }
