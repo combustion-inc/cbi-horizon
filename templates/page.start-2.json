@@ -592,8 +592,8 @@
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p><a href=\"https://apps.apple.com/us/app/combustion-inc/id1658858290\" target=\"_blank\" title=\"https://apps.apple.com/us/app/combustion-inc/id1658858290\">(iOS)</a> <a href=\"https://play.google.com/store/apps/details?id=inc.combustion.app\" target=\"_blank\" title=\"https://play.google.com/store/apps/details?id=inc.combustion.app\">(Android)</a></p><p>The app is available for iOS and Android devices (phones and tablets). </p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
+                    "width": "100%",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -632,8 +632,8 @@
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p>Please charge your thermometer or other Combustion tools fully before applying a firmware update.</p><p>How long for a full charge?</p><ul><li>Thermometer: 25 min</li><li>Display: 90 min</li><li>WiFi Display: 90 min</li><li>Booster: 60 min</li><li>WiFi Booster: 60 min</li><li>Giant Grill Gauge: 90 min</li></ul><p>A thermometer is fully charged when the light on the (powered/plugged in) cradle or Booster turns green. </p><p>If the Booster is unplugged, press the button on the Booster - if it turns green with the thermometer inside, the thermometer is charged. </p><p></p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
+                    "width": "100%",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -735,8 +735,8 @@
                       "name": "t:names.text",
                       "settings": {
                         "text": "<p><em>IMPORTANT: Enable Bluetooth when installing the app.</em><br/><br/><strong>To update your firmware, tap settings in the app, then select \"update devices.\"</strong><br/><br/>You'll need to remove your thermometer from its charger/Booster - this turns it on.</p><p>Update your Combustion Tools one at a time! It’s best to power off all the tools you are not currently updating.<br/><br/><strong>Then: choose the tool you want to update and tap the update button.</strong><br/><br/>After updating firmware on the Predictive Thermometer, please recharge it (updating uses a lot of battery).<br/></p>",
-                        "width": "fit-content",
-                        "max_width": "normal",
+                        "width": "100%",
+                        "max_width": "none",
                         "alignment": "left",
                         "type_preset": "rte",
                         "font": "var(--font-body--family)",
@@ -782,9 +782,9 @@
                   "settings": {
                     "text": "<p>Updating firmware is exhausting! Be sure to recharge your tools fully before you start cooking. </p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -912,9 +912,9 @@
                   "settings": {
                     "text": "<ol><li>Install/update the Combustion app on one (or more) mobile devices </li><li>Follow in-app instructions for linking Combustion Predictive Thermometers (CPTs) to your account</li></ol><ul><li>Look for the “link this device” button</li><li>Follow the instructions to link</li><li>Link all of your Predictive Thermometers to your device</li></ul>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -952,9 +952,9 @@
                   "settings": {
                     "text": "<ol><li>In the app, tap settings</li><li>Tap \"Combustion Account\" </li><li>You can sign in with email (+password), Google ID, or Apple ID* (*on Apple/iOS devices only)</li><li>If this is your first time using MeatNet Cloud, you will receive a verification link in your inbox. Click/tap through and get verified! </li><li>Once you’ve set up your Cloud account, the list of “linked” Predictive Thermometers gets synched to any mobile device using that account</li></ol><p></p><p><em>BTW, this is a new Combustion account - you may have another one that is only used for shopping purposes. </em></p><p><em>That account does not share credentials (or anything) with MeatNet. It is not managed by Combustion Inc -- it's part of Shopify (the online shopping platform we use). </em></p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2577,7 +2577,7 @@
           "settings": {
             "icon": "plus",
             "dividers": true,
-            "type_preset": "h5",
+            "type_preset": "h4",
             "inherit_color_scheme": true,
             "color_scheme": "inverse",
             "border": "none",
@@ -2605,9 +2605,9 @@
                   "settings": {
                     "text": "<p>The Combustion App controls our one of a kind onboard food safety tracker (SafeCook™). </p><p>SafeCook runs <strong>in parallel </strong>and <strong>completely independent</strong> from the “ready-in” target temp prediction.</p><p>Setting your target temp higher or lower DOES NOT affect SafeCook<strong>.</strong> </p><p>You can set your target temp (“predict”) before or after setting SafeCook.</p><p><strong>How to use SafeCook:</strong></p><ul><li>Turn on your Predictive Thermometer </li><li>Open the Combustion App (and be sure Bluetooth is enabled)</li><li>Tap “Predict” and set your target temp for perfect doneness</li><li>Where it says “Safeguard this cook with SafeCook” tap “Add” </li><li>Toggle SafeCook on (the toggle will turn red)</li><li>Choose your meat type (the default is “Poultry”)</li><li>Choose the form that best describes your prep (for instance “intact cut” for a steak)</li><li>Tap “apply”</li><li>This activates SafeCook</li><li>When your food is safe*, your app will display a green SafeCook badge</li></ul><p><em>*According to USDA/FDA/FSIS standards combining time and temperature. </em></p><p><em>The complete documentation is nearly 800 pages.</em></p><p>Read the in-depth instructions to really understand how <a href=\"https://combustion.inc/blogs/news/cook-food-that-is-safe-and-still-delicious-using-safecook-from-combustion-inc\" target=\"_blank\"><em>SafeCook works!</em></a></p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "paragraph",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2645,9 +2645,9 @@
                   "settings": {
                     "text": "<p><strong>MeatNet™ is an ad-hoc mesh network.</strong></p><p>It’s a network that forms itself and doesn’t require any intervention - you don’t have to have an access point… or router. </p><p><strong>MeatNet™ Cloud connects all this to the internet, so you can live-stream your data to wherever you are. </strong></p><p>Combustion tools (and the app) communicate directly with one another (peer-to-peer). </p><p><strong>Because of the vital data and calculations are done inside the thermometer (no kidding!),</strong> <strong>breaking a connection does not interrupt an ongoing cook or reset anything.</strong></p><p>With MeatNet, if your phone (for instance) has to reboot mid-cook, no problem. Everything will pick up–live and in real-time–when you get back.  </p><p><strong>More? </strong></p><ul><li><strong>All data originates inside the Predictive Thermometer</strong></li><li>The thermometer broadcasts this openly over Bluetooth  </li><li>Some products (e.g. Combustion Display and Combustion Booster) include a “repeater” function or repeater AND WiFi </li><li>A repeater rebroadcasts the exact information it got from the Predictive Thermometer </li><li>Apps within range of any MeatNet device display the data </li></ul><p></p><p>If you went through the setup steps (higher on this page), your personal MeatNet and cloud connection are ready when you are.</p><p></p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "paragraph",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2685,9 +2685,9 @@
                   "settings": {
                     "text": "<p>To share signals correctly, all of the Combustion Tools involved must be linked.</p><p><strong>Start by updating the firmware on all devices*</strong> (if you haven't yet).</p><p>Then do this:</p><ul><li>Put Thermometers in Boosters (this turns the Booster radio off) and turn off Display (hold start/stop)</li><li>Put all devices within a couple inches of each other (\"cuddle pile\")</li><li>Remove Thermometers from Boosters and turn on Display, and set Thermometers in the pile of devices</li><li>Let all devices sit for 1-2 minutes</li><li>That's it! They're all linked together and will relay signals from all linked Thermometers</li><li>Each Booster can be linked to up to four Thermometers</li></ul><p><em>⚠️ Yes, this works with multiple Boosters, with or without a Display.</em></p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "paragraph",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2725,9 +2725,9 @@
                   "settings": {
                     "text": "<p>Graphs will only appear when a thermometer is on and connected to the app.</p><ul><li>If the graph is not visible, tap one of the temperatures. Voila!</li><li>To hide the graph, tap the settings icon (three vertical dots) and select \"hide graph.\"</li><li>To show/hide the lines from any sensor, tap the color-coded circle below the temp.</li></ul><p>There are more advanced settings within the app itself. Play around!</p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "paragraph",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2765,9 +2765,9 @@
                   "settings": {
                     "text": "<p>View (and graph) temps from all 8 sensors using <strong>Advanced Mode.</strong></p><ul><li>You'll find advanced mode in the settings menu.</li><li>You can toggle each sensor's display on/off by tapping the color-coded circle beneath each sensor.</li><li>Sensors are labeled from T1 (closest to the tip) to Ambient/T8 (the handle sensor).</li></ul>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "paragraph",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2805,9 +2805,9 @@
                   "settings": {
                     "text": "<p>Inside the settings menu (three vertical dots), you can find <strong>debug mode</strong>. There's a lot of confusing stuff in there!* </p><p>But if you're having trouble with one of your tools, or the network, you may find some answers.</p><p><em>*If you're an engineer, you'll probably love it. </em></p><p>If you're curious - signal strength is shown as a <strong>negative number </strong>(dBm). For reference: </p><p>-50 is fantastic</p><p>-80 is OK</p><p>-90 is marginal</p><p>And so on. </p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "paragraph",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2909,7 +2909,7 @@
           "settings": {
             "icon": "plus",
             "dividers": true,
-            "type_preset": "h5",
+            "type_preset": "h4",
             "inherit_color_scheme": true,
             "color_scheme": "scheme-3fb85eba-bc05-4b0b-a44f-49e171cd8dbe",
             "border": "none",
@@ -2937,9 +2937,9 @@
                   "settings": {
                     "text": "<p>Combustion tools can be charged using standard (5v) USB ports and most USB hub-type products. </p><p>If in doubt, a phone charger is a safe bet. <br/><br/>Do not use a “quick charge” port or any other USB port that uses nonstandard voltage. It’s complex, but essentially these types of chargers are relying on the device to tell them how much voltage/amperage to deliver. <br/><br/>The circuitry in “smart chargers” should default to the 5v standard but sometimes they don’t. The industry is a bit unregulated, at least in the US. <br/><br/>Although most quick-charge ports and “smart” charging stations are safe for Predictive Thermometers, we cannot guarantee that. In other words, it’s probably fine (and I’ve done it myself) but it’s at your own risk. <br/><br/>A special note: Thermoworks has a VERY nonstandard charger for one of its products that delivers 12v of power. </p><p><strong>Do not use that</strong> to charge any of our tools, or anything else – other than the thing it comes with. It will destroy anything else you plug into it, with a vengeance. </p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2977,9 +2977,9 @@
                   "settings": {
                     "text": "<p>First off, you should never microwave metal. It will create arcs and potentially destroy your microwave, voiding the warranty on anything and everyone around.  <br/><br/>Secondly, <strong>NEVER EVER MICROWAVE THE PREDICTIVE THERMOMETER. </strong></p><p>Not only is it largely metal, it’s antenna is specifically tuned to the wavelength of a microwave (Bluetooth is the same length). </p><p>As a consequence, it’s even more dangerous than microwaving a spoon (for instance). <br/><br/>One word: plasma.<br/><br/>A microwave (or trivection oven) also has a fine mesh screen that stops the microwaves from cooking things in the vicinity, like butter keepers, faces, parakeets, etc. This screen is a highly effective Bluetooth signal blocker. <br/><br/>Even if you’re not using the microwave function, it will be extremely difficult to get a good signal out of an oven that has microwave capability. </p><p>The only exit in that scenario is the oven’s vent holes (typically behind the range) - you may be able to get a signal out if you place a Booster or Display there. </p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -3017,9 +3017,9 @@
                   "settings": {
                     "text": "<p>One non-obvious thing to watch out for is quenching. Don’t do it!<br/><br/>Although the Predictive Thermometer (including the handle) is very durable, it’s not quite indestructible. <br/><br/>Quenching is putting a hot thermometer directly into cold water. The shock of the temperature change can cause the handle to crack or shatter. </p><p>The same thing will happen with a pyrex dish or ceramic bakeware. Don’t quench those things either. <br/><br/>Since you asked, a metal pan can also become disfigured or warped by quenching (it’ll show up as a hump in the middle; not good!). </p><p>In general, there’s no kitchen item that enjoys quenching, although some items are tolerant. <br/><br/>It’s fine to soak the thermometer to remove stuck-on food, but always wait until it has cooled (ideally to room temp) before doing so. <br/><br/>Putting it in the fridge directly after cooking is not risky. The temp transfer is magnitudes slower. </p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "paragraph",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -3057,9 +3057,9 @@
                   "settings": {
                     "text": "<p>Extreme temperatures can damage the internal electronics and sensors. </p><p>Keep the lower sensors (below the minimum insertion line) under the safe limit of 220ºF (105ºC). This is easily done if all lower sensors are inside the food - the water in the food keeps the temperature at or below boiling. </p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "paragraph",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -3081,349 +3081,13 @@
               "block_order": [
                 "text_aTOlZC"
               ]
-            },
-            "accordion_row_tUyGHe": {
-              "type": "_accordion-row",
-              "disabled": true,
-              "settings": {
-                "heading": "Love sous vide? The 2nd Gen CPT was made for you.",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 12
-              },
-              "blocks": {
-                "text_ONWQkZ": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>The 2nd Gen Predictive Thermometer is hermetically sealed and 100% recommended for all sous vide use, including commercial vacuum sealers. </p><p>Happy cooking, sous viders!</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_ONWQkZ"
-              ]
-            },
-            "accordion_row_lblwdr": {
-              "type": "_accordion-row",
-              "disabled": true,
-              "settings": {
-                "heading": "Always insert to at least the min line",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 12
-              },
-              "blocks": {
-                "text_POKNgD": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Halfway down the probe...</p><p></p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_POKNgD"
-              ]
-            },
-            "accordion_row_CMVuBz": {
-              "type": "_accordion-row",
-              "disabled": true,
-              "settings": {
-                "heading": "Basic troubleshooting?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 12
-              },
-              "blocks": {
-                "text_jQepNs": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<ul><li>Not seeing surface temp?</li><li>Not seeing graph on the app?</li><li>Prediction not appearing?</li><li>Not connecting?</li></ul><p><br/>You will find quick answers to most questions on the <a href=\"/pages/faq\" target=\"_blank\" title=\"FAQ\">Help Center/FAQ.</a> <br/><br/>If you can’t find the answers there, we’re happy to help, of course! </p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_jQepNs"
-              ]
-            },
-            "accordion_row_YnhgNg": {
-              "type": "_accordion-row",
-              "disabled": true,
-              "settings": {
-                "heading": "Display flashing red + screeching?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 12
-              },
-              "blocks": {
-                "text_UoMEXx": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Overheated! Remove from heat immediately! </p><p>Lower sensors (below the min line) must be kept below 220ºF (105C). Upper sensors must be kept below 600ºF (315ºC). </p><p>Using the thermometer above these temps may damage your thermometer and may void the warranty.  </p><p>There’s a bit more detail about that (and what to do if it happens) in the basic troubleshooting guide. </p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_UoMEXx"
-              ]
-            },
-            "accordion_row_hQoXML": {
-              "type": "_accordion-row",
-              "disabled": true,
-              "settings": {
-                "heading": "Poor range (smoker, grill, or sous vide)",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 12
-              },
-              "blocks": {
-                "text_afTNHZ": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Move the first range extender (Booster or Display) as close as possible to the cooking apparatus.</p><p>If possible, establish a clear line-of-sight between MeatNet™ tools. </p><p>Common radio obstructions include metal, water, brick, reflective glass, and human beings. </p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_afTNHZ"
-              ]
-            },
-            "accordion_row_WKfSCi": {
-              "type": "_accordion-row",
-              "disabled": true,
-              "settings": {
-                "heading": "Booster misbehaving",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 12
-              },
-              "blocks": {
-                "text_TyFVyB": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p><strong>Not boosting?</strong> Remove CPT from Booster to activate range-extending mode.</p><p><strong>Not blinking?</strong> Press the button (light) to wake.</p><p><strong>Booster not communicating with Display?</strong> Follow the directions in \"Booster set-up\" to link multiple tools:</p><p><em>Start by updating the firmware on all devices* (if you haven't yet). </em></p><p>Then do this:</p><ol><li><strong>Put probes in Boosters (this turns Booster radio off) and turn off Display (hold start/stop)</strong></li><li><strong>Put all devices within a couple inches of each other</strong></li><li><strong>Remove probes from Boosters and turn on Display, and set probes in the pile of devices</strong></li><li><strong>Let all devices sit for 1-2 minutes</strong></li></ol><p>After that, they're all linked together and will relay signals from any linked thermometers. </p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_TyFVyB"
-              ]
-            },
-            "accordion_row_rMthNN": {
-              "type": "_accordion-row",
-              "disabled": true,
-              "settings": {
-                "heading": "App not connecting/intermittent disconnects",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 12
-              },
-              "blocks": {
-                "text_GbvwRN": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Restart phone to clear Bluetooth cache (yeah, it’s annoying).</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_GbvwRN"
-              ]
-            },
-            "accordion_row_XyWxuy": {
-              "type": "_accordion-row",
-              "disabled": true,
-              "settings": {
-                "heading": "How to insert the thermometer?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 12
-              },
-              "blocks": {
-                "text_RWjdQM": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Because of the TrueCore™ feature on the CPT, it’s very difficult to miss the thermal center (core temp) of your food.<br/><br/>Just be sure that all 4 lower sensors are inside the food, with no exposed metal below the min line. <br/><br/><strong>Large food:</strong> (roasts, etc), it’s ideal to insert the thermometer vertically in the middle, flagpole-style, aiming for the thickest part of the food. <em>If your oven (or cooking appliance) does not have room for that, it’s fine to insert it diagonally from the 10 o’clock position. </em><br/><br/>It’s fine if the tip sensor seems to go past the center, in fact that’s optimal. If the food is large enough that the tip does not reach the center-center, then it’s also massive enough that the internal temp will be very even throughout. Big food=big core.  <br/><br/><strong>Whole chicken/turkey:</strong> insert at an angle, from the top, following the breast meat, until you hit the wing joint. Watch the <a href=\"https://combustion.inc/blogs/guides/simple-roast-chicken\" target=\"_blank\" title=\"https://combustion.inc/blogs/guides/simple-roast-chicken\">simple chicken video</a>) for a demonstration.<br/><br/><strong>Steak/filets:</strong> Insert against the grain, the same direction as you will eventually slice your meat. By keeping the thermometer parallel to your slices, you won’t see a hole in the food when slicing! For small filets you’ll definitely need to insert the tip past the optical center. No problem, the CPT will still find the lowest internal temp with TrueCore™.<br/><br/><strong>Thin food:</strong> with very thin foods, like fileted fish or hangar steaks, make sure that all 4 lower sensors are inside the food and there’s no metal visible below the min line. It can be tricky to place a thermometer with these foods; work the thermometer in from thin to thick so the pointy end ends up in a relatively thicker part. <br/><br/><strong>Bread:</strong> with strong breads such as a rustic sourdough, insert toward the middle from the 10 o’clock position. </p><p>With less structured breads or cakes, you may need to use a pot clip to keep the thermometer steady.</p><p>Otherwise, insert it after the bread has firmed up (about 70% through the bake). </p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_RWjdQM"
-              ]
             }
           },
           "block_order": [
             "accordion_row_rfsfSo",
             "accordion_row_PURIdp",
             "accordion_row_RZdBUJ",
-            "accordion_row_LXPyZa",
-            "accordion_row_tUyGHe",
-            "accordion_row_lblwdr",
-            "accordion_row_CMVuBz",
-            "accordion_row_YnhgNg",
-            "accordion_row_hQoXML",
-            "accordion_row_WKfSCi",
-            "accordion_row_rMthNN",
-            "accordion_row_XyWxuy"
+            "accordion_row_LXPyZa"
           ]
         }
       },
@@ -3495,7 +3159,7 @@
           "settings": {
             "icon": "plus",
             "dividers": true,
-            "type_preset": "h5",
+            "type_preset": "h4",
             "inherit_color_scheme": true,
             "color_scheme": "background-1",
             "border": "none",
@@ -3523,9 +3187,9 @@
                   "settings": {
                     "text": "<p>The Combustion App tells you when your food is safe to eat, applying the food-safety standards of the US government (USDA/FDA).</p><p><strong>TLDR: with the Predictive Thermometer, you can cook safely without overcooking your food.</strong></p><p>The <strong>SafeCook</strong> feature is very easy to use and the Predictive Thermometer does all the math.</p><p>With it, you never have to overcook anything “just to be sure.”</p><p>Select your protein + preparation.</p><p><strong>SafeCook</strong> tracks combined time-and-temps as your food heats up. It's a rolling count of bacterial destruction. </p><p>Using time + temp is just as effective as reaching a very high temp (and far tastier!). </p><p><strong>Cooking at 150ºF for 4.2 min is just as effective as cooking to 165ºF.</strong></p><p>Either method eliminates bacteria by the millions (99.99999% is the USDA-safe level for chicken).</p><p><a href=\"/blogs/news/cook-food-that-is-safe-and-still-delicious-using-safecook-from-combustion-inc\" target=\"_blank\" title=\"How Combustion’s SafeCook™ determines when your food is safe\"><span style=\"text-decoration:underline\">More details here </span></a></p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -3563,9 +3227,9 @@
                   "settings": {
                     "text": "<p><strong>We don't recommend resting for most things</strong>, but there are some times when it's very useful. </p><p>If you plan to rest your food, set the target temp lower to compensate and leave the thermometer in. That way you'll know exactly when to slice and quickly cool your food if it's in danger of going too high. </p><p>Carryover effects can vary greatly (depending on temperature differential, water content, mass, and surface area), but they are repeatable with the same cut and same cooking plan.</p><p>Keep track! You might not nail it on the first try, but with the Predictive Thermometer you can tune it in. </p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -3603,9 +3267,9 @@
                   "settings": {
                     "text": "<p>It's really up to you! It's a matter of taste. </p><p>Listing preferred cooking temps would require a huge page of its own (or maybe a whole site), but here are some of the temps we personally use: </p><ul><li>Salmon: 120ºF/49ºC</li><li>Steak (med rare): 128ºF/54ºC</li><li>Steak - ribeye: 137ºF/58ºC</li><li>Pork chop (med rare): 140ºF/60ºC</li><li>Hamburger (med): 140ºF/60ºC</li><li>Chicken (breast): 150ºF/65ºC (for 3 minutes+)</li><li>Bread: 207ºF/97ºC</li></ul><p></p><p>Cook below USDA food safety  standards (just like every pro chef does!) at your own risk. </p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -3643,9 +3307,9 @@
                   "settings": {
                     "text": "<p>Go to the <a href=\"/pages/start\" target=\"_blank\" title=\"Start Cooking\">1st Gen start page</a> for video walkthroughs that cover the basics of how each tool works (does not include WiFi). </p><p><strong>Want to see some examples of </strong><a href=\"/blogs/guides\" target=\"_blank\" title=\"Guides\"><strong>how to cook with the Predictive Thermometer? </strong></a>Great! Here you'll find the basics:</p><ul><li>Simple and juicy Roast Chicken</li><li>Reverse-seared Steak</li><li>Crispy pan-roasted Salmon</li></ul><p>Plus these holiday favorites:</p><ul><li>Beef Wellington</li><li>Roast Turkey</li><li>Rib Roast</li></ul><p>For details on setting up MeatNet™ with multiple repeaters (Boosters + Displays of any generation), check the <a href=\"/pages/booster\" target=\"_blank\" title=\"Booster\">Booster Guide.</a></p><p>To understand the advanced features on the Combustion App, go to the <a href=\"/pages/apps\" target=\"_blank\" title=\"Apps\">App Guide. </a></p><p></p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -3683,9 +3347,9 @@
                   "settings": {
                     "text": "<p>Want a more detail on a specific product? Go to one of these expanded product setup pages. </p><ul><li><a href=\"https://combustion.inc/pages/setup-guide/predictive-thermometer\" target=\"_blank\" title=\"https://combustion.inc/pages/setup-guide/predictive-thermometer\">Predictive Thermometer</a></li><li><a href=\"https://combustion.inc/pages/setup-guide/display\" target=\"_blank\" title=\"https://combustion.inc/pages/setup-guide/display\">Display</a></li><li><a href=\"https://combustion.inc/pages/setup-guide/booster\" target=\"_blank\" title=\"https://combustion.inc/pages/setup-guide/booster\">Booster</a></li><li><a href=\"https://combustion.inc/pages/setup-guide/combustion-inc-app\" target=\"_blank\" title=\"https://combustion.inc/pages/setup-guide/combustion-inc-app\">Combustion App</a></li><li><a href=\"https://combustion.inc/pages/setup-guide/giant-grill-gauge\" target=\"_blank\" title=\"https://combustion.inc/pages/setup-guide/giant-grill-gauge\">Giant Grill Gauge</a></li></ul><p></p><p>Setup is exactly the same between 1st and 2nd gen. They use the same software! </p><p>The big differences are in the hardware, mostly improved radio/antenna signal, battery life, and superior heat-tolerance. </p><p><strong>Also the 2nd Gen Display is louder. </strong></p><p></p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -3723,9 +3387,9 @@
                   "settings": {
                     "text": "<p>We have a pretty sweet encyclopedia of knowledge in the <a href=\"/pages/faq\" target=\"_blank\" title=\"FAQ\"><span style=\"text-decoration:underline\">Help Center/FAQ. </span></a></p><p><strong>Searchable by topic! </strong></p><p>You'll find all the various reference guides  as well as deeper answers to a wider variety of questions.</p><p>For instance: </p><p><a href=\"https://combustion.inc/pages/faq?hcUrl=%2Fen-US%2Fwifi-not-working-the-general-troubleshooting-guide-1009847\" target=\"_blank\" title=\"https://combustion.inc/pages/faq?hcUrl=%2Fen-US%2Fwifi-not-working-the-general-troubleshooting-guide-1009847\">WiFi troubleshooting?</a></p><p><a href=\"https://combustion.inc/pages/faq?hcUrl=%2Fen-US%2Fdisplay-controls-695637\" target=\"_blank\" title=\"https://combustion.inc/pages/faq?hcUrl=%2Fen-US%2Fdisplay-controls-695637\">What do the buttons on the Display do?</a></p><p><a href=\"https://combustion.inc/pages/faq?hcUrl=%2Fen-US%2Fusing-your-cpt-for-prime-rib-or-turkey-yes-you-can-845197\" target=\"_blank\" title=\"https://combustion.inc/pages/faq?hcUrl=%2Fen-US%2Fusing-your-cpt-for-prime-rib-or-turkey-yes-you-can-845197\">How exactly should I insert the thermometer into my roast?</a></p><p>And many more. </p><p>If you don't find what you're looking for, <a href=\"mailto:support@combustion.inc\" target=\"_blank\" title=\"mailto:support@combustion.inc\">support@combustion.inc</a> is here to help. </p><p></p><p></p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
