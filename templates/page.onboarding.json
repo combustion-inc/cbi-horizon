@@ -85,7 +85,6 @@
         "text_DiSrWl",
         "button_tFemfi"
       ],
-      "disabled": true,
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
@@ -316,9 +315,24 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "setup_guides_group_eFIsLj": {
-              "type": "content-group",
-              "name": "Setup guides group",
+            "button_liquid_xTjLmc": {
+              "type": "button-liquid",
+              "name": "t:names.button",
+              "settings": {
+                "label": "test",
+                "link": "",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "content_group_guide_VYYeV8": {
+              "type": "content-group-guide",
+              "name": "Content group - guide",
               "settings": {
                 "mobj": "",
                 "content_direction": "column",
@@ -357,80 +371,7 @@
                 "padding-inline-end": 0,
                 "liquid": ""
               },
-              "blocks": {
-                "text_MmUUIi": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_xAklTu": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<h3>{{ closest.metaobject.setup_guide.internal_name.value }}</h3>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "button_grBnKA": {
-                  "type": "button-liquid",
-                  "name": "t:names.button",
-                  "settings": {
-                    "label": "Set up",
-                    "link": "{{ closest.metaobject.setup_guide.system.url }}",
-                    "open_in_new_tab": false,
-                    "style_class": "button",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_MmUUIi",
-                "text_xAklTu",
-                "button_grBnKA"
-              ]
+              "blocks": {}
             },
             "group_UOgHjo": {
               "type": "group",
@@ -505,7 +446,8 @@
             }
           },
           "block_order": [
-            "setup_guides_group_eFIsLj",
+            "button_liquid_xTjLmc",
+            "content_group_guide_VYYeV8",
             "group_UOgHjo"
           ]
         }
