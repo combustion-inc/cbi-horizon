@@ -253,7 +253,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h2>t:names.custom_section</h2>",
+            "text": "<h2>test2</h2>{{ closest.page.metafields.onboarding.setup_guides | metafield_tag: field: 'internal_name' }}",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
