@@ -249,6 +249,32 @@
     "multicolumn_aSXmll": {
       "type": "section",
       "blocks": {
+        "text_Mn4aEm": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>{{ metaobjects.content_group[\"old-setup-guides\"].name.value }}</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "content_group_guide_list_GfdwEQ": {
           "type": "content-group-guide-list",
           "name": "Content group guides list",
@@ -338,49 +364,66 @@
                     "videoid": "{{ closest.metaobject.setup_guide.vimeo_id.value }}",
                     "videotitle": "",
                     "class": "",
-                    "aspect": "none",
+                    "aspect": "vertical",
                     "autoload": true,
-                    "autoplay": true,
+                    "autoplay": false,
                     "muted": true,
-                    "loop": true
+                    "loop": false
+                  },
+                  "blocks": {}
+                },
+                "text_c6nmFH": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<h3>{{ closest.metaobject.setup_guide.internal_name.value }}</h3>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "button_YaQKbe": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "label": "Set up",
+                    "link": "{{ closest.metaobject.setup_guide.system.url }}",
+                    "open_in_new_tab": true,
+                    "style_class": "link",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
-                "lite_vimeo_combustion_yCkiUy"
+                "lite_vimeo_combustion_yCkiUy",
+                "text_c6nmFH",
+                "button_YaQKbe"
               ]
             }
           },
           "block_order": [
             "group_G8mXAF"
           ]
-        },
-        "text_bdwPeI": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<h2>test2</h2>{{ closest.page.metafields.onboarding.setup_guides | metafield_tag: field: 'internal_name' }}",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
         },
         "group_Agqosx": {
           "type": "group",
@@ -422,21 +465,6 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "button_liquid_xTjLmc": {
-              "type": "button-liquid",
-              "name": "t:names.button",
-              "settings": {
-                "label": "test",
-                "link": "",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            },
             "content_group_guide_VYYeV8": {
               "type": "content-group-guide",
               "name": "Content group - guide",
@@ -479,92 +507,18 @@
                 "liquid": ""
               },
               "blocks": {}
-            },
-            "group_UOgHjo": {
-              "type": "group",
-              "name": "t:names.group",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "text_efJUHg": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<h6>USDA Food Safe available Dec 2023</h6><h6>MeatNet™ Cloud (WiFi) coming Jan 2024</h6>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_efJUHg"
-              ]
             }
           },
           "block_order": [
-            "button_liquid_xTjLmc",
-            "content_group_guide_VYYeV8",
-            "group_UOgHjo"
+            "content_group_guide_VYYeV8"
           ]
         }
       },
       "block_order": [
+        "text_Mn4aEm",
         "content_group_guide_list_GfdwEQ",
-        "text_bdwPeI",
         "group_Agqosx"
       ],
-      "disabled": true,
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
@@ -793,16 +747,42 @@
     "multicolumn_YXafZx": {
       "type": "section",
       "blocks": {
-        "group_NSdhwC": {
+        "text_nRa3R4": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>How the Predictive Thermometer works (1st Gen)</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_EQaiCp": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
-            "content_direction": "row",
+            "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
+            "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
             "width": "fill",
@@ -833,360 +813,315 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "group_sBoiqq": {
-              "type": "group",
-              "name": "t:names.group",
+            "image_EIXiJW": {
+              "type": "image",
+              "name": "t:names.image",
               "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "image": "shopify://shop_images/getting-started-therm-temp-limits.png",
+                "link": "",
+                "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "image_EIXiJW": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/getting-started-therm-temp-limits.png",
-                    "link": "",
-                    "image_ratio": "adapt",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_MLhJRX": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<h3>Instant Read Mode</h3>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h3",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_MySRxl": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>The Predictive Thermometer wakes up in <span style=\"text-decoration:underline\">Instant Read</span> mode. Wake it up by removing it from the charger or Booster.</p><p>You’ll know the thermometer is awake when the Display or Combustion App starts displaying temps. It takes less than a second. </p><p>It takes 3-4 seconds to accurately report the “instant read” temperature at the pointy end. </p><p>Instant read turns off when you set a target temp on the Display or app (Predictive Cooking Mode).</p><p><em>The instant read temperature is not necessarily the same as the “core” temp.</em> Core temp is determined <em>after</em> you set a target temp. Look below to learn more about TrueCore®.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_EIXiJW",
-                "text_MLhJRX",
-                "text_MySRxl"
-              ]
+              "blocks": {}
             },
-            "group_BMZKnl": {
-              "type": "group",
-              "name": "t:names.group",
+            "text_MLhJRX": {
+              "type": "text",
+              "name": "t:names.text",
               "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
+                "text": "<h3>Instant Read Mode</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "image_UAMMZP": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/minsert-website_19fd1e62-f59e-4fb8-b5e0-cd74bdfd519d.png",
-                    "link": "",
-                    "image_ratio": "adapt",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_jTbjKZ": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<h3>Predictive Cooking (with Display)</h3>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h3",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_KhKgvO": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Insert the Predictive Thermometer to at least the min line. </p><p>Press m- and s+ buttons to set the “cooking to” temperature.</p><p>Press “start” – the \"cooking to\" temp will stop blinking. </p><p>Apply heat (oven, smoker, grill, frying pan, etc… you get the idea).</p><p>The Display shows progress by indicating % of cooking completed.</p><p>At about 33% a countdown will appear: “ready in.” That’s the prediction! </p><p><em>The \"core\" temp displayed is the TrueCore® temp – the lowest of the internal sensors.</em> </p><p>When that number hits 00:00, an alarm will sound to let you know your food is ready.</p><p>Enjoy!</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_UAMMZP",
-                "text_jTbjKZ",
-                "text_KhKgvO"
-              ]
+              "blocks": {}
             },
-            "group_weeecR": {
-              "type": "group",
-              "name": "t:names.group",
+            "text_MySRxl": {
+              "type": "text",
+              "name": "t:names.text",
               "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
+                "text": "<p>The Predictive Thermometer wakes up in <span style=\"text-decoration:underline\">Instant Read</span> mode. Wake it up by removing it from the charger or Booster.</p><p>You’ll know the thermometer is awake when the Display or Combustion App starts displaying temps. It takes less than a second. </p><p>It takes 3-4 seconds to accurately report the “instant read” temperature at the pointy end. </p><p>Instant read turns off when you set a target temp on the Display or app (Predictive Cooking Mode).</p><p><em>The instant read temperature is not necessarily the same as the “core” temp.</em> Core temp is determined <em>after</em> you set a target temp. Look below to learn more about TrueCore®.</p>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "text_crofcm": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<h3>Predictive Cooking (with App)</h3>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h3",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_tetlok": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Insert the Predictive Thermometer  to at least the min line (deeper is preferred). </p><p>Tap \"<strong>predict</strong>\" on the main screen. </p><p>Set your temp, then tap \"<strong>begin prediction</strong>.\"</p><p>Then follow the same steps as above. </p><p><em>To choose between Cº and Fº: tap the three dots (right edge of the app, near </em><em><strong>ready in</strong></em><em>).</em></p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_crofcm",
-                "text_tetlok"
-              ]
+              "blocks": {}
             }
           },
           "block_order": [
-            "group_sBoiqq",
-            "group_BMZKnl",
-            "group_weeecR"
+            "image_EIXiJW",
+            "text_MLhJRX",
+            "text_MySRxl"
+          ]
+        },
+        "group_UWtbmm": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "image_UAMMZP": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/minsert-website_19fd1e62-f59e-4fb8-b5e0-cd74bdfd519d.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_jTbjKZ": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h3>Predictive Cooking (with Display)</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_KhKgvO": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Insert the Predictive Thermometer to at least the min line. </p><p>Press m- and s+ buttons to set the “cooking to” temperature.</p><p>Press “start” – the \"cooking to\" temp will stop blinking. </p><p>Apply heat (oven, smoker, grill, frying pan, etc… you get the idea).</p><p>The Display shows progress by indicating % of cooking completed.</p><p>At about 33% a countdown will appear: “ready in.” That’s the prediction! </p><p><em>The \"core\" temp displayed is the TrueCore® temp – the lowest of the internal sensors.</em> </p><p>When that number hits 00:00, an alarm will sound to let you know your food is ready.</p><p>Enjoy!</p>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_UAMMZP",
+            "text_jTbjKZ",
+            "text_KhKgvO"
+          ]
+        },
+        "group_xkQCy8": {
+          "type": "group",
+          "name": "How it works/features",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_crofcm": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h3>Predictive Cooking (with App)</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_tetlok": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Insert the Predictive Thermometer  to at least the min line (deeper is preferred). </p><p>Tap \"<strong>predict</strong>\" on the main screen. </p><p>Set your temp, then tap \"<strong>begin prediction</strong>.\"</p><p>Then follow the same steps as above. </p><p><em>To choose between Cº and Fº: tap the three dots (right edge of the app, near </em><em><strong>ready in</strong></em><em>).</em></p>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_crofcm",
+            "text_tetlok"
           ]
         }
       },
       "block_order": [
-        "group_NSdhwC"
+        "text_nRa3R4",
+        "group_EQaiCp",
+        "group_UWtbmm",
+        "group_xkQCy8"
       ],
-      "disabled": true,
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
@@ -1194,9 +1129,9 @@
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
+        "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "gap": 48,
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
