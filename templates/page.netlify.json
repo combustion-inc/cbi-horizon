@@ -65,10 +65,7 @@
           "blocks": {}
         }
       },
-      "block_order": [
-        "title",
-        "content"
-      ],
+      "block_order": ["title", "content"],
       "disabled": true,
       "settings": {
         "content_direction": "column",
@@ -79,7 +76,8 @@
       }
     },
     "hero_signup": {
-      "type": "hero",
+      "type": "section",
+      "name": "t:names.custom_section",
       "blocks": {
         "hero_heading": {
           "type": "text",
@@ -102,8 +100,8 @@
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
           },
           "blocks": {}
         },
@@ -128,8 +126,8 @@
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
           },
           "blocks": {}
         },
@@ -169,8 +167,8 @@
             "placeholder": "",
             "padding-block-start": 8,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
           },
           "blocks": {
             "hero_email_signup": {
@@ -203,25 +201,11 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "hero_email_signup"
-          ]
+          "block_order": ["hero_email_signup"]
         }
       },
-      "block_order": [
-        "hero_heading",
-        "hero_subheading",
-        "hero_signup_group"
-      ],
-      "name": "t:names.hero",
+      "block_order": ["hero_heading", "hero_subheading", "hero_signup_group"],
       "settings": {
-        "media_type_1": "image",
-        "image_1": "shopify://shop_images/ribs-tall-small.png",
-        "media_type_2": "image",
-        "stack_media_on_mobile": true,
-        "custom_mobile_media": false,
-        "link": "",
-        "open_in_new_tab": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -233,17 +217,26 @@
         "section_width": "full-width",
         "section_height": "large",
         "section_height_custom": 90,
+        "background_media": "image",
+        "background_image": "shopify://shop_images/ribs-tall-small.png",
+        "background_image_position": "cover",
         "background_color": "",
         "toggle_overlay": true,
         "overlay_color": "#00000066",
         "overlay_style": "gradient",
         "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
         "padding-block-start": 60,
         "padding-block-end": 60
       }
     },
     "intro_hello": {
       "type": "section",
+      "name": "t:names.custom_section",
       "blocks": {
         "intro_heading": {
           "type": "text",
@@ -374,14 +367,7 @@
           "blocks": {}
         }
       },
-      "block_order": [
-        "intro_heading",
-        "intro_body",
-        "intro_pan_image",
-        "measure_heading",
-        "measure_body"
-      ],
-      "name": "t:names.custom_section",
+      "block_order": ["intro_heading", "intro_body", "intro_pan_image", "measure_heading", "measure_body"],
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -413,6 +399,7 @@
     },
     "feature_measure": {
       "type": "section",
+      "name": "t:names.custom_section",
       "blocks": {
         "measure_probe_image": {
           "type": "image",
@@ -494,7 +481,6 @@
         "measure_body_2",
         "measure_chicken_image"
       ],
-      "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -526,6 +512,7 @@
     },
     "feature_smart": {
       "type": "section",
+      "name": "t:names.custom_section",
       "blocks": {
         "smart_heading": {
           "type": "text",
@@ -604,12 +591,7 @@
           "blocks": {}
         }
       },
-      "block_order": [
-        "smart_heading",
-        "smart_body",
-        "smart_image"
-      ],
-      "name": "t:names.custom_section",
+      "block_order": ["smart_heading", "smart_body", "smart_image"],
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -641,6 +623,7 @@
     },
     "pitch_signup": {
       "type": "section",
+      "name": "t:names.custom_section",
       "blocks": {
         "pitch_heading": {
           "type": "text",
@@ -764,17 +747,10 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "pitch_email_signup"
-          ]
+          "block_order": ["pitch_email_signup"]
         }
       },
-      "block_order": [
-        "pitch_heading",
-        "pitch_body",
-        "pitch_signup_group"
-      ],
-      "name": "t:names.custom_section",
+      "block_order": ["pitch_heading", "pitch_body", "pitch_signup_group"],
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -806,6 +782,7 @@
     },
     "crazy_lineup": {
       "type": "section",
+      "name": "t:names.custom_section",
       "blocks": {
         "crazy_text_group": {
           "type": "group",
@@ -900,10 +877,7 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "crazy_heading",
-            "crazy_body"
-          ]
+          "block_order": ["crazy_heading", "crazy_body"]
         },
         "crazy_image_group": {
           "type": "group",
@@ -970,16 +944,10 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "crazy_image"
-          ]
+          "block_order": ["crazy_image"]
         }
       },
-      "block_order": [
-        "crazy_text_group",
-        "crazy_image_group"
-      ],
-      "name": "t:names.custom_section",
+      "block_order": ["crazy_text_group", "crazy_image_group"],
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -1011,6 +979,7 @@
     },
     "faq_footnote": {
       "type": "section",
+      "name": "t:names.custom_section",
       "blocks": {
         "footnote_text": {
           "type": "text",
@@ -1115,13 +1084,7 @@
           "blocks": {}
         }
       },
-      "block_order": [
-        "footnote_text",
-        "faq_heading",
-        "faq_body",
-        "faq_logo"
-      ],
-      "name": "t:names.custom_section",
+      "block_order": ["footnote_text", "faq_heading", "faq_body", "faq_logo"],
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
