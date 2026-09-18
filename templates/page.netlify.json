@@ -100,7 +100,7 @@
             "height": "fill",
             "custom_height": 100,
             "background_media": "none",
-            "background_color": "{{ settings.color_palette.color6 }}",
+            "background_color": "",
             "video_position": "cover",
             "background_image_position": "cover",
             "toggle_overlay": false,
@@ -125,7 +125,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h1>Wireless.<br/>Predictive.</h1>",
+                "text": "",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -147,41 +147,15 @@
               },
               "blocks": {}
             },
-            "hero_heading_accent": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h1>Perfect.</h1>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h1",
-                "font": "var(--font-heading--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "#FFCF4C",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "hero_subheading": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Introducing the world's only predictive thermometer, with 8 sensors to see the future.</p>",
+                "text": "<h1>Wireless.<br/>Predictive.<br/><strong>Perfect.</strong></h1><p>Introducing the world's only predictive thermometer, with 8 sensors to see the future.</p>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
-                "type_preset": "paragraph",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -202,7 +176,6 @@
           },
           "block_order": [
             "hero_heading",
-            "hero_heading_accent",
             "hero_subheading"
           ]
         },
@@ -235,6 +208,9 @@
         "hero_text_panel",
         "hero_photo"
       ],
+      "custom_css": [
+        "h1 strong {color: #ffcf4c;}"
+      ],
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "row",
@@ -245,11 +221,11 @@
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 0,
-        "section_width": "full-width",
-        "section_height": "",
+        "section_width": "page-width",
+        "section_height": "medium",
         "section_height_custom": 50,
         "background_media": "none",
-        "background_color": "{{ settings.color_palette.color6 }}",
+        "background_color": "#363636",
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
@@ -268,17 +244,43 @@
     "hero_signup_band": {
       "type": "section",
       "blocks": {
+        "text_rDUKEF": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Sign up and save 30% when preorders start the end of January</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "hero_band_signup": {
           "type": "email-signup",
           "name": "t:names.email_signup",
           "settings": {
-            "width": "fill",
-            "custom_width": 100,
-            "heading": "Sign up and save 30% when preorders start the end of January",
+            "width": "custom",
+            "custom_width": 50,
+            "heading": "",
             "heading_text_color": "#ffffff",
-            "heading_preset": "h6",
+            "heading_preset": "h3",
             "border_style": "all",
-            "input_style": "custom",
+            "input_style": "default",
             "border_width": 1,
             "border_radius": 100,
             "input_background_color": "#ffffff",
@@ -286,10 +288,14 @@
             "input_border_color": "#ffffff",
             "input_type_preset": "paragraph",
             "style_class": "button",
+            "custom_button_background": "{{ settings.color_palette.foreground }}",
+            "custom_button_text": "{{ settings.color_palette.background }}",
+            "custom_button_border": "{{ settings.color_palette.background }}",
+            "link_text_color": "",
             "display_type": "text",
             "label": "30% Off, Please",
-            "integrated_button": true,
-            "button_type_preset": "paragraph",
+            "integrated_button": false,
+            "button_type_preset": "",
             "padding-block-start": 8,
             "padding-block-end": 0,
             "padding-inline-start": 24,
@@ -299,9 +305,10 @@
         }
       },
       "block_order": [
+        "text_rDUKEF",
         "hero_band_signup"
       ],
-      "name": "t:names.custom_section",
+      "name": "signup",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -311,11 +318,11 @@
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 12,
-        "section_width": "full-width",
+        "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
-        "background_color": "{{ settings.color_palette.color6 }}",
+        "background_color": "#000000",
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
@@ -410,45 +417,19 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {
-            "intro_heading": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>Hello. We're Combustion Inc.</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h2",
-                "font": "var(--font-heading--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "intro_body": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>We build nice things that make cooking more enjoyable. Like a thermometer that's wireless and oven-safe. And a kitchen timer that has an easy-to-read display.</p><p>They're extremely easy to use, and they work together so that you don't need to touch your phone while you cook (just&hellip;gross).*</p><p>Oh, and did we mention that our thermometer can <em>predict the future?</em> Let us explain&hellip;</p>",
-                "width": "100%",
-                "max_width": "normal",
+                "text": "<h2>Hello. We're Combustion Inc.</h2><p>We build nice things that make cooking more enjoyable. Like a thermometer that's wireless and oven-safe. And a kitchen timer that has an easy-to-read display.</p><p>They're extremely easy to use, and they work together so that you don't need to touch your phone while you cook (just…gross).*</p><p>Oh, and did we mention that our thermometer can <em>predict the future?</em> Let us explain…</p>",
+                "width": "fit-content",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -470,7 +451,6 @@
             }
           },
           "block_order": [
-            "intro_heading",
             "intro_body"
           ]
         },
@@ -522,7 +502,7 @@
         "intro_copy",
         "intro_pan_deco"
       ],
-      "name": "t:names.custom_section",
+      "name": "hello",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -531,8 +511,8 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 0,
-        "section_width": "full-width",
+        "gap": 40,
+        "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
@@ -552,42 +532,86 @@
         "padding-block-end": 0
       }
     },
+    "hero_E8acT9": {
+      "type": "hero",
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/steak-large_copy.jpg",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": true,
+        "media_type_1_mobile": "image",
+        "image_1_mobile": "shopify://shop_images/steak-large.webp",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "auto",
+        "section_height_custom": 50,
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "toggle_overlay": true,
+        "overlay_color": "#00000026",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "intro_photo": {
+      "type": "section",
+      "disabled": true,
+      "name": "large image",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 0,
+        "section_width": "full-width",
+        "section_height": "large",
+        "section_height_custom": 50,
+        "background_media": "image",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "video_position": "cover",
+        "background_image": "shopify://shop_images/steak-medium.webp",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "feature_measure": {
       "type": "section",
       "blocks": {
-        "measure_heading": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h3>Measure more, worry less.</h3>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h3",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
         "measure_body": {
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>The predictive probe measures temperatures outside and inside the food, in the center and at the surface, and nearly everywhere in between (really). It estimates the size and shape of your food and senses how quickly and evenly it's cooking.</p>",
+            "text": "<h2>Measure more, worry less.</h2><p>The predictive probe measures temperatures outside and inside the food, in the center and at the surface, and nearly everywhere in between (really). It estimates the size and shape of your food and senses how quickly and evenly it's cooking.</p>",
             "width": "100%",
-            "max_width": "normal",
+            "max_width": "none",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
@@ -602,20 +626,20 @@
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
-        "measure_probe_image": {
+        "image_nBL9zN": {
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/probe-and-timer-small.png",
+            "image": "shopify://shop_images/probe-and-timer-medium.webp",
             "link": "",
             "image_ratio": "adapt",
             "width": "custom",
-            "custom_width": 45,
+            "custom_width": 75,
             "width_mobile": "fill",
             "custom_width_mobile": 75,
             "height": "fit",
@@ -624,20 +648,20 @@
             "border_opacity": 100,
             "border_color": "",
             "border_radius": 0,
-            "padding-block-start": 24,
-            "padding-block-end": 24,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
           "blocks": {}
         },
-        "measure_body_2": {
+        "text_cCXMgm": {
           "type": "text",
           "name": "t:names.text",
           "settings": {
             "text": "<p>This makes it extremely good at predicting cooking and resting times so that you don't have to guess. The timer lets you keep an eye on things and gives you the countdown to perfect food, every time.</p>",
             "width": "100%",
-            "max_width": "normal",
+            "max_width": "none",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
@@ -652,130 +676,16 @@
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
-        "measure_chicken_row": {
-          "type": "group",
-          "name": "t:names.group",
-          "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": false,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 0,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "background_media": "none",
-            "background_color": "",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 24,
-            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {
-            "measure_chicken_image": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/chicken-xsmall.png",
-                "link": "",
-                "image_ratio": "adapt",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 95,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_color": "",
-                "border_radius": 0,
-                "padding-block-start": 24,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "measure_herbs": {
-              "type": "group",
-              "name": "t:names.group",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "center",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 0,
-                "width": "custom",
-                "custom_width": 18,
-                "width_mobile": "custom",
-                "custom_width_mobile": 18,
-                "height": "fill",
-                "custom_height": 100,
-                "background_media": "image",
-                "background_color": "",
-                "video_position": "cover",
-                "background_image": "shopify://shop_images/herbs-240.png",
-                "background_image_position": "cover",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_color": "",
-                "border_radius": 0,
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "measure_chicken_image",
-            "measure_herbs"
-          ]
+          "blocks": {}
         }
       },
       "block_order": [
-        "measure_heading",
         "measure_body",
-        "measure_probe_image",
-        "measure_body_2",
-        "measure_chicken_row"
+        "image_nBL9zN",
+        "text_cCXMgm"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -784,10 +694,103 @@
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
+        "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 20,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 40,
+        "padding-block-end": 0
+      }
+    },
+    "section_nGTRAK": {
+      "type": "section",
+      "blocks": {
+        "image_iEnwLc": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2026-09-18_at_12.34.16.png",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "image_iEnwLc"
+      ],
+      "name": "large image",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 0,
         "section_width": "full-width",
+        "section_height": "large",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_XBbgiz": {
+      "type": "section",
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
@@ -810,39 +813,13 @@
     "feature_smart": {
       "type": "section",
       "blocks": {
-        "smart_heading": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h3>They're pretty smart, just like you.</h3>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h3",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
         "smart_body": {
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>And they'll keep learning, just like you. Soon they'll be able to talk to some of your appliances and make them smarter too. (And let's be honest, they could be smarter.)</p><p>Of course, they can also just be a kitchen timer and an instant-read thermometer, because we don't think smart products always need to show off.</p>",
+            "text": "<h3>They're pretty smart, just like you.</h3><p>And they'll keep learning, just like you. Soon they'll be able to talk to some of your appliances and make them smarter too. (And let's be honest, they could be smarter.)</p><p>Of course, they can also just be a kitchen timer and an instant-read thermometer, because we don't think smart products always need to show off.</p>",
             "width": "100%",
-            "max_width": "normal",
+            "max_width": "none",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
@@ -857,8 +834,8 @@
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
@@ -866,10 +843,10 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/probing-steak-xsmall.png",
+            "image": "shopify://shop_images/probing-steak-xlarge.webp",
             "link": "",
             "image_ratio": "adapt",
-            "width": "custom",
+            "width": "fill",
             "custom_width": 70,
             "width_mobile": "fill",
             "custom_width_mobile": 95,
@@ -888,7 +865,6 @@
         }
       },
       "block_order": [
-        "smart_heading",
         "smart_body",
         "smart_image"
       ],
@@ -899,10 +875,10 @@
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
+        "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 20,
-        "section_width": "full-width",
+        "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
@@ -925,39 +901,13 @@
     "pitch_signup": {
       "type": "section",
       "blocks": {
-        "pitch_heading": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h2>Here's the pitch.</h2>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h2",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "#ffffff",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
         "pitch_body": {
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Pre-orders for our wireless predictive thermometer and kitchen timer will start at the end of January 2022 for delivery in Spring 2022.</p><p>Sign up now, and we'll give you 30% off and call you a friend. Sign up later, and it's a deal at full price. Okay friend?</p>",
+            "text": "<h2>Here's the pitch</h2><p>Pre-orders for our wireless predictive thermometer and kitchen timer will start at the end of January 2022 for delivery in Spring 2022.</p><p>Sign up now, and we'll give you 30% off and call you a friend. Sign up later, and it's a deal at full price. Okay friend?</p>",
             "width": "100%",
-            "max_width": "normal",
+            "max_width": "none",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
@@ -972,45 +922,120 @@
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
-        "pitch_signup_block": {
-          "type": "email-signup",
-          "name": "t:names.email_signup",
+        "group_ax3aPW": {
+          "type": "group",
+          "name": "t:names.group",
           "settings": {
-            "width": "fill",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 40,
+            "width": "fit-content",
             "custom_width": 100,
-            "heading": "Say hello and save 30%",
-            "heading_text_color": "#ffffff",
-            "heading_preset": "h6",
-            "border_style": "all",
-            "input_style": "custom",
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "{{ settings.color_palette.color7 }}",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
             "border_width": 1,
-            "border_radius": 100,
-            "input_background_color": "#ffffff",
-            "input_text_color": "#111111",
-            "input_border_color": "#ffffff",
-            "input_type_preset": "paragraph",
-            "style_class": "button",
-            "display_type": "text",
-            "label": "30% Off, Please",
-            "integrated_button": true,
-            "button_type_preset": "paragraph",
-            "padding-block-start": 8,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 20,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 40,
+            "padding-inline-end": 40
           },
-          "blocks": {}
+          "blocks": {
+            "text_zKjwY6": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h2>Say hello and save 30%</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "email_signup_Hy8JWG": {
+              "type": "email-signup",
+              "name": "t:names.email_signup",
+              "settings": {
+                "width": "custom",
+                "custom_width": 75,
+                "heading": "",
+                "heading_text_color": "",
+                "heading_preset": "h2",
+                "border_style": "all",
+                "input_style": "default",
+                "border_width": 1,
+                "border_radius": 100,
+                "input_background_color": "#ffffff",
+                "input_text_color": "#111111",
+                "input_border_color": "#ffffff",
+                "input_type_preset": "paragraph",
+                "style_class": "button",
+                "custom_button_background": "{{ settings.color_palette.foreground }}",
+                "custom_button_text": "{{ settings.color_palette.background }}",
+                "custom_button_border": "{{ settings.color_palette.background }}",
+                "link_text_color": "",
+                "display_type": "text",
+                "label": "30% Off, Please",
+                "integrated_button": false,
+                "button_type_preset": "paragraph",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_zKjwY6",
+            "email_signup_Hy8JWG"
+          ]
         }
       },
       "block_order": [
-        "pitch_heading",
         "pitch_body",
-        "pitch_signup_block"
+        "group_ax3aPW"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -1019,14 +1044,14 @@
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
+        "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 20,
-        "section_width": "full-width",
+        "gap": 40,
+        "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
-        "background_color": "{{ settings.color_palette.color6 }}",
+        "background_color": "#363636",
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
@@ -1045,39 +1070,13 @@
     "crazy_lineup": {
       "type": "section",
       "blocks": {
-        "crazy_heading": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h2>Oh, did we mention that&hellip;</h2>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h2",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
         "crazy_body": {
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>It's the thinnest wireless thermometer on the market? Or that it's stuffed with <em>eight</em> temperature sensors to give it predictive power? You think that's crazy? It <em>is</em> crazy!</p><p>But you don't make the smartest thermometer by clinging to the way things are done. Will it make you a better cook? Is &#128293; hot?</p>",
+            "text": "<h2>Oh, did we mention that…</h2><p>It's the thinnest wireless thermometer on the market? Or that it's stuffed with <em>eight</em> temperature sensors to give it predictive power? You think that's crazy? It <em>is</em> crazy!</p><p>But you don't make the smartest thermometer by clinging to the way things are done. Will it make you a better cook? Is 🔥 hot?</p>",
             "width": "100%",
-            "max_width": "normal",
+            "max_width": "none",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
@@ -1092,30 +1091,6 @@
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
-        "crazy_image": {
-          "type": "image",
-          "name": "t:names.image",
-          "settings": {
-            "image": "shopify://shop_images/devices-tall-small.png",
-            "link": "",
-            "image_ratio": "adapt",
-            "width": "custom",
-            "custom_width": 85,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "padding-block-start": 24,
-            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -1123,9 +1098,7 @@
         }
       },
       "block_order": [
-        "crazy_heading",
-        "crazy_body",
-        "crazy_image"
+        "crazy_body"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -1137,7 +1110,7 @@
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 20,
-        "section_width": "full-width",
+        "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
@@ -1154,159 +1127,17 @@
         "border_color": "",
         "border_radius": 0,
         "padding-block-start": 64,
-        "padding-block-end": 24
+        "padding-block-end": 0
       }
     },
     "faq_footnote": {
       "type": "section",
       "blocks": {
-        "footnote_text": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>* Although we <em>do</em> have a nice mobile app for when that's useful and your hands aren't covered in goo.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "left",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "0.875rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
-        "faq_heading": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h3>Still have questions?</h3>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h3",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
-        "faq_body": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>Head on over to our <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a> for more.</p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        },
-        "faq_logo": {
+        "image_BDTaY3": {
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/combustion-inc-flame-red.svg",
-            "link": "",
-            "image_ratio": "adapt",
-            "width": "custom",
-            "custom_width": 10,
-            "width_mobile": "fill",
-            "custom_width_mobile": 20,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "padding-block-start": 24,
-            "padding-block-end": 0,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "footnote_text",
-        "faq_heading",
-        "faq_body",
-        "faq_logo"
-      ],
-      "name": "t:names.custom_section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 20,
-        "section_width": "full-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "background_media": "none",
-        "background_color": "{{ settings.color_palette.color1 }}",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_color": "",
-        "border_radius": 0,
-        "padding-block-start": 40,
-        "padding-block-end": 64
-      }
-    },
-    "intro_photo": {
-      "type": "section",
-      "blocks": {
-        "intro_pan_image": {
-          "type": "image",
-          "name": "t:names.image",
-          "settings": {
-            "image": "shopify://shop_images/steak-xsmall.jpg",
+            "image": "shopify://shop_images/devices-wide-large.webp",
             "link": "",
             "image_ratio": "adapt",
             "width": "fill",
@@ -1328,19 +1159,113 @@
         }
       },
       "block_order": [
-        "intro_pan_image"
+        "image_BDTaY3"
+      ],
+      "custom_css": [
+        "svg {transform: rotate(-90deg);}"
       ],
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "center",
+        "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "flex-end",
         "gap": 0,
         "section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "video_position": "cover",
+        "background_image": "shopify://shop_images/devices-wide-large.webp",
+        "background_image_position": "fit",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_XncjU8": {
+      "type": "section",
+      "blocks": {
+        "text_Y6ed7g": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>* Although we <em>do</em> have a nice mobile app for when that's useful and your hands aren't covered in goo. </p>",
+            "width": "fit-content",
+            "max_width": "none",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_WjMJL9": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h3>Still have questions?</h3><p>Head on over to our <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a> for more.</p>",
+            "width": "fit-content",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_Y6ed7g",
+        "text_WjMJL9"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
@@ -1357,7 +1282,7 @@
         "border_color": "",
         "border_radius": 0,
         "padding-block-start": 0,
-        "padding-block-end": 0
+        "padding-block-end": 54
       }
     }
   },
@@ -1366,11 +1291,15 @@
     "hero_signup",
     "hero_signup_band",
     "intro_hello",
+    "hero_E8acT9",
     "intro_photo",
     "feature_measure",
+    "section_nGTRAK",
+    "section_XBbgiz",
     "feature_smart",
     "pitch_signup",
     "crazy_lineup",
-    "faq_footnote"
+    "faq_footnote",
+    "section_XncjU8"
   ]
 }
