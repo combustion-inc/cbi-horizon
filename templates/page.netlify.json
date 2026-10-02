@@ -1676,7 +1676,7 @@
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
-        "background_color": "#363636",
+        "background_color": "{{ settings.color_palette.background }}",
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
@@ -1727,98 +1727,6 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
-    },
-    "section_XncjU8": {
-      "type": "section",
-      "blocks": {
-        "text_Y6ed7g": {
-          "type": "text",
-          "name": "t:names.text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>* Although we <em>do</em> have a nice mobile app for when that's useful and your hands aren't covered in goo. </p>",
-            "width": "fit-content",
-            "max_width": "none",
-            "alignment": "center",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "0.875rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_WjMJL9": {
-          "type": "text",
-          "name": "t:names.text",
-          "disabled": true,
-          "settings": {
-            "text": "<h3>Still have questions?</h3><p>Head on over to our <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a> for more.</p>",
-            "width": "fit-content",
-            "max_width": "none",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_Y6ed7g",
-        "text_WjMJL9"
-      ],
-      "name": "t:names.custom_section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 20,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "background_media": "none",
-        "background_color": "{{ settings.color_palette.color1 }}",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_color": "",
-        "border_radius": 0,
-        "padding-block-start": 0,
-        "padding-block-end": 54
-      }
     }
   },
   "order": [
@@ -1837,7 +1745,6 @@
     "section_QKDzVy",
     "pitch_signup",
     "crazy_lineup",
-    "faq_footnote",
-    "section_XncjU8"
+    "faq_footnote"
   ]
 }
