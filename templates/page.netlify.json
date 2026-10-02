@@ -805,6 +805,7 @@
     },
     "hero_E8acT9": {
       "type": "hero",
+      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
@@ -902,30 +903,6 @@
           },
           "blocks": {}
         },
-        "image_nBL9zN": {
-          "type": "image",
-          "name": "t:names.image",
-          "settings": {
-            "image": "shopify://shop_images/cpt-display-hero-transparent-bg-gradient.png",
-            "link": "",
-            "image_ratio": "adapt",
-            "width": "custom",
-            "custom_width": 75,
-            "width_mobile": "fill",
-            "custom_width_mobile": 75,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "text_cCXMgm": {
           "type": "text",
           "name": "t:names.text",
@@ -951,12 +928,37 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "image_nBL9zN": {
+          "type": "image",
+          "name": "t:names.image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cpt-display-hero-transparent-bg-gradient.png",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 75,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "measure_body",
-        "image_nBL9zN",
-        "text_cCXMgm"
+        "text_cCXMgm",
+        "image_nBL9zN"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -1087,6 +1089,7 @@
         "smart_body": {
           "type": "text",
           "name": "t:names.text",
+          "disabled": true,
           "settings": {
             "text": "<h3>They're pretty smart, just like you.</h3><p>And they'll keep learning, just like you. Regular software updates bring new features our customers have asked for, making your Predictive Thermometer a tool that gets even better over time.</p>",
             "width": "100%",
@@ -1110,9 +1113,62 @@
           },
           "blocks": {}
         },
+        "text_qxVywd": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Unconditional love, guaranteed</h2><p>We stand behind our products with a 30-day money-back “love it or else” guarantee. Plus the longest warranty in the category: 2 years!</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_jFtDae": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>XXXXX STARTER KIT CAROUSEL GOES HERE</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "smart_image": {
           "type": "image",
           "name": "t:names.image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/probing-steak-xlarge.webp",
             "link": "",
@@ -1137,6 +1193,8 @@
       },
       "block_order": [
         "smart_body",
+        "text_qxVywd",
+        "text_jFtDae",
         "smart_image"
       ],
       "name": "t:names.custom_section",
@@ -1169,42 +1227,17 @@
         "padding-block-end": 0
       }
     },
-    "pitch_signup": {
+    "section_QKDzVy": {
       "type": "section",
       "blocks": {
-        "pitch_body": {
+        "text_Tiqafr": {
           "type": "text",
           "name": "t:names.text",
+          "disabled": true,
           "settings": {
-            "text": "<h2>Unconditional love, guaranteed</h2><p>We stand behind our products with a 30-day money-back “love it or else” guarantee. Plus the longest warranty in the category: 2 years!</p>",
+            "text": "<h3>They're pretty smart, just like you.</h3><p>And they'll keep learning, just like you. Regular software updates bring new features our customers have asked for, making your Predictive Thermometer a tool that gets even better over time.</p>",
             "width": "100%",
             "max_width": "none",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "#ffffff",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_cUYMjq": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h2>XXXXX STARTER KIT CAROUSEL GOES HERE</h2>",
-            "width": "fit-content",
-            "max_width": "normal",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
@@ -1224,6 +1257,68 @@
           },
           "blocks": {}
         },
+        "image_BVKGjk": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/probing-steak-xlarge.webp",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "fill",
+            "custom_width": 70,
+            "width_mobile": "fill",
+            "custom_width_mobile": 95,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 24,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_Tiqafr",
+        "image_BVKGjk"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 24,
+        "padding-block-end": 0
+      }
+    },
+    "pitch_signup": {
+      "type": "section",
+      "blocks": {
         "group_ax3aPW": {
           "type": "group",
           "name": "t:names.group",
@@ -1332,10 +1427,9 @@
         }
       },
       "block_order": [
-        "pitch_body",
-        "text_cUYMjq",
         "group_ax3aPW"
       ],
+      "disabled": true,
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
@@ -1373,7 +1467,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h2>Oh, did we mention that…</h2><p>It's the thinnest wireless thermometer on the market? Or that it's stuffed with <em>eight</em> temperature sensors to give it predictive power? You think that's crazy? It <em>is</em> crazy!</p><p>But you don't make the smartest thermometer by clinging to the way things are done. Will it make you a better cook? Is 🔥 hot?</p>",
+            "text": "<h2>Oh, did we mention that…</h2><p>The Combustion Predictive Thermometer is still the thinnest, most accurate, and longest running wireless thermometer? Will it make you a better cook? Is 🔥 hot?</p><p>You can read all the specs XXXXhereXXXX.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -1413,7 +1507,7 @@
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
-        "background_color": "{{ settings.color_palette.color1 }}",
+        "background_color": "#363636",
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
@@ -1426,7 +1520,7 @@
         "border_color": "",
         "border_radius": 0,
         "padding-block-start": 64,
-        "padding-block-end": 0
+        "padding-block-end": 56
       }
     },
     "faq_footnote": {
@@ -1500,6 +1594,7 @@
         "text_Y6ed7g": {
           "type": "text",
           "name": "t:names.text",
+          "disabled": true,
           "settings": {
             "text": "<p>* Although we <em>do</em> have a nice mobile app for when that's useful and your hands aren't covered in goo. </p>",
             "width": "fit-content",
@@ -1526,6 +1621,7 @@
         "text_WjMJL9": {
           "type": "text",
           "name": "t:names.text",
+          "disabled": true,
           "settings": {
             "text": "<h3>Still have questions?</h3><p>Head on over to our <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a> for more.</p>",
             "width": "fit-content",
@@ -1597,6 +1693,7 @@
     "section_nGTRAK",
     "section_XBbgiz",
     "feature_smart",
+    "section_QKDzVy",
     "pitch_signup",
     "crazy_lineup",
     "faq_footnote",
