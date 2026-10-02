@@ -4361,9 +4361,19 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "stamped_reviews_star_rating_badge_twNcKH": {
+                      "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+                      "settings": {
+                        "use_metafields": false,
+                        "sku_tagtype": "sku",
+                        "is_featured_product": false,
+                        "featured_product_handle": ""
+                      }
+                    },
                     "review_CcbTyM": {
                       "type": "review",
                       "name": "t:names.product_review_stars",
+                      "disabled": true,
                       "settings": {
                         "stars_style": "shaded",
                         "show_number": true,
@@ -4451,6 +4461,7 @@
                     }
                   },
                   "block_order": [
+                    "stamped_reviews_star_rating_badge_twNcKH",
                     "review_CcbTyM",
                     "product_card_group_DeYVgp",
                     "custom_liquid_YaDH7h"
