@@ -880,7 +880,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h2>Measure more, worry less.</h2><p>The predictive probe measures temperatures outside and inside the food, in the center and at the surface, and nearly everywhere in between (really). It estimates the size and shape of your food and senses how quickly and evenly it's cooking.</p>",
+            "text": "<h2>Measure more, worry less.</h2><p>The Predictive Thermometer measures temperatures outside and inside the food. It always finds the TrueCore temperature and measures the real cooking temperature at the surface. It estimates the size and shape of your food and senses how quickly and evenly it's cooking.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -906,7 +906,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/probe-and-timer-medium.webp",
+            "image": "shopify://shop_images/cpt-display-hero-transparent-bg-gradient.png",
             "link": "",
             "image_ratio": "adapt",
             "width": "custom",
@@ -930,7 +930,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>This makes it extremely good at predicting cooking and resting times so that you don't have to guess. The timer lets you keep an eye on things and gives you the countdown to perfect food, every time.</p>",
+            "text": "<p>This gives you a more complete picture of how your food is cooking, and sharpens your intuition for controlling heat. And it makes the thermometer good at predicting cooking times so that you don't have to guess. The timer lets you keep an eye on things and gives you the countdown to perfect food, every time.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -1088,7 +1088,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h3>They're pretty smart, just like you.</h3><p>And they'll keep learning, just like you. Soon they'll be able to talk to some of your appliances and make them smarter too. (And let's be honest, they could be smarter.)</p><p>Of course, they can also just be a kitchen timer and an instant-read thermometer, because we don't think smart products always need to show off.</p>",
+            "text": "<h3>They're pretty smart, just like you.</h3><p>And they'll keep learning, just like you. Regular software updates bring new features our customers have asked for, making your Predictive Thermometer a tool that gets even better over time.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -1176,7 +1176,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h2>Here's the pitch</h2><p>Pre-orders for our wireless predictive thermometer and kitchen timer will start at the end of January 2022 for delivery in Spring 2022.</p><p>Sign up now, and we'll give you 30% off and call you a friend. Sign up later, and it's a deal at full price. Okay friend?</p>",
+            "text": "<h2>Unconditional love, guaranteed</h2><p>We stand behind our products with a 30-day money-back “love it or else” guarantee. Plus the longest warranty in the category: 2 years!</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -1198,9 +1198,36 @@
           },
           "blocks": {}
         },
+        "text_cUYMjq": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>XXXXX STARTER KIT CAROUSEL GOES HERE</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "group_ax3aPW": {
           "type": "group",
           "name": "t:names.group",
+          "disabled": true,
           "settings": {
             "content_direction": "column",
             "vertical_on_mobile": true,
@@ -1306,6 +1333,7 @@
       },
       "block_order": [
         "pitch_body",
+        "text_cUYMjq",
         "group_ax3aPW"
       ],
       "name": "t:names.custom_section",
