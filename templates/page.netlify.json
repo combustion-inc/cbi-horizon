@@ -877,9 +877,34 @@
     "feature_measure": {
       "type": "section",
       "blocks": {
+        "image_8z4RFi": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/devices-wide-large.webp",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "measure_body": {
           "type": "text",
           "name": "t:names.text",
+          "disabled": true,
           "settings": {
             "text": "<h2>Measure more, worry less.</h2><p>The Predictive Thermometer measures temperatures outside and inside the food. It always finds the TrueCore temperature and measures the real cooking temperature at the surface. It estimates the size and shape of your food and senses how quickly and evenly it's cooking.</p>",
             "width": "100%",
@@ -906,6 +931,7 @@
         "text_cCXMgm": {
           "type": "text",
           "name": "t:names.text",
+          "disabled": true,
           "settings": {
             "text": "<p>This gives you a more complete picture of how your food is cooking, and sharpens your intuition for controlling heat. And it makes the thermometer good at predicting cooking times so that you don't have to guess. The timer lets you keep an eye on things and gives you the countdown to perfect food, every time.</p>",
             "width": "100%",
@@ -956,9 +982,152 @@
         }
       },
       "block_order": [
+        "image_8z4RFi",
         "measure_body",
         "text_cCXMgm",
         "image_nBL9zN"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 40,
+        "padding-block-end": 0
+      }
+    },
+    "section_gy6LV3": {
+      "type": "section",
+      "blocks": {
+        "image_DRWLBi": {
+          "type": "image",
+          "name": "t:names.image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/devices-wide-large.webp",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_DyY9MC": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Measure more, worry less.</h2><p>The Predictive Thermometer measures temperatures outside and inside the food. It always finds the TrueCore temperature and measures the real cooking temperature at the surface. It estimates the size and shape of your food and senses how quickly and evenly it's cooking.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_nCNHqz": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>This gives you a more complete picture of how your food is cooking, and sharpens your intuition for controlling heat. And it makes the thermometer good at predicting cooking times so that you don't have to guess. The timer lets you keep an eye on things and gives you the countdown to perfect food, every time.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "image_nqpYbh": {
+          "type": "image",
+          "name": "t:names.image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cpt-display-hero-transparent-bg-gradient.png",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 75,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "image_DRWLBi",
+        "text_DyY9MC",
+        "text_nCNHqz",
+        "image_nqpYbh"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -1525,35 +1694,6 @@
     },
     "faq_footnote": {
       "type": "section",
-      "blocks": {
-        "image_BDTaY3": {
-          "type": "image",
-          "name": "t:names.image",
-          "settings": {
-            "image": "shopify://shop_images/devices-wide-large.webp",
-            "link": "",
-            "image_ratio": "adapt",
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "image_BDTaY3"
-      ],
       "custom_css": [
         "svg {transform: rotate(-90deg);}"
       ],
@@ -1690,6 +1830,7 @@
     "hero_E8acT9",
     "intro_photo",
     "feature_measure",
+    "section_gy6LV3",
     "section_nGTRAK",
     "section_XBbgiz",
     "feature_smart",
