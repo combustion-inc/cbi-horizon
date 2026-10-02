@@ -84,6 +84,7 @@
         "hero_text_panel": {
           "type": "group",
           "name": "t:names.group",
+          "disabled": true,
           "settings": {
             "content_direction": "column",
             "vertical_on_mobile": true,
@@ -186,6 +187,228 @@
             "image": "shopify://shop_images/ribs-tall-small.png",
             "link": "",
             "image_ratio": "adapt",
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "image_gaVtJT": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-10-02_at_14.59.02_900f54c4-1b05-4e5c-859b-82a058ecf880.png",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "stamped_reviews_star_rating_badge_KwUxwp": {
+          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": false,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": "predictive-thermometer"
+          }
+        }
+      },
+      "block_order": [
+        "hero_text_panel",
+        "hero_photo",
+        "image_gaVtJT",
+        "stamped_reviews_star_rating_badge_KwUxwp"
+      ],
+      "custom_css": [
+        "h1 strong {color: #ffcf4c;}"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 0,
+        "section_width": "full-width",
+        "section_height": "medium",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "#363636",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_trFGM8": {
+      "type": "section",
+      "blocks": {
+        "group_LGeGkN": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 4,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 48,
+            "padding-block-end": 48,
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
+          },
+          "blocks": {
+            "text_6hqGtM": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h1",
+                "font": "var(--font-heading--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#ffffff",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_UgBf9g": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h1>Wireless.<br/>Predictive.<br/><strong>Perfect.</strong></h1><p>Introducing the world's only predictive thermometer, with 8 sensors to see the future.</p>",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#ffffff",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_6hqGtM",
+            "text_UgBf9g"
+          ]
+        },
+        "image_4jiErH": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/ribs-tall-small.png",
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "image_X469qE": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-10-02_at_14.59.02.png",
+            "link": "",
+            "image_ratio": "adapt",
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -205,9 +428,11 @@
         }
       },
       "block_order": [
-        "hero_text_panel",
-        "hero_photo"
+        "group_LGeGkN",
+        "image_4jiErH",
+        "image_X469qE"
       ],
+      "disabled": true,
       "custom_css": [
         "h1 strong {color: #ffcf4c;}"
       ],
@@ -308,6 +533,7 @@
         "text_rDUKEF",
         "hero_band_signup"
       ],
+      "disabled": true,
       "name": "signup",
       "settings": {
         "content_direction": "column",
@@ -427,7 +653,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2>Hello. We're Combustion Inc.</h2><p>We build nice things that make cooking more enjoyable. Like a thermometer that's wireless and oven-safe. And a kitchen timer that has an easy-to-read display.</p><p>They're extremely easy to use, and they work together so that you don't need to touch your phone while you cook (just…gross).*</p><p>Oh, and did we mention that our thermometer can <em>predict the future?</em> Let us explain…</p>",
+                "text": "<h2>Hello. We're Combustion Inc.</h2><p>We build nice things that make cooking more enjoyable.</p><p>You don't need much to prepare a great meal. A sharp knife, a few good pans, and a modest assortment of other tools are enough. You should definitely have a good thermometer.&nbsp;</p><p>We made ours wireless and stuffed it with 8 temperature sensors. It works with our big and bold Kitchen Display and our iOS and Android apps. They’re all extremely easy to use.</p><p>Oh, and did we mention that our thermometer can <em>predict the future?</em> Let us explain…</p>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -1289,6 +1515,7 @@
   "order": [
     "main",
     "hero_signup",
+    "section_trFGM8",
     "hero_signup_band",
     "intro_hello",
     "hero_E8acT9",
