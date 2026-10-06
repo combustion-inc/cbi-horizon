@@ -1007,7 +1007,7 @@
           "settings": {
             "text": "<h2>Hello. We're Combustion Inc.</h2><p>We build nice things that make cooking more enjoyable.</p><p>You don't need much to prepare a great meal. A sharp knife, a few good pans, and a modest assortment of other tools are enough. You should definitely have a good thermometer.&nbsp;</p><p>We made ours wireless and stuffed it with 8 temperature sensors. It works with our big and bold Kitchen Display and our iOS and Android apps. They’re all extremely easy to use.</p><p>Oh, and did we mention that our thermometer can <em>predict the future?</em> Let us explain…</p>",
             "width": "100%",
-            "max_width": "normal",
+            "max_width": "none",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
@@ -1033,10 +1033,7 @@
         "text_6yeBhg"
       ],
       "custom_css": [
-        ".text-block > * {max-width: 100%;}",
-        "@media screen and (min-width: 1101px) {rte-formatter, h2, p {width: var(--max-width--body-normal); max-width: 100%; }}",
-        "img {}",
-        "@media screen and (min-width: 989px) and (max-width: 1100px) {rte-formatter, {width: var(--max-width--body-narrow); max-width: 100%; } h2 {font-size: var(--font-h3--size); }}"
+        "@media screen and (min-width: 989px) and (max-width: 1280px) {rte-formatter {width: var(--max-width--body-narrow); } h2 {font-size: var(--font-h3--size); }}"
       ],
       "name": "hello",
       "settings": {
@@ -1816,8 +1813,8 @@
         "horizontal_alignment": "flex-start",
         "gap": 28,
         "background_color": "{{ settings.color_palette.color1 }}",
-        "padding-block-start": 100,
-        "padding-block-end": 60
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "section_QKDzVy": {
@@ -1840,7 +1837,7 @@
             "border_opacity": 100,
             "border_color": "",
             "border_radius": 0,
-            "padding-block-start": 24,
+            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -1888,7 +1885,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h2>Oh, did we mention that…</h2><p>The Combustion Predictive Thermometer is still the thinnest, most accurate, and longest running wireless thermometer? Will it make you a better cook? Is 🔥 hot?</p><p>You can read all the specs XXXXhereXXXX.</p>",
+            "text": "<h2>Oh, did we mention that…</h2><p>The Combustion Predictive Thermometer is still the thinnest, most accurate, and longest running wireless thermometer? Will it make you a better cook? Is 🔥 hot?</p><p>You can read all the specs <a href=\"https://combustion.inc/products/predictive-thermometer-wifi-booster-starter-kit#specs\" title=\"https://combustion.inc/products/predictive-thermometer-wifi-booster-starter-kit#specs\">here</a>.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -1928,7 +1925,7 @@
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
-        "background_color": "{{ settings.color_palette.background }}",
+        "background_color": "{{ settings.color_palette.color7 }}",
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
