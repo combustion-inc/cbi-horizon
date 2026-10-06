@@ -848,7 +848,7 @@
                             "color_ribbon": "rgba(0,0,0,0)",
                             "color_text": "#363636",
                             "color_stars": "{{ settings.color_palette.color3 }}",
-                            "title_size": 24,
+                            "title_size": 18,
                             "title": "Verified Reviews"
                           }
                         }
