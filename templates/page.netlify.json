@@ -578,7 +578,7 @@
             "stamped_reviews_site_badge_pY6RFp": {
               "type": "shopify://apps/stamped-reviews/blocks/site-badge/a103faaf-2125-4b0e-89fa-de5149736723",
               "settings": {
-                "badge_type": "badge",
+                "badge_type": "minimal",
                 "color_outer": "rgba(0,0,0,0)",
                 "color_inner": "rgba(0,0,0,0)",
                 "color_ribbon": "rgba(0,0,0,0)",
