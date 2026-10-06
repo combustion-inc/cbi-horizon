@@ -210,105 +210,6 @@
     "hero_signup": {
       "type": "section",
       "blocks": {
-        "hero_text_panel": {
-          "type": "group",
-          "name": "t:names.group",
-          "disabled": true,
-          "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 4,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fill",
-            "custom_height": 100,
-            "background_media": "none",
-            "background_color": "",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 48,
-            "padding-block-end": 48,
-            "padding-inline-start": 24,
-            "padding-inline-end": 24
-          },
-          "blocks": {
-            "hero_heading": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h1",
-                "font": "var(--font-heading--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "#ffffff",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "hero_subheading": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<h1>Wireless.<br/>Predictive.<br/><strong>Perfect.</strong></h1><p>Introducing the world's only predictive thermometer, with 8 sensors to see the future.</p>",
-                "width": "100%",
-                "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "#ffffff",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "hero_heading",
-            "hero_subheading"
-          ]
-        },
         "group_YKVc8D": {
           "type": "group",
           "name": "t:names.group",
@@ -319,8 +220,8 @@
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 4,
+            "vertical_alignment_flex_direction_column": "flex-end",
+            "gap": 0,
             "width": "custom",
             "custom_width": 75,
             "width_mobile": "custom",
@@ -390,11 +291,11 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 20,
-            "width": "fit-content",
-            "custom_width": 60,
+            "width": "custom",
+            "custom_width": 26,
             "width_mobile": "custom",
-            "custom_width_mobile": 16,
-            "height": "fill",
+            "custom_width_mobile": 40,
+            "height": "fit",
             "custom_height": 100,
             "background_media": "none",
             "background_color": "",
@@ -412,26 +313,12 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 20,
-            "padding-block-end": 20,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
           "blocks": {
-            "divider_D7cYbp": {
-              "type": "_divider",
-              "name": "t:names.divider",
-              "disabled": true,
-              "settings": {
-                "thickness": 0.5,
-                "corner_radius": "square",
-                "divider_color": "",
-                "width_percent": 5,
-                "padding-block-start": 0,
-                "padding-block-end": 0
-              },
-              "blocks": {}
-            },
             "group_CEwpd6": {
               "type": "group",
               "name": "t:names.group",
@@ -530,15 +417,6 @@
                 "text_DGxQKP"
               ]
             },
-            "custom_liquid_fjjmFD": {
-              "type": "custom-liquid",
-              "name": "t:names.custom_liquid",
-              "disabled": true,
-              "settings": {
-                "custom_liquid": "•"
-              },
-              "blocks": {}
-            },
             "group_c6FYxe": {
               "type": "group",
               "name": "t:names.group",
@@ -636,15 +514,6 @@
                 "text_Cp9PaK",
                 "text_kEq7Dp"
               ]
-            },
-            "custom_liquid_mdcAj9": {
-              "type": "custom-liquid",
-              "name": "t:names.custom_liquid",
-              "disabled": true,
-              "settings": {
-                "custom_liquid": "•"
-              },
-              "blocks": {}
             },
             "group_bbfYCq": {
               "type": "group",
@@ -746,23 +615,20 @@
             }
           },
           "block_order": [
-            "divider_D7cYbp",
             "group_CEwpd6",
-            "custom_liquid_fjjmFD",
             "group_c6FYxe",
-            "custom_liquid_mdcAj9",
             "group_bbfYCq"
           ]
         }
       },
       "block_order": [
-        "hero_text_panel",
         "group_YKVc8D",
         "group_THMPXA"
       ],
       "custom_css": [
         "h1 strong {color: #ffcf4c;}",
-        "@media screen and (max-width: 749px) {h2 {font-size: small; } p {font-size: small; }}"
+        "@media screen and (max-width: 749px) {h2 {font-size: small; } p {font-size: small; }}",
+        ".section-content-wrapper > .group-block:first-child {max-width: 60%;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -775,7 +641,7 @@
         "vertical_alignment_flex_direction_column": "center",
         "gap": 0,
         "section_width": "page-width",
-        "section_height": "small",
+        "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
         "background_color": "#363636",
