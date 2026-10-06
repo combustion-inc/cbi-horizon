@@ -96,8 +96,8 @@
             "width": "custom",
             "custom_width": 75,
             "width_mobile": "custom",
-            "custom_width_mobile": 18,
-            "height": "fit",
+            "custom_width_mobile": 17,
+            "height": "fill",
             "custom_height": 100,
             "background_media": "none",
             "background_color": "",
@@ -130,8 +130,8 @@
                 "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 50,
-                "width_mobile": "fill",
-                "custom_width_mobile": 90,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 87,
                 "height": "fill",
                 "border": "none",
                 "border_width": 1,
@@ -150,20 +150,6 @@
             "image_VK9qyq"
           ]
         },
-        "spacer_AmBMkr": {
-          "type": "spacer",
-          "name": "t:names.spacer",
-          "settings": {
-            "size": "pixel",
-            "percent_size": 100,
-            "pixel_size": 40,
-            "custom_mobile_size": true,
-            "size_mobile": "pixel",
-            "percent_size_mobile": 100,
-            "pixel_size_mobile": 12
-          },
-          "blocks": {}
-        },
         "group_THMPXA": {
           "type": "group",
           "name": "Bullet features",
@@ -179,7 +165,7 @@
             "width": "custom",
             "custom_width": 26,
             "width_mobile": "custom",
-            "custom_width_mobile": 40,
+            "custom_width_mobile": 38,
             "height": "fill",
             "custom_height": 100,
             "background_media": "none",
@@ -198,8 +184,8 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 59,
-            "padding-block-end": 60,
+            "padding-block-start": 20,
+            "padding-block-end": 20,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -508,24 +494,24 @@
       },
       "block_order": [
         "group_YKVc8D",
-        "spacer_AmBMkr",
         "group_THMPXA"
       ],
       "custom_css": [
         "@media screen and (max-width: 749px) {h2 {font-size: clamp(14px, calc(7.318px + 2.227vw), 24px); } p {font-size: small; }}",
         ".section-content-wrapper > .group-block:first-child {max-width: 60%;}",
-        ".group-block--height-fill {height: -webkit-fill-available;}"
+        ".layout-panel-flex--row {align-items: stretch;}",
+        ".layout-panel-flex--row > div:first-child {align-self: flex-end;}"
       ],
       "name": "hero",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": false,
-        "horizontal_alignment": "center",
+        "horizontal_alignment": "space-between",
         "vertical_alignment": "flex-end",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 0,
+        "gap": 20,
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
