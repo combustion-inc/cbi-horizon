@@ -1405,28 +1405,27 @@
     "intro_hello": {
       "type": "section",
       "blocks": {
-        "intro_knife": {
+        "group_DhtpBm": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
             "content_direction": "column",
             "vertical_on_mobile": true,
-            "horizontal_alignment": "center",
+            "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
+            "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 0,
+            "gap": 12,
             "width": "custom",
-            "custom_width": 14,
+            "custom_width": 12,
             "width_mobile": "custom",
-            "custom_width_mobile": 14,
+            "custom_width_mobile": 0,
             "height": "fill",
             "custom_height": 100,
-            "background_media": "image",
+            "background_media": "none",
             "background_color": "",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/knife-240.png",
             "background_image_position": "cover",
             "toggle_overlay": false,
             "overlay_color": "#00000026",
@@ -1445,7 +1444,35 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "image_CzC8rz": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/knife-240.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fit-content",
+                "custom_width": 30,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 0,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_CzC8rz"
+          ]
         },
         "intro_copy": {
           "type": "group",
@@ -1456,11 +1483,11 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 20,
-            "width": "fill",
-            "custom_width": 100,
+            "width": "custom",
+            "custom_width": 49,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
@@ -1483,8 +1510,8 @@
             "placeholder": "",
             "padding-block-start": 40,
             "padding-block-end": 40,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-inline-start": 20,
+            "padding-inline-end": 20
           },
           "blocks": {
             "intro_body": {
@@ -1492,8 +1519,8 @@
               "name": "t:names.text",
               "settings": {
                 "text": "<h2>Hello. We're Combustion Inc.</h2><p>We build nice things that make cooking more enjoyable.</p><p>You don't need much to prepare a great meal. A sharp knife, a few good pans, and a modest assortment of other tools are enough. You should definitely have a good thermometer.&nbsp;</p><p>We made ours wireless and stuffed it with 8 temperature sensors. It works with our big and bold Kitchen Display and our iOS and Android apps. They’re all extremely easy to use.</p><p>Oh, and did we mention that our thermometer can <em>predict the future?</em> Let us explain…</p>",
-                "width": "fit-content",
-                "max_width": "none",
+                "width": "100%",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -1518,28 +1545,27 @@
             "intro_body"
           ]
         },
-        "intro_pan_deco": {
+        "group_EaRttt": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
             "content_direction": "column",
             "vertical_on_mobile": true,
-            "horizontal_alignment": "center",
+            "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
+            "horizontal_alignment_flex_direction_column": "flex-end",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 0,
+            "gap": 12,
             "width": "custom",
-            "custom_width": 14,
+            "custom_width": 10,
             "width_mobile": "custom",
-            "custom_width_mobile": 14,
-            "height": "fill",
+            "custom_width_mobile": 12,
+            "height": "fit",
             "custom_height": 100,
-            "background_media": "image",
+            "background_media": "none",
             "background_color": "",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/pan-240.png",
             "background_image_position": "cover",
             "toggle_overlay": false,
             "overlay_color": "#00000026",
@@ -1558,25 +1584,56 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "image_GBefw9": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/pan-240.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fit-content",
+                "custom_width": 30,
+                "width_mobile": "custom",
+                "custom_width_mobile": 0,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_GBefw9"
+          ]
         }
       },
       "block_order": [
-        "intro_knife",
+        "group_DhtpBm",
         "intro_copy",
-        "intro_pan_deco"
+        "group_EaRttt"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.layout-panel-flex--row > .group-block--width-custom {flex-basis: var(--size-style-width-mobile); }}"
       ],
       "name": "hello",
       "settings": {
         "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
+        "vertical_on_mobile": false,
+        "horizontal_alignment": "space-between",
         "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 40,
-        "section_width": "page-width",
+        "gap": 0,
+        "section_width": "full-width",
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
