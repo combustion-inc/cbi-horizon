@@ -1731,7 +1731,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/devices-wide-large.webp",
+            "image": "shopify://shop_images/devices-wide-enhanced-shadow-tinified.png",
             "link": "",
             "image_ratio": "adapt",
             "width": "fill",
@@ -2016,7 +2016,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2026-09-18_at_12.34.16.png",
+            "image": "shopify://shop_images/chicken-roast-overhead-tinified.png",
             "link": "",
             "image_ratio": "adapt",
             "width": "fill",
@@ -2280,7 +2280,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/probing-steak-xlarge.webp",
+            "image": "shopify://shop_images/probing-steak-xlarge-tinified.png",
             "link": "",
             "image_ratio": "adapt",
             "width": "fill",
