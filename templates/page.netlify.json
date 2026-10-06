@@ -927,18 +927,22 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "stamped_reviews_star_rating_badge_bjK3bY": {
-                  "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+                "stamped_reviews_site_badge_pY6RFp": {
+                  "type": "shopify://apps/stamped-reviews/blocks/site-badge/a103faaf-2125-4b0e-89fa-de5149736723",
                   "settings": {
-                    "use_metafields": false,
-                    "sku_tagtype": "sku",
-                    "is_featured_product": true,
-                    "featured_product_handle": "predictive-thermometer"
+                    "badge_type": "badge",
+                    "color_outer": "",
+                    "color_inner": "",
+                    "color_ribbon": "",
+                    "color_text": "#363636",
+                    "color_stars": "{{ settings.color_palette.color3 }}",
+                    "title_size": 24,
+                    "title": "Verified Reviews"
                   }
                 }
               },
               "block_order": [
-                "stamped_reviews_star_rating_badge_bjK3bY"
+                "stamped_reviews_site_badge_pY6RFp"
               ]
             }
           },
@@ -1486,7 +1490,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 20,
-            "width": "custom",
+            "width": "fit-content",
             "custom_width": 49,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -1518,7 +1522,33 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2>Hello. We're Combustion Inc.</h2><p>We build nice things that make cooking more enjoyable.</p><p>You don't need much to prepare a great meal. A sharp knife, a few good pans, and a modest assortment of other tools are enough. You should definitely have a good thermometer.&nbsp;</p><p>We made ours wireless and stuffed it with 8 temperature sensors. It works with our big and bold Kitchen Display and our iOS and Android apps. They’re all extremely easy to use.</p><p>Oh, and did we mention that our thermometer can <em>predict the future?</em> Let us explain…</p>",
+                "text": "<h2>Hello. We're Combustion Inc.</h2>",
+                "width": "fit-content",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_ERUnXm": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>We build nice things that make cooking more enjoyable.</p><p>You don't need much to prepare a great meal. A sharp knife, a few good pans, and a modest assortment of other tools are enough. You should definitely have a good thermometer.&nbsp;</p><p>We made ours wireless and stuffed it with 8 temperature sensors. It works with our big and bold Kitchen Display and our iOS and Android apps. They’re all extremely easy to use.</p><p>Oh, and did we mention that our thermometer can <em>predict the future?</em> Let us explain…</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1542,7 +1572,8 @@
             }
           },
           "block_order": [
-            "intro_body"
+            "intro_body",
+            "text_ERUnXm"
           ]
         },
         "group_EaRttt": {
