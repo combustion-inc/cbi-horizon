@@ -93,10 +93,10 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-end",
             "gap": 0,
-            "width": "custom",
+            "width": "fill",
             "custom_width": 75,
             "width_mobile": "custom",
-            "custom_width_mobile": 17,
+            "custom_width_mobile": 57,
             "height": "fill",
             "custom_height": 100,
             "background_media": "none",
@@ -132,7 +132,7 @@
                 "custom_width": 50,
                 "width_mobile": "fit-content",
                 "custom_width_mobile": 87,
-                "height": "fill",
+                "height": "fit",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -165,7 +165,7 @@
             "width": "custom",
             "custom_width": 26,
             "width_mobile": "custom",
-            "custom_width_mobile": 38,
+            "custom_width_mobile": 36,
             "height": "fill",
             "custom_height": 100,
             "background_media": "none",
@@ -497,14 +497,16 @@
         "group_THMPXA"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {h2 {font-size: clamp(14px, calc(7.318px + 2.227vw), 24px); } p {font-size: small; }}",
-        ".section-content-wrapper > .group-block:first-child {max-width: 60%;}"
+        "@media screen and (max-width: 749px) {h2 {font-size: clamp(14px, calc(7.318px + 2.227vw), 24px); } p {font-size: small; } .layout-panel-flex--row > .group-block--width-custom {flex-basis: var(--size-style-width-mobile); }}",
+        ".section-content-wrapper > .group-block:first-child {max-width: 60%;}",
+        ".layout-panel-flex--row {align-items: stretch;}",
+        ".layout-panel-flex--row > div:first-child {align-self: flex-end;}"
       ],
       "name": "hero",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": false,
-        "horizontal_alignment": "space-between",
+        "horizontal_alignment": "center",
         "vertical_alignment": "flex-end",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
@@ -526,7 +528,7 @@
         "border_opacity": 100,
         "border_color": "",
         "border_radius": 0,
-        "padding-block-start": 20,
+        "padding-block-start": 0,
         "padding-block-end": 0
       }
     },
