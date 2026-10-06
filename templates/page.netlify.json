@@ -535,6 +535,64 @@
     "product_list_cFY8MM": {
       "type": "product-list",
       "blocks": {
+        "group_hawNji": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "stamped_reviews_site_badge_pY6RFp": {
+              "type": "shopify://apps/stamped-reviews/blocks/site-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+              "settings": {
+                "badge_type": "badge",
+                "color_outer": "rgba(0,0,0,0)",
+                "color_inner": "rgba(0,0,0,0)",
+                "color_ribbon": "rgba(0,0,0,0)",
+                "color_text": "#363636",
+                "color_stars": "{{ settings.color_palette.color3 }}",
+                "title_size": 24,
+                "title": "Verified Reviews"
+              }
+            }
+          },
+          "block_order": [
+            "stamped_reviews_site_badge_pY6RFp"
+          ]
+        },
         "static-header": {
           "type": "_product-list-content",
           "name": "t:names.header",
@@ -568,69 +626,7 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {
-            "group_EAUWnt": {
-              "type": "group",
-              "name": "t:names.group",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "background_media": "none",
-                "background_color": "",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_color": "",
-                "border_radius": 0,
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "stamped_reviews_site_badge_pY6RFp": {
-                  "type": "shopify://apps/stamped-reviews/blocks/site-badge/a103faaf-2125-4b0e-89fa-de5149736723",
-                  "settings": {
-                    "badge_type": "badge",
-                    "color_outer": "",
-                    "color_inner": "",
-                    "color_ribbon": "",
-                    "color_text": "#363636",
-                    "color_stars": "{{ settings.color_palette.color3 }}",
-                    "title_size": 24,
-                    "title": "Verified Reviews"
-                  }
-                }
-              },
-              "block_order": [
-                "stamped_reviews_site_badge_pY6RFp"
-              ]
-            }
-          },
-          "block_order": [
-            "group_EAUWnt"
-          ]
+          "blocks": {}
         },
         "static-product-card": {
           "type": "_product-card",
@@ -964,6 +960,9 @@
           ]
         }
       },
+      "block_order": [
+        "group_hawNji"
+      ],
       "custom_css": [
         ".add-to-cart-icon {display: none;}",
         ".product-form-buttons button {width: 100%; padding: 0.25rem 1.2rem; min-height: 44px; height: auto; font-size: 1.2rem; line-height: 1;}",
