@@ -746,6 +746,19 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
+                        "stamped_reviews_site_badge_kfymmi": {
+                          "type": "shopify://apps/stamped-reviews/blocks/site-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+                          "settings": {
+                            "badge_type": "minimal",
+                            "color_outer": "rgba(0,0,0,0)",
+                            "color_inner": "rgba(0,0,0,0)",
+                            "color_ribbon": "rgba(0,0,0,0)",
+                            "color_text": "#363636",
+                            "color_stars": "{{ settings.color_palette.color3 }}",
+                            "title_size": 18,
+                            "title": "Verified Reviews"
+                          }
+                        },
                         "product_card_group_T84eUf": {
                           "type": "_product-card-group",
                           "name": "t:names.group",
@@ -838,24 +851,11 @@
                             "product_title_NdU69X",
                             "price_tn4dLg"
                           ]
-                        },
-                        "stamped_reviews_site_badge_kfymmi": {
-                          "type": "shopify://apps/stamped-reviews/blocks/site-badge/a103faaf-2125-4b0e-89fa-de5149736723",
-                          "settings": {
-                            "badge_type": "minimal",
-                            "color_outer": "rgba(0,0,0,0)",
-                            "color_inner": "rgba(0,0,0,0)",
-                            "color_ribbon": "rgba(0,0,0,0)",
-                            "color_text": "#363636",
-                            "color_stars": "{{ settings.color_palette.color3 }}",
-                            "title_size": 18,
-                            "title": "Verified Reviews"
-                          }
                         }
                       },
                       "block_order": [
-                        "product_card_group_T84eUf",
-                        "stamped_reviews_site_badge_kfymmi"
+                        "stamped_reviews_site_badge_kfymmi",
+                        "product_card_group_T84eUf"
                       ]
                     },
                     "product_card_group_FFRjaJ": {
