@@ -498,9 +498,7 @@
       ],
       "custom_css": [
         "@media screen and (max-width: 749px) {h2 {font-size: clamp(14px, calc(7.318px + 2.227vw), 24px); } p {font-size: small; }}",
-        ".section-content-wrapper > .group-block:first-child {max-width: 60%;}",
-        ".layout-panel-flex--row {align-items: stretch;}",
-        ".layout-panel-flex--row > div:first-child {align-self: flex-end;}"
+        ".section-content-wrapper > .group-block:first-child {max-width: 60%;}"
       ],
       "name": "hero",
       "settings": {
