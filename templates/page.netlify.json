@@ -1903,6 +1903,20 @@
     "faq_footnote": {
       "type": "section",
       "blocks": {
+        "spacer_MqPCA8": {
+          "type": "spacer",
+          "name": "t:names.spacer",
+          "settings": {
+            "size": "pixel",
+            "percent_size": 100,
+            "pixel_size": 4,
+            "custom_mobile_size": true,
+            "size_mobile": "pixel",
+            "percent_size_mobile": 100,
+            "pixel_size_mobile": 340
+          },
+          "blocks": {}
+        },
         "group_aDLKY4": {
           "type": "group",
           "name": "t:names.group",
@@ -1914,7 +1928,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
+            "gap": 0,
             "width": "custom",
             "custom_width": 40,
             "width_mobile": "fit-content",
@@ -1937,7 +1951,7 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 60,
+            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -1973,97 +1987,80 @@
           "block_order": [
             "text_B3yFNm"
           ]
-        },
-        "group_ya48yG": {
-          "type": "group",
-          "name": "t:names.group",
+        }
+      },
+      "block_order": [
+        "spacer_MqPCA8",
+        "group_aDLKY4"
+      ],
+      "custom_css": [
+        "h3 {font-size: var(--font-size--h5);}",
+        "p {margin-top: 0; margin-bottom: 2rem;}",
+        "img {object-position: top right;}",
+        "@media screen and (min-width: 750px) {.background-image-container {max-width: 50%; margin-left: auto; }}",
+        "@media screen and (max-width: 749px) {img {max-height: 340px; }}"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "flex-end",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 0,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "background_media": "image",
+        "background_color": "{{ settings.color_palette.foreground }}",
+        "video_position": "cover",
+        "background_image": "shopify://shop_images/slt-pkg-grill.png",
+        "background_image_position": "fit",
+        "toggle_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 60,
+        "padding-block-end": 0
+      }
+    },
+    "section_ewQeRC": {
+      "type": "section",
+      "blocks": {
+        "image_pLnX7H": {
+          "type": "image",
+          "name": "t:names.image",
           "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
+            "image": "shopify://shop_images/slt-pkg-phones.png",
+            "link": "",
+            "image_ratio": "adapt",
             "width": "custom",
-            "custom_width": 50,
-            "width_mobile": "fill",
-            "custom_width_mobile": 80,
-            "height": "fill",
-            "custom_height": 90,
-            "background_media": "image",
-            "background_color": "",
-            "video_position": "cover",
-            "background_image": "shopify://shop_images/slt-pkg-grill.png",
-            "background_image_position": "cover",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
+            "custom_width": 33,
+            "width_mobile": "custom",
+            "custom_width_mobile": 75,
+            "height": "fit",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
             "border_color": "",
             "border_radius": 0,
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {
-            "spacer_HhkQEW": {
-              "type": "spacer",
-              "name": "t:names.spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 120,
-                "custom_mobile_size": true,
-                "size_mobile": "pixel",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 300
-              },
-              "blocks": {}
-            },
-            "image_giU3NW": {
-              "type": "image",
-              "name": "t:names.image",
-              "disabled": true,
-              "settings": {
-                "image": "shopify://shop_images/slt-pkg-grill.png",
-                "link": "",
-                "image_ratio": "adapt",
-                "width": "fill",
-                "custom_width": 60,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_color": "",
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "spacer_HhkQEW",
-            "image_giU3NW"
-          ]
+          "blocks": {}
         },
-        "group_TgKJkV": {
+        "group_Nq8VJG": {
           "type": "group",
           "name": "t:names.group",
-          "disabled": true,
           "settings": {
             "content_direction": "row",
             "vertical_on_mobile": true,
@@ -2101,31 +2098,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "image_N3mFUA": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/slt-pkg-phones.png",
-                "link": "",
-                "image_ratio": "adapt",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_color": "",
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_W9VCap": {
+            "text_FghPiq": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
@@ -2153,43 +2126,35 @@
             }
           },
           "block_order": [
-            "image_N3mFUA",
-            "text_W9VCap"
+            "text_FghPiq"
           ]
         }
       },
       "block_order": [
-        "group_aDLKY4",
-        "group_ya48yG",
-        "group_TgKJkV"
+        "image_pLnX7H",
+        "group_Nq8VJG"
       ],
       "custom_css": [
         "h3 {font-size: var(--font-size--h5);}",
-        "p {margin-top: 0; margin-bottom: 2rem;}",
-        ".group-block:has(p) {max-width: 500px;}",
-        ".background-image-container {aspect-ratio: 1; max-height: 100%; max-width: 100%; left: unset;}",
-        "img {transform: scale(1.33); position: absolute; left: 25%; bottom: 25%;}",
-        "@media screen and (min-width: 990px) {}",
-        "@media screen and (max-width: 749px) {.group-block:has(img) {order: 1; } .spacer-block {} .group-block:has(p) {order: 2; max-width: 90%; margin: auto; }}"
+        "p {margin-top: 0; margin-bottom: 2rem;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-end",
-        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "vertical_alignment": "flex-start",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-end",
+        "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 0,
-        "section_width": "full-width",
+        "gap": 40,
+        "section_width": "page-width",
         "section_height": "small",
         "section_height_custom": 50,
         "background_media": "none",
         "background_color": "{{ settings.color_palette.foreground }}",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/slt-pkg-grill.png",
-        "background_image_position": "cover",
+        "background_image_position": "fit",
         "toggle_overlay": false,
         "overlay_color": "#000000",
         "overlay_style": "solid",
@@ -2215,6 +2180,7 @@
     "product_list_jdYKPa",
     "section_QKDzVy",
     "crazy_lineup",
-    "faq_footnote"
+    "faq_footnote",
+    "section_ewQeRC"
   ]
 }
