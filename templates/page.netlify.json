@@ -1996,7 +1996,7 @@
             "background_color": "",
             "video_position": "cover",
             "background_image": "shopify://shop_images/slt-pkg-grill.png",
-            "background_image_position": "fit",
+            "background_image_position": "cover",
             "toggle_overlay": false,
             "overlay_color": "#00000026",
             "overlay_style": "solid",
@@ -2168,7 +2168,7 @@
         "p {margin-top: 0; margin-bottom: 2rem;}",
         ".group-block:has(p) {max-width: 500px;}",
         "div {overflow: clip;}",
-        "img {position: absolute; top: 0; right: 0; width: 75%; aspect-ratio: 1 / 1; object-fit: cover; object-position: left bottom;}",
+        "img {width: 133.33%; height: 100%; object-position: 0% 100%;}",
         "@media screen and (min-width: 990px) {.background-image-container {}}",
         "@media screen and (max-width: 749px) {.group-block:has(img) {order: 1; } .spacer-block {} .group-block:has(p) {order: 2; max-width: 90%; margin: auto; }}"
       ],
