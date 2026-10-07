@@ -1988,7 +1988,7 @@
             "gap": 12,
             "width": "custom",
             "custom_width": 50,
-            "width_mobile": "custom",
+            "width_mobile": "fill",
             "custom_width_mobile": 80,
             "height": "fill",
             "custom_height": 90,
@@ -2025,7 +2025,7 @@
                 "custom_mobile_size": true,
                 "size_mobile": "pixel",
                 "percent_size_mobile": 100,
-                "pixel_size_mobile": 400
+                "pixel_size_mobile": 300
               },
               "blocks": {}
             },
