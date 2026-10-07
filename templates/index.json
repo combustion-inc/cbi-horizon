@@ -7447,7 +7447,7 @@
         },
         "group_QBwBAD": {
           "type": "group",
-          "name": "t:names.group",
+          "name": "rainbow specs",
           "settings": {
             "content_direction": "row",
             "vertical_on_mobile": true,
