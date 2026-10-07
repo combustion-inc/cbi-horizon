@@ -1963,7 +1963,7 @@
               "settings": {
                 "text": "<h3>Perfect timing, no guesswork&nbsp;</h3><p>Forecast when your food will be ready using real physics</p><h3>Perfect doneness, every time</h3><p>8 evenly spaced sensors pinpoint the slowest heating spot with TrueCore®</p><h3>Safe cooking, delicious results&nbsp;</h3><p>SafeCook™ tracks time and temperature for food safety without overcooking</p>",
                 "width": "fit-content",
-                "max_width": "narrow",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -2170,7 +2170,7 @@
                   "settings": {
                     "text": "<h3>Built for high heat</h3><p>For ambient temperatures up to 900 °F. Use in ovens, grills, deep fryers, smokers, and more</p><h3>Hermetically sealed</h3><p>Submersible and dishwasher safe</p><h3>Cook phone-free or from anywhere</h3><p>Use the WiFi Display in your kitchen, or check from anywhere with the free iOS & Android apps</p>",
                     "width": "fit-content",
-                    "max_width": "narrow",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
