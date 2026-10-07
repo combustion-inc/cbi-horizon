@@ -1903,11 +1903,11 @@
     "faq_footnote": {
       "type": "section",
       "blocks": {
-        "group_ePVycN": {
+        "group_aDLKY4": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
-            "content_direction": "row",
+            "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
@@ -1915,8 +1915,8 @@
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
-            "width": "fill",
-            "custom_width": 100,
+            "width": "custom",
+            "custom_width": 40,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
@@ -1943,13 +1943,13 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_dKADpR": {
+            "text_B3yFNm": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
                 "text": "<h3>Perfect timing, no guesswork&nbsp;</h3><p>Forecast when your food will be ready using real physics</p><h3>Perfect doneness, every time</h3><p>8 evenly spaced sensors pinpoint the slowest heating spot with TrueCore®</p><h3>Safe cooking, delicious results&nbsp;</h3><p>SafeCook™ tracks time and temperature for food safety without overcooking</p>",
                 "width": "fit-content",
-                "max_width": "narrow",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -1968,8 +1968,54 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "image_y7RjTH": {
+            }
+          },
+          "block_order": [
+            "text_B3yFNm"
+          ]
+        },
+        "group_ya48yG": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "background_media": "image",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image": "shopify://shop_images/slt-pkg-grill.png",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "image_giU3NW": {
               "type": "image",
               "name": "t:names.image",
               "disabled": true,
@@ -1978,7 +2024,7 @@
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
-                "custom_width": 100,
+                "custom_width": 60,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
@@ -1996,8 +2042,7 @@
             }
           },
           "block_order": [
-            "text_dKADpR",
-            "image_y7RjTH"
+            "image_giU3NW"
           ]
         },
         "group_TgKJkV": {
@@ -2099,28 +2144,29 @@
         }
       },
       "block_order": [
-        "group_ePVycN",
+        "group_aDLKY4",
+        "group_ya48yG",
         "group_TgKJkV"
       ],
       "custom_css": [
         "h3 {font-size: var(--font-size--h5);}",
         "p {margin-top: 0; margin-bottom: 2rem;}",
-        "img {position: absolute; top: 0; right: 0; width: 40%; object-position: top right;}"
+        "img {min-width: 110%;}"
       ],
       "name": "t:names.custom_section",
       "settings": {
-        "content_direction": "column",
+        "content_direction": "row",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
+        "horizontal_alignment": "flex-end",
         "vertical_alignment": "center",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "flex-end",
+        "horizontal_alignment_flex_direction_column": "flex-end",
+        "vertical_alignment_flex_direction_column": "center",
         "gap": 0,
-        "section_width": "page-width",
-        "section_height": "",
+        "section_width": "full-width",
+        "section_height": "small",
         "section_height_custom": 50,
-        "background_media": "image",
+        "background_media": "none",
         "background_color": "{{ settings.color_palette.foreground }}",
         "video_position": "cover",
         "background_image": "shopify://shop_images/slt-pkg-grill.png",
@@ -2134,8 +2180,8 @@
         "border_opacity": 100,
         "border_color": "",
         "border_radius": 0,
-        "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     }
   },
