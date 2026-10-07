@@ -1917,8 +1917,8 @@
             "gap": 12,
             "width": "custom",
             "custom_width": 40,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 90,
             "height": "fit",
             "custom_height": 100,
             "background_media": "none",
@@ -1937,7 +1937,7 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 0,
+            "padding-block-start": 60,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -1988,15 +1988,15 @@
             "gap": 12,
             "width": "custom",
             "custom_width": 50,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
+            "width_mobile": "custom",
+            "custom_width_mobile": 80,
             "height": "fill",
-            "custom_height": 100,
+            "custom_height": 90,
             "background_media": "image",
             "background_color": "",
             "video_position": "cover",
             "background_image": "shopify://shop_images/slt-pkg-grill.png",
-            "background_image_position": "cover",
+            "background_image_position": "fit",
             "toggle_overlay": false,
             "overlay_color": "#00000026",
             "overlay_style": "solid",
@@ -2015,6 +2015,20 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "spacer_HhkQEW": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 120,
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 400
+              },
+              "blocks": {}
+            },
             "image_giU3NW": {
               "type": "image",
               "name": "t:names.image",
@@ -2042,6 +2056,7 @@
             }
           },
           "block_order": [
+            "spacer_HhkQEW",
             "image_giU3NW"
           ]
         },
@@ -2151,7 +2166,11 @@
       "custom_css": [
         "h3 {font-size: var(--font-size--h5);}",
         "p {margin-top: 0; margin-bottom: 2rem;}",
-        "img {min-width: 110%;}"
+        ".group-block:has(p) {max-width: 500px;}",
+        "div {overflow: clip;}",
+        "img {position: absolute; top: 0; right: 0; width: 75%; aspect-ratio: 1 / 1; object-fit: cover; object-position: left bottom;}",
+        "@media screen and (min-width: 990px) {.background-image-container {}}",
+        "@media screen and (max-width: 749px) {.group-block:has(img) {order: 1; } .spacer-block {} .group-block:has(p) {order: 2; max-width: 90%; margin: auto; }}"
       ],
       "name": "t:names.custom_section",
       "settings": {
