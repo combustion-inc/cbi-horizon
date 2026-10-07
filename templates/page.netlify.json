@@ -2167,8 +2167,8 @@
         "h3 {font-size: var(--font-size--h5);}",
         "p {margin-top: 0; margin-bottom: 2rem;}",
         ".group-block:has(p) {max-width: 500px;}",
-        "div {overflow: clip;}",
-        "img {width: 133.33%; height: 100%; object-position: 0% 100%;}",
+        "div {}",
+        "img {width: 133.33%; height: 133.33%; object-position: 0% 100%;}",
         "@media screen and (min-width: 990px) {.background-image-container {}}",
         "@media screen and (max-width: 749px) {.group-block:has(img) {order: 1; } .spacer-block {} .group-block:has(p) {order: 2; max-width: 90%; margin: auto; }}"
       ],
