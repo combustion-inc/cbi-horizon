@@ -2097,8 +2097,8 @@
                       "settings": {
                         "use_metafields": false,
                         "sku_tagtype": "sku",
-                        "is_featured_product": false,
-                        "featured_product_handle": ""
+                        "is_featured_product": true,
+                        "featured_product_handle": "{{ closest.product.metafields.stamped.handle.value }}"
                       }
                     },
                     "review_9DfEpm": {
@@ -3955,8 +3955,8 @@
                       "settings": {
                         "use_metafields": false,
                         "sku_tagtype": "sku",
-                        "is_featured_product": false,
-                        "featured_product_handle": ""
+                        "is_featured_product": true,
+                        "featured_product_handle": "{{ closest.product.metafields.stamped.handle.value }}"
                       }
                     },
                     "review_DbDK4C": {
@@ -4839,8 +4839,8 @@
                       "settings": {
                         "use_metafields": false,
                         "sku_tagtype": "sku",
-                        "is_featured_product": false,
-                        "featured_product_handle": ""
+                        "is_featured_product": true,
+                        "featured_product_handle": "{{ closest.product.metafields.stamped.handle.value }}"
                       }
                     },
                     "review_fFNJmn": {
@@ -7294,8 +7294,8 @@
                       "settings": {
                         "use_metafields": false,
                         "sku_tagtype": "sku",
-                        "is_featured_product": false,
-                        "featured_product_handle": ""
+                        "is_featured_product": true,
+                        "featured_product_handle": "{{ closest.product.metafields.stamped.handle.value }}"
                       }
                     },
                     "review_RYf4bE": {
