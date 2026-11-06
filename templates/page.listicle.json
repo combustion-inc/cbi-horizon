@@ -246,7 +246,7 @@
             "hero_press": {
               "type": "text",
               "settings": {
-                "text": "<p>\"Roasting and grilling should always be this stress-free.\" <em>Wired</em></p>",
+                "text": "<p>Rated 9/10 by WIRED</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -461,7 +461,7 @@
                     "text_WjUThV": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>30-day returns</p>",
+                        "text": "<p>2-year warranty</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -525,7 +525,7 @@
             "hero_ticks": {
               "type": "text",
               "settings": {
-                "text": "<ul><li>Live countdown to the minute it's done</li><li>Plans for resting, so it never overshoots</li><li>8 sensors find the true center for you</li></ul>",
+                "text": "<ul><li>A live countdown to when it's done</li><li>SafeCook tells you when chicken is safe, not just hot</li><li>8 sensors, and the 4 inside find the coldest spot</li></ul>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -668,7 +668,7 @@
             "intro_text": {
               "type": "text",
               "settings": {
-                "text": "<p>Every cook knows the moment. Guests are hungry, the roast looks done, and you're stabbing it with a thermometer for the fourth time, watching the juices run out of every hole. A single reading tells you where the meat is right now. It can't tell you when dinner will be ready, and if you hit the wrong spot it can't even tell you that.</p><p>The Combustion Predictive Thermometer was built to answer the question cooks actually ask: <strong>how long until it's done?</strong> It was co-designed by Chris Young, a former Modernist Cuisine chef, and J. Kenji López-Alt calls it game-changing. Here are six reasons it's replacing the old probe in kitchens and on grills.</p>",
+                "text": "<p>Every cook knows the moment. Guests are hungry, the roast looks done, and you're stabbing it with a thermometer for the fourth time, watching the juices run out of every hole. A single reading tells you where the meat is right now. It can't tell you when dinner will be ready, and if you hit the wrong spot it can't even tell you that.</p><p>The Combustion Predictive Thermometer was built to answer the question cooks actually ask: <strong>how long until it's done?</strong> It was built by Chris Young, a chef and scientist and co-author of Modernist Cuisine, and J. Kenji López-Alt calls it game-changing. Here are six reasons it's replacing the old probe in kitchens and on grills.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -981,7 +981,7 @@
             "r1_title": {
               "type": "text",
               "settings": {
-                "text": "<h2>It tells you when dinner will be ready, to the minute</h2>",
+                "text": "<h2>It tells you when dinner will be ready</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1006,7 +1006,7 @@
             "r1_body": {
               "type": "text",
               "settings": {
-                "text": "<p>Most thermometers report a number. The Predictive Thermometer reads how fast heat is moving through your food and counts down to the moment it reaches your target. Side dishes, plating and guests all line up with a real ETA instead of a guess.</p><p>It even accounts for carryover cooking, so you can pull a steak or roast before it overshoots and let it rest up to the perfect temperature.</p>",
+                "text": "<p>Most thermometers report a number. The Predictive Thermometer reads how fast heat is moving through your food and counts down to the moment it reaches your target. Side dishes, plating and guests all line up with a real ETA instead of a guess.</p><p>The countdown updates as the cook changes, so opening the lid or a cold day doesn't leave you guessing again.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -1031,7 +1031,7 @@
             "r1_image": {
               "type": "image",
               "settings": {
-                "image": "shopify://shop_images/k249-carousel-04-prediction-platter.jpg",
+                "image": "shopify://shop_images/k249-carousel-10-app-prediction.jpg",
                 "link": "",
                 "image_ratio": "square",
                 "width": "fill",
@@ -1220,7 +1220,7 @@
             "r2_title": {
               "type": "text",
               "settings": {
-                "text": "<h2>Eight sensors mean you can't miss the center</h2>",
+                "text": "<h2>Four sensors inside mean you can't miss the center</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1245,7 +1245,7 @@
             "r2_body": {
               "type": "text",
               "settings": {
-                "text": "<p>A single-point probe is only as good as where you stick it. Combustion's probe carries eight sensors along its length, and its TrueCore feature automatically tracks the coolest one: the true center of whatever you're cooking.</p>",
+                "text": "<p>A single-point probe is only as good as where you stick it. Combustion's probe carries eight sensors: four TrueCore® sensors inside, evenly spaced, that find the coldest spot automatically; three surface sensors reading the surface; and one ambient sensor watching the heat around the food.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -1351,7 +1351,7 @@
                 "r2_pull_text": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Insert it once. No repositioning, no second-guessing.</p>",
+                    "text": "<p>Insert it past the minimum line and leave it there. No repositioning, no hunting for the center.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -1597,7 +1597,7 @@
             "r3_body": {
               "type": "text",
               "settings": {
-                "text": "<p>Food safety isn't only about one temperature. It's about how long food stays at temperature. SafeCook tracks that for you and alerts you the moment your food is safe to eat, so you stop overcooking \"just to be safe\" and serve chicken that's still juicy and tender.</p>",
+                "text": "<p>Food safety isn't only about one temperature. SafeCook™ measures what matters: the total time spent at bacteria-destroying temperatures. 165°F is the instant-kill number on the chart. The USDA's full standard counts time at temperature, and chicken held at 150°F for about 4 minutes is just as safe, and a lot more delicious. SafeCook does that math for you and tells you the moment your food clears it.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -2075,7 +2075,7 @@
             "r5_body": {
               "type": "text",
               "settings": {
-                "text": "<p>Combustion was co-founded by Chris Young, a chef and author who helped create Modernist Cuisine. The prediction engine comes from years of heat-transfer modeling, not a lookup table. That's why serious cooks trust it, and why J. Kenji López-Alt partners with the brand.</p>",
+                "text": "<p>Combustion was co-founded by Chris Young, a chef and scientist and co-author of Modernist Cuisine. The prediction engine comes from years of heat-transfer modeling, not a lookup table. That's why serious cooks trust it.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -2289,7 +2289,7 @@
             "r6_title": {
               "type": "text",
               "settings": {
-                "text": "<h2>Zero risk to try it</h2>",
+                "text": "<h2>Built to live in the fire</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2314,7 +2314,7 @@
             "r6_body": {
               "type": "text",
               "settings": {
-                "text": "<p>Every Predictive Thermometer comes with a two-year warranty and a 30-day money-back guarantee. Cook with it through the holidays. If it doesn't change how you cook, send it back.</p>",
+                "text": "<p>The probe is hermetically sealed, IP69K rated and fully submersible, so it handles the oven, the grill, the smoker and a water bath. Every one comes with a two-year warranty.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -2411,7 +2411,7 @@
                     "custom_button_border": "{{ settings.color_palette.color1 }}",
                     "link_text_color": "",
                     "width": "fit-content",
-                    "custom_width": 100,
+                    "custom_width": 45,
                     "width_mobile": "fit-content",
                     "custom_width_mobile": 100
                   },
@@ -2611,6 +2611,9 @@
       "block_order": [
         "reason_6_col"
       ],
+      "custom_css": [
+        ".custom-font-size {flex-grow: unset; flex-basis: unset; --width: unset;}"
+      ],
       "name": "Reason 6",
       "settings": {
         "content_direction": "column",
@@ -2778,7 +2781,7 @@
                   "type": "custom-liquid",
                   "name": "Comparison table",
                   "settings": {
-                    "custom_liquid": "<rte-formatter class=\"rte\">\n<table>\n<caption class=\"visually-hidden\">How it compares</caption>\n<thead>\n<tr><th scope=\"col\">Feature</th><th scope=\"col\" class=\"us\">Combustion Predictive</th><th scope=\"col\">Instant-read</th><th scope=\"col\">Basic leave-in probe</th></tr>\n</thead>\n<tbody>\n<tr><th scope=\"row\">Predicts when food is done</th><td class=\"us y\">Yes, live countdown</td><td>No</td><td>No</td></tr>\n<tr><th scope=\"row\">Sensors in the food</th><td class=\"us\">8</td><td>1</td><td>1</td></tr>\n<tr><th scope=\"row\">Finds the true center for you</th><td class=\"us y\">Yes (TrueCore)</td><td>No</td><td>No</td></tr>\n<tr><th scope=\"row\">Food-safety alert</th><td class=\"us y\">Yes (SafeCook)</td><td>No</td><td>No</td></tr>\n<tr><th scope=\"row\">Stays in while cooking</th><td class=\"us y\">Yes, wireless</td><td>No</td><td>Yes, wired</td></tr>\n<tr><th scope=\"row\">Lid and door stay shut</th><td class=\"us y\">Yes</td><td>No</td><td>Cable in the way</td></tr>\n</tbody>\n</table>\n</rte-formatter>"
+                    "custom_liquid": "<rte-formatter class=\"rte\">\n<table>\n<caption class=\"visually-hidden\">How it compares</caption>\n<thead>\n<tr><th scope=\"col\">Feature</th><th scope=\"col\" class=\"us\">Combustion Predictive</th><th scope=\"col\">Instant-read</th><th scope=\"col\">Basic leave-in probe</th></tr>\n</thead>\n<tbody>\n<tr><th scope=\"row\">Predicts when food is done</th><td class=\"us y\">Yes, live countdown</td><td>No</td><td>No</td></tr>\n<tr><th scope=\"row\">Sensors</th><td class=\"us\">8</td><td>1</td><td>1</td></tr>\n<tr><th scope=\"row\">Finds the true center for you</th><td class=\"us y\">Yes (TrueCore)</td><td>No</td><td>No</td></tr>\n<tr><th scope=\"row\">Food-safety alert</th><td class=\"us y\">Yes (SafeCook)</td><td>No</td><td>No</td></tr>\n<tr><th scope=\"row\">Stays in while cooking</th><td class=\"us y\">Yes, wireless</td><td>No</td><td>Yes, wired</td></tr>\n<tr><th scope=\"row\">Lid and door stay shut</th><td class=\"us y\">Yes</td><td>No</td><td>Cable in the way</td></tr>\n</tbody>\n</table>\n</rte-formatter>"
                   },
                   "blocks": {}
                 }
@@ -3647,31 +3650,6 @@
                 "opt_3"
               ]
             },
-            "buy_fine": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Buy 2 and shipping is free.</p>",
-                "width": "100%",
-                "max_width": "none",
-                "alignment": "left",
-                "type_preset": "custom",
-                "font": "var(--font-body--family)",
-                "font_size": "0.875rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "{{ settings.color_palette.color8 }}",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "buy_assure": {
               "type": "group",
               "name": "Assurances",
@@ -3712,102 +3690,6 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "assure_1": {
-                  "type": "group",
-                  "name": "Assurance 30",
-                  "settings": {
-                    "content_direction": "column",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "flex-start",
-                    "vertical_alignment": "center",
-                    "align_baseline": false,
-                    "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "flex-start",
-                    "gap": 2,
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fill",
-                    "custom_height": 100,
-                    "background_media": "none",
-                    "background_color": "",
-                    "video_position": "cover",
-                    "background_image_position": "cover",
-                    "toggle_overlay": false,
-                    "overlay_color": "#00000026",
-                    "overlay_style": "solid",
-                    "gradient_direction": "to top",
-                    "border": "solid",
-                    "border_width": 1,
-                    "border_opacity": 15,
-                    "border_color": "",
-                    "border_radius": 10,
-                    "link": "",
-                    "open_in_new_tab": false,
-                    "placeholder": "",
-                    "padding-block-start": 12,
-                    "padding-block-end": 12,
-                    "padding-inline-start": 12,
-                    "padding-inline-end": 12
-                  },
-                  "blocks": {
-                    "assure_1_num": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>30</p>",
-                        "width": "100%",
-                        "max_width": "none",
-                        "alignment": "left",
-                        "type_preset": "custom",
-                        "font": "var(--font-heading--family)",
-                        "font_size": "1.5rem",
-                        "line_height": "tight",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.color1 }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "assure_1_label": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>day money-back guarantee</p>",
-                        "width": "100%",
-                        "max_width": "none",
-                        "alignment": "left",
-                        "type_preset": "custom",
-                        "font": "var(--font-heading--family)",
-                        "font_size": "0.875rem",
-                        "line_height": "tight",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "text_color": "{{ settings.color_palette.color7 }}",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "assure_1_num",
-                    "assure_1_label"
-                  ]
-                },
                 "assure_2": {
                   "type": "group",
                   "name": "Assurance 2",
@@ -4002,7 +3884,6 @@
                 }
               },
               "block_order": [
-                "assure_1",
                 "assure_2",
                 "assure_3"
               ]
@@ -4012,7 +3893,6 @@
             "buy_eyebrow",
             "buy_title",
             "buy_opts",
-            "buy_fine",
             "buy_assure"
           ]
         }
@@ -4357,7 +4237,7 @@
                 "q2_text": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>\"Roasting and grilling should always be this stress-free.\"</p>",
+                    "text": "<p>\"The first wireless leave-in thermometer we really like. Chock-a-block with features food nerds will love, yet most of us will enjoy setting the phone down and getting all the info we need from the easy-to-read display. Countdown to your desired doneness temp.\"</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -4380,29 +4260,100 @@
                   "blocks": {}
                 },
                 "q2_cite": {
-                  "type": "text",
+                  "type": "group",
+                  "name": "Citation",
                   "settings": {
-                    "text": "<p>Wired</p>",
-                    "width": "100%",
-                    "max_width": "none",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-heading--family)",
-                    "font_size": "0.875rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "text_color": "{{ settings.color_palette.color7 }}",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 0,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "background_media": "none",
+                    "background_color": "",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_color": "",
+                    "border_radius": 0,
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
                     "padding-block-start": 0,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
-                  "blocks": {}
+                  "blocks": {
+                    "q2_cite_name": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>WIRED</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-heading--family)",
+                        "font_size": "0.875rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "text_color": "{{ settings.color_palette.color7 }}",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "q2_cite_sub": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>9/10 review by Joe Ray</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-body--family)",
+                        "font_size": "0.875rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "text_color": "{{ settings.color_palette.color8 }}",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "q2_cite_name",
+                    "q2_cite_sub"
+                  ]
                 }
               },
               "block_order": [
@@ -4686,7 +4637,7 @@
                 "faq_4": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "What if it's not for me?",
+                    "heading": "Do I need my phone?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -4695,7 +4646,7 @@
                     "faq_4_a": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>You have 30 days to return it for a full refund, and a two-year warranty after that.</p>",
+                        "text": "<p>Not necessarily. The probe works with the free Combustion app on iOS, Android, macOS and watchOS, or you can read the countdown off the WiFi Display and leave the phone alone.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -4721,13 +4672,53 @@
                   "block_order": [
                     "faq_4_a"
                   ]
+                },
+                "faq_5": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How hot can it get?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "faq_5_a": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>The handle end can take a 900°F (482°C) peak. For long cooks, keep it under 750°F (399°C). The tip inside your food is rated to 220°F (105°C), which is why it has to stay inside the food.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "text_color": "{{ settings.color_palette.color8 }}",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "faq_5_a"
+                  ]
                 }
               },
               "block_order": [
                 "faq_1",
                 "faq_2",
                 "faq_3",
-                "faq_4"
+                "faq_4",
+                "faq_5"
               ]
             }
           },
