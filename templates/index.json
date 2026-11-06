@@ -16,7 +16,7 @@
           "type": "custom-liquid",
           "name": "styles",
           "settings": {
-            "custom_liquid": "{%- style -%}\n\n:root {\n--heading-letter-spacing: 0;\n}\n.collection__title p {\n  font-size: min(max(18px, calc(1.125rem + ((1vw - 4px) * 0.8475))), 23px);\nline-height: normal;\n}\n.collection__title h2 {\nfont-size: min(max(24px, calc(1.5rem + ((1vw - 4px) * 2.2857))), 32px);\n  align-self: flex-start;\n}\n@media screen and (min-width: 990px) {\n  .collection .slider--desktop.grid--3-col-desktop .grid__item {\n    width: min(\n      350px,\n      calc((100% - var(--desktop-margin-left-first-item)) / 3 - 20px * 4)\n    );\n  }\n}\n\n.multicolumn__title {\n  justify-content: center;\n}\n\n{%- endstyle -%}"
+            "custom_liquid": "{%- style -%}\n\n:root {\n--heading-letter-spacing: 0;\n}\n.collection__title p {\n  font-size: min(max(18px, calc(1.125rem + ((1vw - 4px) * 0.8475))), 23px);\nline-height: normal;\n}\n.collection__title h2 {\nfont-size: min(max(24px, calc(1.5rem + ((1vw - 4px) * 2.2857))), 32px);\n  align-self: flex-start;\n}\n@media screen and (min-width: 990px) {\n  .collection .slider--desktop.grid--3-col-desktop .grid__item {\n    width: min(\n      350px,\n      calc((100% - var(--desktop-margin-left-first-item)) / 3 - 20px * 4)\n    );\n  }\n}\n\n.multicolumn__title {\n  justify-content: center;\n}\nspan.stamped-badge {\n    font-size: 1rem;\n}\n{%- endstyle -%}"
           },
           "blocks": {}
         },
@@ -2092,9 +2092,19 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "stamped_reviews_star_rating_badge_W3ckR7": {
+                      "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+                      "settings": {
+                        "use_metafields": false,
+                        "sku_tagtype": "sku",
+                        "is_featured_product": true,
+                        "featured_product_handle": "{{ closest.product.metafields.stamped.handle.value }}"
+                      }
+                    },
                     "review_9DfEpm": {
                       "type": "review",
                       "name": "t:names.product_review_stars",
+                      "disabled": true,
                       "settings": {
                         "stars_style": "shaded",
                         "show_number": true,
@@ -2182,6 +2192,7 @@
                     }
                   },
                   "block_order": [
+                    "stamped_reviews_star_rating_badge_W3ckR7",
                     "review_9DfEpm",
                     "product_card_group_FWGRbB",
                     "custom_liquid_Un9eBW"
@@ -3939,9 +3950,19 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "stamped_reviews_star_rating_badge_QqX839": {
+                      "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+                      "settings": {
+                        "use_metafields": false,
+                        "sku_tagtype": "sku",
+                        "is_featured_product": true,
+                        "featured_product_handle": "{{ closest.product.metafields.stamped.handle.value }}"
+                      }
+                    },
                     "review_DbDK4C": {
                       "type": "review",
                       "name": "t:names.product_review_stars",
+                      "disabled": true,
                       "settings": {
                         "stars_style": "shaded",
                         "show_number": true,
@@ -4029,6 +4050,7 @@
                     }
                   },
                   "block_order": [
+                    "stamped_reviews_star_rating_badge_QqX839",
                     "review_DbDK4C",
                     "product_card_group_MynjNG",
                     "custom_liquid_RcQeDC"
@@ -4361,9 +4383,19 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "stamped_reviews_star_rating_badge_twNcKH": {
+                      "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+                      "settings": {
+                        "use_metafields": false,
+                        "sku_tagtype": "sku",
+                        "is_featured_product": true,
+                        "featured_product_handle": "{{ closest.product.metafields.stamped.handle.value }}"
+                      }
+                    },
                     "review_CcbTyM": {
                       "type": "review",
                       "name": "t:names.product_review_stars",
+                      "disabled": true,
                       "settings": {
                         "stars_style": "shaded",
                         "show_number": true,
@@ -4451,6 +4483,7 @@
                     }
                   },
                   "block_order": [
+                    "stamped_reviews_star_rating_badge_twNcKH",
                     "review_CcbTyM",
                     "product_card_group_DeYVgp",
                     "custom_liquid_YaDH7h"
@@ -4801,9 +4834,19 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "stamped_reviews_star_rating_badge_6CCwDN": {
+                      "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+                      "settings": {
+                        "use_metafields": false,
+                        "sku_tagtype": "sku",
+                        "is_featured_product": true,
+                        "featured_product_handle": "{{ closest.product.metafields.stamped.handle.value }}"
+                      }
+                    },
                     "review_fFNJmn": {
                       "type": "review",
                       "name": "t:names.product_review_stars",
+                      "disabled": true,
                       "settings": {
                         "stars_style": "shaded",
                         "show_number": true,
@@ -4891,6 +4934,7 @@
                     }
                   },
                   "block_order": [
+                    "stamped_reviews_star_rating_badge_6CCwDN",
                     "review_fFNJmn",
                     "product_card_group_GaXPEw",
                     "custom_liquid_xQij7N"
@@ -7245,9 +7289,19 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "stamped_reviews_star_rating_badge_Hyr7nh": {
+                      "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+                      "settings": {
+                        "use_metafields": false,
+                        "sku_tagtype": "sku",
+                        "is_featured_product": true,
+                        "featured_product_handle": "{{ closest.product.metafields.stamped.handle.value }}"
+                      }
+                    },
                     "review_RYf4bE": {
                       "type": "review",
                       "name": "t:names.product_review_stars",
+                      "disabled": true,
                       "settings": {
                         "stars_style": "shaded",
                         "show_number": true,
@@ -7335,6 +7389,7 @@
                     }
                   },
                   "block_order": [
+                    "stamped_reviews_star_rating_badge_Hyr7nh",
                     "review_RYf4bE",
                     "product_card_group_PfmCFD",
                     "custom_liquid_xaLC7d"
@@ -7436,7 +7491,7 @@
         },
         "group_QBwBAD": {
           "type": "group",
-          "name": "t:names.group",
+          "name": "rainbow specs",
           "settings": {
             "content_direction": "row",
             "vertical_on_mobile": true,
