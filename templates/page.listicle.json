@@ -859,10 +859,10 @@
             "video_player": {
               "type": "lite-vimeo-combustion",
               "settings": {
-                "videoid": "",
+                "videoid": "1244378934",
                 "videotitle": "Perfect food, every time",
                 "class": "",
-                "aspect": "none",
+                "aspect": "fourfive",
                 "autoload": true,
                 "autoplay": true,
                 "muted": true,
@@ -880,7 +880,6 @@
       "block_order": [
         "video_col"
       ],
-      "disabled": true,
       "name": "Video",
       "settings": {
         "content_direction": "column",
