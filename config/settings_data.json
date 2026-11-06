@@ -43,7 +43,7 @@
     "type_line_height_h5": "display-tight",
     "type_font_h6": "subheading",
     "type_size_h6": "20",
-    "type_line_height_h6": "display-tight",
+    "type_line_height_h6": "display-loose",
     "type_letter_spacing_h6": "heading-normal",
     "page_width": "narrow",
     "page_transition_enabled": false,
@@ -171,7 +171,8 @@
       "color5": "#334fb4",
       "color6": "#1e1e1e",
       "color7": "#f5f5f5",
-      "color8": "#757575"
+      "color8": "#858585",
+      "color9": "#43c266"
     }
   },
   "presets": {
@@ -254,7 +255,7 @@
   "platform_customizations": {
     "custom_css": [
       "sticky-add-to-cart > * {font-size: 0.7em;}",
-      ".button {font-weight: bold;}",
+      ".button,.button-custom {font-weight: bold;}",
       "body,.paragraph:not(.button),.paragraph > *:not(.paragraph.menu__item > *),.text-block.paragraph :is(h1, h2, h3, h4, h5, h6) {--font-paragraph--size: clamp(1.09375rem, 2.5vw, 1.5625rem);}",
       ":root {--narrow-page-width: 1000px;}",
       ".button {font-weight: 500;}",
