@@ -1879,7 +1879,7 @@
                         "read_2_s": {
                           "type": "text",
                           "settings": {
-                            "text": "<p>The thermometer counts down to your target as it cooks, so the sides and the guests can be timed to the turkey. From frozen, it goes in once the breast has thawed, about 2 hours into the cook.</p>",
+                            "text": "<p>The thermometer counts down to your target as it cooks, so the sides and the guests can be timed to the turkey. From frozen, it goes in once the breast has thawed, 1 to 2 hours into the cook.</p>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
@@ -2818,98 +2818,50 @@
                   "blocks": {}
                 },
                 "recipe_methods": {
-                  "type": "group",
-                  "name": "Method links",
+                  "type": "accordion",
+                  "name": "Method",
                   "settings": {
-                    "content_direction": "row",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "flex-start",
-                    "vertical_alignment": "center",
-                    "align_baseline": false,
-                    "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
-                    "gap": 16,
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "custom_height": 100,
-                    "background_media": "none",
+                    "icon": "plus",
+                    "dividers": false,
+                    "divider_color": "",
+                    "type_preset": "h5",
                     "background_color": "",
-                    "video_position": "cover",
-                    "background_image_position": "cover",
-                    "toggle_overlay": false,
-                    "overlay_color": "#00000026",
-                    "overlay_style": "solid",
-                    "gradient_direction": "to top",
-                    "border": "none",
+                    "text_color": "{{ settings.color_palette.color1 }}",
+                    "border": "solid",
                     "border_width": 1,
-                    "border_opacity": 100,
+                    "border_opacity": 15,
                     "border_color": "",
-                    "border_radius": 0,
-                    "link": "",
-                    "open_in_new_tab": false,
-                    "placeholder": "",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "border_radius": 12,
+                    "padding-block-start": 12,
+                    "padding-block-end": 12,
+                    "padding-inline-start": 24,
+                    "padding-inline-end": 24
                   },
                   "blocks": {
                     "method_1": {
-                      "type": "popup-link",
-                      "name": "Method: From frozen",
+                      "type": "_accordion-row",
                       "settings": {
-                        "behavior": "drawer",
                         "heading": "From frozen",
-                        "type_preset": "h6",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "open_by_default": true,
+                        "icon": "none",
+                        "width": 20
                       },
                       "blocks": {
-                        "method_1_title": {
-                          "type": "text",
-                          "settings": {
-                            "text": "<h3>From frozen</h3>",
-                            "width": "100%",
-                            "max_width": "normal",
-                            "alignment": "left",
-                            "type_preset": "h4",
-                            "font": "var(--font-body--family)",
-                            "font_size": "1rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "pretty",
-                            "text_color": "{{ settings.color_palette.foreground }}",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
-                        },
                         "method_1_a": {
                           "type": "text",
                           "settings": {
-                            "text": "<p><strong>Serves</strong> 8 to 12<br/><strong>Prep</strong> none, it starts frozen<br/><strong>Freezer to table</strong> about 5 hours</p><ol><li><strong>Start the oven low,</strong> at 225 to 250°F (107 to 121°C), so that you don't overcook the surface while the core is still frozen. Put the frozen turkey in.</li><li><strong>Season it as it thaws.</strong> Once the skin is wet to the touch, remove the bird, season it with salt and whatever herbs or spices you want, and let it dry brine as it cooks.</li><li><strong>Clear the cavity.</strong> Once the turkey is fully thawed, about 2 hours, remove any frozen giblets from the cavity and brush with the Golden Brown Turkey Elixir.</li><li><strong>Insert the thermometer.</strong> Insert the Combustion Predictive Thermometer into the thickest part of the breast, avoiding the bone.</li><li><strong>Roast</strong> until the core reaches 155°F (68°C), as in the basic recipe.</li><li><strong>Rest</strong> for at least 30 minutes, but several hours is fine. The surface will cool, but the interior will still be hot enough to serve.</li><li><strong>Crisp the skin.</strong> Increase the oven temperature to 500°F (260°C). Brush on more elixir if you're using it, and then crisp and brown the skin for 5 to 10 minutes.</li><li><strong>Divide and conquer.</strong> The breast meat is juicy and ready to serve, but the legs and thighs are going to be tough, so separate the crown and return the dark meat to the oven until it reaches at least 170°F (77°C), about 15 to 20 minutes. Be sure to drop the oven back to 400°F (205°C) to avoid smoking up your kitchen.</li><li><strong>Carve and enjoy.</strong></li></ol>",
+                            "text": "<p><strong>Serves</strong> 8 to 12<br/><strong>Prep</strong> none, it starts frozen<br/><strong>Freezer to table</strong> about 5 hours</p><ol><li><strong>Start the oven low,</strong> at 200 to 250°F (93 to 121°C), so that you don't overcook the surface while the core is still frozen. Put the frozen turkey in.</li><li><strong>Season it as it thaws.</strong> Once the skin is wet to the touch, remove the bird, season it with salt and whatever herbs or spices you want, and let it dry brine as it cooks.</li><li><strong>Clear the cavity.</strong> Once the turkey has thawed enough, after 1 to 2 hours, remove any frozen giblets from the cavity and brush with the Golden Brown Turkey Elixir.</li><li><strong>Insert the thermometer.</strong> Insert the Combustion Predictive Thermometer into the thickest part of the breast, avoiding the bone.</li><li><strong>Roast</strong> until the core of the breast reaches 150 to 155°F (66 to 68°C).</li><li><strong>Rest</strong> for at least 30 minutes, but several hours is fine. The surface will cool, but the interior will still be hot enough to serve.</li><li><strong>Crisp the skin.</strong> Increase the oven temperature to 500°F (260°C). Brush on more elixir if you're using it, and then crisp and brown the skin for 5 to 10 minutes.</li><li><strong>Divide and conquer.</strong> The breast meat is juicy and ready to serve, but the legs and thighs are going to be tough, so separate the crown and return the dark meat to the oven until it reaches at least 170°F (77°C), about 15 to 20 minutes. Be sure to drop the oven back to 400°F (205°C) to avoid smoking up your kitchen.</li><li><strong>Carve and enjoy.</strong></li></ol>",
                             "width": "100%",
                             "max_width": "none",
                             "alignment": "left",
-                            "type_preset": "h6",
+                            "type_preset": "rte",
                             "font": "var(--font-body--family)",
                             "font_size": "1rem",
                             "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
                             "wrap": "pretty",
-                            "text_color": "{{ settings.color_palette.foreground }}",
+                            "text_color": "{{ settings.color_palette.background }}",
                             "background": false,
                             "background_color": "#00000026",
                             "corner_radius": 0,
@@ -2922,48 +2874,18 @@
                         }
                       },
                       "block_order": [
-                        "method_1_title",
                         "method_1_a"
                       ]
                     },
                     "method_2": {
-                      "type": "popup-link",
-                      "name": "Method: Thawed, low and slow",
+                      "type": "_accordion-row",
                       "settings": {
-                        "behavior": "drawer",
                         "heading": "Thawed, low and slow",
-                        "type_preset": "h6",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "open_by_default": false,
+                        "icon": "none",
+                        "width": 20
                       },
                       "blocks": {
-                        "method_2_title": {
-                          "type": "text",
-                          "settings": {
-                            "text": "<h3>Thawed, low and slow</h3>",
-                            "width": "100%",
-                            "max_width": "normal",
-                            "alignment": "left",
-                            "type_preset": "h4",
-                            "font": "var(--font-body--family)",
-                            "font_size": "1rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "pretty",
-                            "text_color": "{{ settings.color_palette.color7 }}",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
-                        },
                         "method_2_a": {
                           "type": "text",
                           "settings": {
@@ -2991,48 +2913,18 @@
                         }
                       },
                       "block_order": [
-                        "method_2_title",
                         "method_2_a"
                       ]
                     },
                     "method_3": {
-                      "type": "popup-link",
-                      "name": "Method: Thawed, faster",
+                      "type": "_accordion-row",
                       "settings": {
-                        "behavior": "drawer",
                         "heading": "Thawed, faster",
-                        "type_preset": "h6",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
+                        "open_by_default": false,
+                        "icon": "none",
+                        "width": 20
                       },
                       "blocks": {
-                        "method_3_title": {
-                          "type": "text",
-                          "settings": {
-                            "text": "<h3>Thawed, faster</h3>",
-                            "width": "100%",
-                            "max_width": "normal",
-                            "alignment": "left",
-                            "type_preset": "h4",
-                            "font": "var(--font-body--family)",
-                            "font_size": "1rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "pretty",
-                            "text_color": "{{ settings.color_palette.color7 }}",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
-                        },
                         "method_3_a": {
                           "type": "text",
                           "settings": {
@@ -3060,7 +2952,6 @@
                         }
                       },
                       "block_order": [
-                        "method_3_title",
                         "method_3_a"
                       ]
                     }
@@ -5519,7 +5410,7 @@
                     "faq_3_a": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Yes. Start in a low oven, season the bird once the skin is wet to the touch, and put the thermometer in once the breast has thawed, about 2 hours in. From freezer to table takes about 5 hours.</p>",
+                        "text": "<p>Yes. Start in a low oven, season the bird once the skin is wet to the touch, and put the thermometer in once the breast has thawed, 1 to 2 hours in. From freezer to table takes about 5 hours.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
