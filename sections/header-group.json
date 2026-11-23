@@ -17,7 +17,7 @@
         "announcement_YnKqbx": {
           "type": "_announcement",
           "settings": {
-            "text": "Holiday stock is limited this year. Order now, before it’s gone",
+            "text": "Holiday stock is limited this year. Order now, before it’s gone.",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "1rem",
