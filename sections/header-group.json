@@ -11,6 +11,38 @@
   "type": "header",
   "name": "t:names.header",
   "sections": {
+    "header_announcements_3XReVM": {
+      "type": "header-announcements",
+      "blocks": {
+        "announcement_YnKqbx": {
+          "type": "_announcement",
+          "settings": {
+            "text": "Holiday stock is limited this year. Order now, before it’s gone",
+            "link": "",
+            "font": "var(--font-subheading--family)",
+            "font_size": "1rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none",
+            "text_color": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "announcement_YnKqbx"
+      ],
+      "name": "t:names.announcement_bar",
+      "settings": {
+        "speed": 5,
+        "section_width": "full-width",
+        "background_color": "{{ settings.color_palette.color2 }}",
+        "divider_width": 0,
+        "divider_color": "",
+        "padding-block-start": 15,
+        "padding-block-end": 15
+      }
+    },
     "header_section": {
       "type": "header",
       "blocks": {
@@ -110,6 +142,7 @@
     }
   },
   "order": [
+    "header_announcements_3XReVM",
     "header_section",
     "custom_liquid_wjWafd"
   ]
