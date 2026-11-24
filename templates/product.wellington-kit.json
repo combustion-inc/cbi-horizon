@@ -1,0 +1,2646 @@
+{
+  "sections": {
+    "main": {
+      "type": "product-information",
+      "blocks": {
+        "media-gallery": {
+          "type": "_product-media-gallery",
+          "static": true,
+          "settings": {
+            "media_presentation": "grid",
+            "media_columns": "two",
+            "image_gap": 16,
+            "large_first_image": true,
+            "icons_style": "arrow",
+            "slideshow_controls_style": "counter",
+            "slideshow_mobile_controls_style": "thumbnails",
+            "thumbnail_position": "right",
+            "thumbnail_width": 44,
+            "thumbnail_radius": 0,
+            "aspect_ratio": "1",
+            "constrain_to_viewport": true,
+            "media_fit": "contain",
+            "media_radius": 16,
+            "extend_media": false,
+            "zoom": true,
+            "video_loop": false,
+            "hide_variants": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "product-details": {
+          "type": "_product-details",
+          "static": true,
+          "settings": {
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "details_position": "flex-start",
+            "gap": 28,
+            "sticky_details_desktop": true,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 24,
+            "padding-block-end": 24,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "kit_title": {
+              "type": "text",
+              "settings": {
+                "text": "<h1>Easiest<br>Wellington<br>Ever!</h1>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2"
+              },
+              "blocks": {}
+            },
+            "kit_intro": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Make a show-stopping Wellington with less effort and mess. This kit lets you shape the brioche crust and filling layers in one mold, then wrap them around your roast. No pastry rolling or lattice cutting.</p>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte"
+              },
+              "blocks": {}
+            },
+            "kit_choose": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 10,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "kit_choose_cap": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Choose your kit</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "0.75rem",
+                    "case": "uppercase",
+                    "letter_spacing": "loose"
+                  },
+                  "blocks": {}
+                },
+                "kit_opt_1": {
+                  "type": "product-card",
+                  "name": "Option: Wellington kit",
+                  "settings": {
+                    "product": "beef-wellington-mold-kit",
+                    "product_card_gap": 16,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "background_color": "",
+                    "border": "solid",
+                    "border_width": 1,
+                    "border_opacity": 15,
+                    "border_color": "",
+                    "border_radius": 12,
+                    "padding-block-start": 14,
+                    "padding-block-end": 14,
+                    "padding-inline-start": 16,
+                    "padding-inline-end": 16
+                  },
+                  "blocks": {
+                    "kit_1_row": {
+                      "type": "_product-card-group",
+                      "name": "Row",
+                      "settings": {
+                        "content_direction": "row",
+                        "vertical_on_mobile": false,
+                        "horizontal_alignment": "space-between",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 16,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "kit_1_info": {
+                          "type": "_product-card-group",
+                          "name": "Details",
+                          "settings": {
+                            "content_direction": "column",
+                            "vertical_on_mobile": true,
+                            "horizontal_alignment": "flex-start",
+                            "vertical_alignment": "center",
+                            "align_baseline": false,
+                            "horizontal_alignment_flex_direction_column": "flex-start",
+                            "vertical_alignment_flex_direction_column": "center",
+                            "gap": 4,
+                            "width": "fill",
+                            "custom_width": 100,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fit",
+                            "custom_height": 100,
+                            "background_media": "none",
+                            "background_color": "",
+                            "video_position": "cover",
+                            "background_image_position": "cover",
+                            "toggle_overlay": false,
+                            "overlay_color": "#00000026",
+                            "overlay_style": "solid",
+                            "gradient_direction": "to top",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 0,
+                            "link": "",
+                            "open_in_new_tab": false,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {
+                            "kit_1_head": {
+                              "type": "text",
+                              "settings": {
+                                "text": "<p><strong>Wellington kit</strong></p>",
+                                "width": "fit-content",
+                                "max_width": "none",
+                                "alignment": "left",
+                                "type_preset": "custom",
+                                "font": "var(--font-heading--family)",
+                                "font_size": "1.125rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "text_color": "",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                              },
+                              "blocks": {}
+                            },
+                            "kit_1_desc": {
+                              "type": "text",
+                              "settings": {
+                                "text": "<p>Mold, length-adjusting bar, offset spatula and 50 g Activa RM.</p>",
+                                "width": "100%",
+                                "max_width": "none",
+                                "alignment": "left",
+                                "type_preset": "custom",
+                                "font": "var(--font-body--family)",
+                                "font_size": "0.875rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "text_color": "",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                              },
+                              "blocks": {}
+                            }
+                          },
+                          "block_order": [
+                            "kit_1_head",
+                            "kit_1_desc"
+                          ]
+                        },
+                        "kit_1_price": {
+                          "type": "price",
+                          "settings": {
+                            "show_sale_price_first": true,
+                            "show_installments": false,
+                            "show_tax_info": false,
+                            "type_preset": "custom",
+                            "width": "fit-content",
+                            "alignment": "left",
+                            "font": "var(--font-heading--family)",
+                            "font_size": "1.5rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "text_color": "",
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "kit_1_info",
+                        "kit_1_price"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "kit_1_row"
+                  ]
+                },
+                "kit_opt_2": {
+                  "type": "product-card",
+                  "name": "Option: Full Wellington bundle",
+                  "settings": {
+                    "product": "beef-wellington-bundle",
+                    "product_card_gap": 16,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "background_color": "",
+                    "border": "solid",
+                    "border_width": 1,
+                    "border_opacity": 15,
+                    "border_color": "",
+                    "border_radius": 12,
+                    "padding-block-start": 14,
+                    "padding-block-end": 14,
+                    "padding-inline-start": 16,
+                    "padding-inline-end": 16
+                  },
+                  "blocks": {
+                    "kit_2_row": {
+                      "type": "_product-card-group",
+                      "name": "Row",
+                      "settings": {
+                        "content_direction": "row",
+                        "vertical_on_mobile": false,
+                        "horizontal_alignment": "space-between",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 16,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "background_color": "",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_color": "",
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "kit_2_info": {
+                          "type": "_product-card-group",
+                          "name": "Details",
+                          "settings": {
+                            "content_direction": "column",
+                            "vertical_on_mobile": true,
+                            "horizontal_alignment": "flex-start",
+                            "vertical_alignment": "center",
+                            "align_baseline": false,
+                            "horizontal_alignment_flex_direction_column": "flex-start",
+                            "vertical_alignment_flex_direction_column": "center",
+                            "gap": 4,
+                            "width": "fill",
+                            "custom_width": 100,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fit",
+                            "custom_height": 100,
+                            "background_media": "none",
+                            "background_color": "",
+                            "video_position": "cover",
+                            "background_image_position": "cover",
+                            "toggle_overlay": false,
+                            "overlay_color": "#00000026",
+                            "overlay_style": "solid",
+                            "gradient_direction": "to top",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_color": "",
+                            "border_radius": 0,
+                            "link": "",
+                            "open_in_new_tab": false,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {
+                            "kit_2_head": {
+                              "type": "text",
+                              "settings": {
+                                "text": "<p><strong>Full Wellington bundle</strong></p>",
+                                "width": "fit-content",
+                                "max_width": "none",
+                                "alignment": "left",
+                                "type_preset": "custom",
+                                "font": "var(--font-heading--family)",
+                                "font_size": "1.125rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "text_color": "",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                              },
+                              "blocks": {}
+                            },
+                            "kit_2_desc": {
+                              "type": "text",
+                              "settings": {
+                                "text": "<p>Everything in the kit, plus a Predictive Thermometer and Kitchen Display.</p>",
+                                "width": "100%",
+                                "max_width": "none",
+                                "alignment": "left",
+                                "type_preset": "custom",
+                                "font": "var(--font-body--family)",
+                                "font_size": "0.875rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "text_color": "",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                              },
+                              "blocks": {}
+                            }
+                          },
+                          "block_order": [
+                            "kit_2_head",
+                            "kit_2_desc"
+                          ]
+                        },
+                        "kit_2_price": {
+                          "type": "price",
+                          "settings": {
+                            "show_sale_price_first": true,
+                            "show_installments": false,
+                            "show_tax_info": false,
+                            "type_preset": "custom",
+                            "width": "fit-content",
+                            "alignment": "left",
+                            "font": "var(--font-heading--family)",
+                            "font_size": "1.5rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "text_color": "",
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "kit_2_info",
+                        "kit_2_price"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "kit_2_row"
+                  ]
+                }
+              },
+              "block_order": [
+                "kit_choose_cap",
+                "kit_opt_1",
+                "kit_opt_2"
+              ],
+              "name": "Choose your kit"
+            },
+            "price": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h5",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "text_color": "",
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "buy_buttons": {
+              "type": "buy-buttons",
+              "settings": {
+                "stacking": false,
+                "text_color": "",
+                "show_pickup_availability": false,
+                "gift_card_form": false,
+                "recipient_button_style": "default",
+                "recipient_button_background": "{{ settings.color_palette.background }}",
+                "recipient_button_text": "{{ settings.color_palette.foreground }}",
+                "recipient_button_border": "{{ settings.color_palette.foreground }}",
+                "selected_recipient_button_style": "default",
+                "selected_recipient_button_background": "{{ settings.color_palette.foreground }}",
+                "selected_recipient_button_text": "{{ settings.color_palette.background }}",
+                "selected_recipient_button_border": "{{ settings.color_palette.foreground }}",
+                "input_style": "default",
+                "input_background_color": "{{ settings.color_palette.background }}",
+                "input_text_color": "{{ settings.color_palette.foreground }}",
+                "input_border_color": "{{ settings.color_palette.foreground }}",
+                "border_width": 1,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "quantity": {
+                  "type": "quantity",
+                  "static": true,
+                  "settings": {
+                    "input_style": "default",
+                    "input_background_color": "{{ settings.color_palette.background }}",
+                    "input_text_color": "{{ settings.color_palette.foreground }}",
+                    "input_border_color": "{{ settings.color_palette.foreground }}",
+                    "border_width": 1,
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "add-to-cart": {
+                  "type": "add-to-cart",
+                  "static": true,
+                  "settings": {
+                    "style_class": "button",
+                    "custom_button_background": "{{ settings.color_palette.foreground }}",
+                    "custom_button_text": "{{ settings.color_palette.background }}",
+                    "custom_button_border": "{{ settings.color_palette.background }}"
+                  },
+                  "blocks": {}
+                },
+                "accelerated-checkout": {
+                  "type": "accelerated-checkout",
+                  "disabled": true,
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": []
+            }
+          },
+          "block_order": [
+            "kit_title",
+            "kit_intro",
+            "kit_choose",
+            "price",
+            "buy_buttons"
+          ]
+        }
+      },
+      "custom_css": [
+        ".product-information {--page-width: 90rem;}",
+        "variant-picker {font-size: 0.85rem;}",
+        "fieldset {display: flex;}",
+        ".collection-card {flex: 0 0 auto;}",
+        "ul:not(.h6 > ul) {padding: 0; margin-left: 1rem;}",
+        "::marker {color: #bd010c;}",
+        "@media screen and (min-width: 750px) {.sticky-add-to-cart__bar {width: var(--narrow-page-width); max-width: 90vw; }}",
+        ".group-block:has(> .group-block-content > div:empty:only-child) {display: none;}",
+        ".best-for > span,.metafield-rich_text_field {font-size: var(--font-size--sm);}"
+      ],
+      "settings": {
+        "content_width": "content-center-aligned",
+        "desktop_media_position": "left",
+        "equal_columns": false,
+        "limit_details_width": false,
+        "gap": 32,
+        "enable_sticky_add_to_cart": true,
+        "background_color": "",
+        "padding-block-start": 60,
+        "padding-block-end": 0
+      }
+    },
+    "anchor_method": {
+      "type": "custom-liquid",
+      "name": "Anchor #method",
+      "settings": {
+        "custom_liquid": "<div id=\"method\"></div>",
+        "background_color": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "method": {
+      "type": "section",
+      "name": "How to build",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 32,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      },
+      "blocks": {
+        "method_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>How to Build Your Wellington the Easy Way</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3"
+          },
+          "blocks": {}
+        },
+        "method_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Build the layers in the mold, roll them around the beef, then chill overnight. Open each step for its ingredients and method.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "method_row_1": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "gap": 40,
+            "width": "fill",
+            "width_mobile": "fill",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start"
+          },
+          "blocks": {
+            "step_1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "step_1_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/layers-strip-v3.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "step_1_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>1. Cast the brioche crust</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "step_1_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Spread the brioche farce into the grooves and level it to the rim. Freeze for about 15 minutes, until firm.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                },
+                "step_1_more": {
+                  "type": "accordion",
+                  "settings": {
+                    "icon": "plus",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "border": "none"
+                  },
+                  "blocks": {
+                    "step_1_row": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Recipe and details",
+                        "open_by_default": false,
+                        "icon": "none"
+                      },
+                      "blocks": {
+                        "step_1_body": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p><strong>Brioche farce</strong></p><ul><li>Stale brioche, cubed <strong>60 g</strong></li><li>Whole egg <strong>1 (about 50 g)</strong></li><li>Heavy cream <strong>42 g</strong></li><li>Crème fraîche <strong>50 g</strong></li><li>Melted beef tallow <strong>14 g</strong></li><li>Water <strong>6 g</strong></li><li>Kosher salt <strong>3 g</strong></li></ul><p><strong>Chicken farce for this layer</strong></p><ul><li>Skinless chicken breast, cubed <strong>195 g</strong></li><li>Egg white <strong>30 g</strong></li><li>Crème fraîche <strong>40 g</strong></li><li>Water <strong>10 g</strong></li><li>Salt <strong>5 g</strong></li></ul><p><strong>Prepare and freeze</strong></p><ol><li>Blend the cold chicken, egg white, crème fraîche, water and salt into a smooth farce.</li><li>Grind the brioche to fine crumbs. Add the remaining brioche ingredients and all the chicken farce; blend until smooth. Keep the mixture cold.</li><li>Place the mold on an inverted sheet tray. Fit the length-adjusting bar if making a shorter wrap.</li><li>Press the farce into the pattern with the offset spatula. Smooth it level with the rim, then freeze for about 15 minutes. It should be firm enough that spreading the next layer will not disturb it.</li></ol>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "step_1_body"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "step_1_row"
+                  ],
+                  "name": "Details"
+                }
+              },
+              "block_order": [
+                "step_1_img",
+                "step_1_title",
+                "step_1_text",
+                "step_1_more"
+              ],
+              "name": "Step 1"
+            },
+            "step_2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "step_2_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/layers-strip-v3.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "step_2_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>2. Spread the spinach</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "step_2_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Spread a thin, even layer of spinach farce over the firm brioche. Keep the layers in the mold.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                },
+                "step_2_more": {
+                  "type": "accordion",
+                  "settings": {
+                    "icon": "plus",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "border": "none"
+                  },
+                  "blocks": {
+                    "step_2_row": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Recipe and details",
+                        "open_by_default": false,
+                        "icon": "none"
+                      },
+                      "blocks": {
+                        "step_2_body": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p><strong>Spinach farce</strong></p><ul><li>Skinless chicken breast, cubed <strong>80 g</strong></li><li>Egg white <strong>10 g</strong></li><li>Crème fraîche <strong>15 g</strong></li><li>Water <strong>5 g</strong></li><li>Salt, for the chicken <strong>2 g</strong></li><li>Heavy cream <strong>95 g</strong></li><li>Spinach, blanched and squeezed dry <strong>70 g</strong></li><li>Additional salt <strong>0.9 g</strong></li><li>Black pepper <strong>0.3 g</strong></li></ul><p><strong>Prepare and spread</strong></p><ol><li>Blanch the spinach, cool it and squeeze thoroughly dry. Weigh it after squeezing.</li><li>Blend the chicken, egg white, crème fraîche, water and 2 g salt until smooth. Add the cream, spinach, remaining salt and pepper; blend just until smooth, keeping the mixture cold.</li><li>Spread a thin, even layer over the firm brioche with the offset spatula. Avoid pressing hard enough to disturb the crust beneath it.</li><li>Bake the two layers together as shown in the next step.</li></ol>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "step_2_body"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "step_2_row"
+                  ],
+                  "name": "Details"
+                }
+              },
+              "block_order": [
+                "step_2_img",
+                "step_2_title",
+                "step_2_text",
+                "step_2_more"
+              ],
+              "name": "Step 2"
+            }
+          },
+          "block_order": [
+            "step_1",
+            "step_2"
+          ],
+          "name": "Steps 1–2"
+        },
+        "method_row_2": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "gap": 40,
+            "width": "fill",
+            "width_mobile": "fill",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start"
+          },
+          "blocks": {
+            "step_3": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "step_3_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/bake-and-cool.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "step_3_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>3. Bake, then cool</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "step_3_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Bake at 250°F for about 15 minutes, until set. Let the layers cool in the mold before adding the duxelles.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                },
+                "step_3_more": {
+                  "type": "accordion",
+                  "settings": {
+                    "icon": "plus",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "border": "none"
+                  },
+                  "blocks": {
+                    "step_3_row": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Baking and cooling details",
+                        "open_by_default": false,
+                        "icon": "none"
+                      },
+                      "blocks": {
+                        "step_3_body": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p><strong>Set the first two layers</strong></p><ol><li>Heat the oven to 250°F (120°C). Keep the silicone mold supported on its tray.</li><li>Bake the brioche and spinach for about 15 minutes, until the layers have set. The goal is a flexible sheet, without browning.</li><li>Remove the tray from the oven and let the layers cool in the mold. Leave the sheet in place for the remaining layers and rolling.</li><li>Add the Activa and mushroom farce only after the sheet has cooled.</li></ol>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "step_3_body"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "step_3_row"
+                  ],
+                  "name": "Details"
+                }
+              },
+              "block_order": [
+                "step_3_img",
+                "step_3_title",
+                "step_3_text",
+                "step_3_more"
+              ],
+              "name": "Step 3"
+            },
+            "step_4": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "step_4_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/layers-strip-v3.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "step_4_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>4. Dust, then add duxelles</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "step_4_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Lightly dust the cooled spinach with Activa RM. Spread the uncooked mushroom duxelles farce in a thin layer.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                },
+                "step_4_more": {
+                  "type": "accordion",
+                  "settings": {
+                    "icon": "plus",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "border": "none"
+                  },
+                  "blocks": {
+                    "step_4_row": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Recipe and details",
+                        "open_by_default": false,
+                        "icon": "none"
+                      },
+                      "blocks": {
+                        "step_4_body": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p><strong>Cook the mushroom duxelles</strong></p><ul><li>Cremini mushrooms <strong>300 g</strong></li><li>Shallots <strong>100 g</strong></li><li>Beef tallow <strong>12.8 g</strong></li><li>Thyme sprigs <strong>4–5</strong></li><li>Oregano sprigs <strong>2–3</strong></li><li>Dried porcini <strong>1 g</strong></li><li>Water, for soaking porcini <strong>70 g</strong></li><li>Dehydrated beef stock <strong>25 g</strong></li><li>Water, for the stock <strong>125 g</strong></li><li>Madeira <strong>50 g</strong></li></ul><p><strong>To finish the duxelles</strong></p><ul><li>Madeira <strong>9.9 g</strong></li><li>Thyme leaves, chopped <strong>1.5 g</strong></li><li>Sherry vinegar <strong>14.3 g</strong></li><li>Mustard <strong>2.3 g</strong></li><li>Black pepper <strong>0.9 g</strong></li><li>Salt <strong>2 g</strong></li></ul><ol><li>Soak the porcini in the 70 g hot water until softened. Chop finely and strain the soaking liquid to remove any grit. Dissolve the dehydrated beef stock in the separate 125 g water.</li><li>Finely chop the shallots and cremini mushrooms. Melt the tallow in a wide saucepan and soften the shallots. Add the mushrooms and cook, stirring, until their released moisture has reduced.</li><li>Add the porcini, strained soaking liquid, stock, 50 g Madeira and herb sprigs. Cook until the mixture is thick and spreadable, with no loose liquid. Remove the herb stems.</li><li>Stir in the finishing ingredients and cook briefly to combine. Cool completely, then weigh 135 g for the farce below.</li></ol><p><strong>Mushroom duxelles farce</strong></p><ul><li>Cooked mushroom duxelles, cooled <strong>135 g</strong></li><li>Heavy cream <strong>135 g</strong></li><li>Skinless chicken breast, cubed <strong>125 g</strong></li><li>Egg white <strong>20 g</strong></li><li>Crème fraîche <strong>25 g</strong></li><li>Water <strong>10 g</strong></li><li>Salt <strong>3 g</strong></li></ul><p><strong>Prepare and spread</strong></p><ol><li>Start with cooked, seasoned mushroom duxelles that has cooled completely.</li><li>Use a small tea strainer to dust the cooled spinach surface lightly and evenly with Activa RM.</li><li>Spread a thin layer of the uncooked duxelles farce over the dusted spinach. Smooth it gently with the offset spatula.</li></ol>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "step_4_body"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "step_4_row"
+                  ],
+                  "name": "Details"
+                }
+              },
+              "block_order": [
+                "step_4_img",
+                "step_4_title",
+                "step_4_text",
+                "step_4_more"
+              ],
+              "name": "Step 4"
+            }
+          },
+          "block_order": [
+            "step_3",
+            "step_4"
+          ],
+          "name": "Steps 3–4"
+        },
+        "method_row_3": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "gap": 40,
+            "width": "fill",
+            "width_mobile": "fill",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start"
+          },
+          "blocks": {
+            "step_5": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "step_5_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/activa-on-duxelles.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "step_5_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>5. Dust again and add beef</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "step_5_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Sprinkle Activa RM over the duxelles. Place the raw tenderloin across one short end of the sheet.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                },
+                "step_5_more": {
+                  "type": "accordion",
+                  "settings": {
+                    "icon": "plus",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "border": "none"
+                  },
+                  "blocks": {
+                    "step_5_row": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Beef and Activa details",
+                        "open_by_default": false,
+                        "icon": "none"
+                      },
+                      "blocks": {
+                        "step_5_body": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p><strong>Prepare the tenderloin</strong></p><ol><li>Trim the silverskin and excess fat from a center-cut tenderloin. Choose an evenly shaped piece no longer than the mold’s 20 cm width.</li><li>Season the beef and keep it cold until assembly.</li><li>Lightly dust the duxelles with Activa RM. This second application helps join the mushroom layer to the beef.</li><li>Set the raw tenderloin across one short end of the sheet and begin rolling promptly. The 40 cm direction wraps around the roast.</li></ol><p>The 50 g Activa pouch is not a single dose. See <a href=\"#questions\">Activa application guidance</a>.</p>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "step_5_body"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "step_5_row"
+                  ],
+                  "name": "Details"
+                }
+              },
+              "block_order": [
+                "step_5_img",
+                "step_5_title",
+                "step_5_text",
+                "step_5_more"
+              ],
+              "name": "Step 5"
+            },
+            "step_6": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "step_6_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/rolling-with-silicone.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "step_6_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>6. Roll with the mold</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "step_6_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Lift the silicone to roll the sheet around the beef, peeling it away as you go. Leave both ends uncovered.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                },
+                "step_6_more": {
+                  "type": "accordion",
+                  "settings": {
+                    "icon": "plus",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "border": "none"
+                  },
+                  "blocks": {
+                    "step_6_row": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Rolling details",
+                        "open_by_default": false,
+                        "icon": "none"
+                      },
+                      "blocks": {
+                        "step_6_body": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p><strong>Release as you roll</strong></p><ol><li>Lay a sheet of plastic wrap beside the mold, ready for the finished roll.</li><li>Lift the short end of the mold nearest the beef. Use the silicone to bring the layered sheet up and over the tenderloin.</li><li>Continue rolling while peeling the silicone back. The duxelles should touch the beef, with the patterned brioche on the outside.</li><li>Overlap the sheet at the seam. Do not fold the layers over the cut ends of the tenderloin.</li><li>Once the roll is free of the mold, transfer it to the plastic wrap with the seam underneath.</li></ol>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "step_6_body"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "step_6_row"
+                  ],
+                  "name": "Details"
+                }
+              },
+              "block_order": [
+                "step_6_img",
+                "step_6_title",
+                "step_6_text",
+                "step_6_more"
+              ],
+              "name": "Step 6"
+            }
+          },
+          "block_order": [
+            "step_5",
+            "step_6"
+          ],
+          "name": "Steps 5–6"
+        },
+        "method_row_4": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "gap": 40,
+            "width": "fill",
+            "width_mobile": "fill",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start"
+          },
+          "blocks": {
+            "step_7": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "step_7_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/tighten-and-chill.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "step_7_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>7. Tighten and chill</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "step_7_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Roll tightly in plastic wrap, then refrigerate overnight so the layers bond to one another and the beef.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                },
+                "step_7_more": {
+                  "type": "accordion",
+                  "settings": {
+                    "icon": "plus",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "border": "none"
+                  },
+                  "blocks": {
+                    "step_7_row": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Wrapping and chilling details",
+                        "open_by_default": false,
+                        "icon": "none"
+                      },
+                      "blocks": {
+                        "step_7_body": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p><strong>Hold the layers together</strong></p><ol><li>Wrap the Wellington snugly in the plastic, keeping the cylinder even. Twist the plastic tails to tighten it without squeezing out the filling.</li><li>Place it seam-side down on a tray and refrigerate overnight, about 12 hours.</li><li>Keep it wrapped during the rest so the layers stay in contact while the Activa bonds them.</li></ol><p>Ajinomoto’s general refrigerated bonding window is 4–24 hours; this method allows an overnight rest.</p>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "step_7_body"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "step_7_row"
+                  ],
+                  "name": "Details"
+                }
+              },
+              "block_order": [
+                "step_7_img",
+                "step_7_title",
+                "step_7_text",
+                "step_7_more"
+              ],
+              "name": "Step 7"
+            },
+            "step_8": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "step_8_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/food-and-mat-hero-v7.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "step_8_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>8. Egg wash and bake</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4"
+                  },
+                  "blocks": {}
+                },
+                "step_8_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Remove the plastic wrap, brush with egg wash and bake. Slice to reveal the brioche, spinach and duxelles around the beef.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                },
+                "step_8_more": {
+                  "type": "accordion",
+                  "settings": {
+                    "icon": "plus",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "border": "none"
+                  },
+                  "blocks": {
+                    "step_8_row": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Recipe and details",
+                        "open_by_default": false,
+                        "icon": "none"
+                      },
+                      "blocks": {
+                        "step_8_body": {
+                          "type": "text",
+                          "settings": {
+                            "text": "<p><strong>Egg wash</strong></p><ul><li>Whole egg <strong>1 (about 50 g)</strong></li><li>Kosher salt <strong>Small pinch</strong></li><li>Light corn syrup <strong>3.3 g</strong></li></ul><p><strong>Finish the Wellington</strong></p><ol><li>Whisk the egg and salt until smooth. Let stand for 5 minutes, then whisk in the corn syrup and strain through a tea strainer.</li><li>Remove all plastic wrap from the chilled Wellington. Place it seam-side down on a baking tray.</li><li>Brush the crust lightly with egg wash, following the diamond pattern without letting it pool in the grooves.</li><li>Bake, then rest before slicing. The complete cooking schedule and temperature targets will accompany the video.</li></ol>",
+                            "width": "100%",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "step_8_body"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "step_8_row"
+                  ],
+                  "name": "Details"
+                }
+              },
+              "block_order": [
+                "step_8_img",
+                "step_8_title",
+                "step_8_text",
+                "step_8_more"
+              ],
+              "name": "Step 8"
+            }
+          },
+          "block_order": [
+            "step_7",
+            "step_8"
+          ],
+          "name": "Steps 7–8"
+        },
+        "method_recipe_link": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"#recipe\">See the recipe</a></p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "method_title",
+        "method_intro",
+        "method_row_1",
+        "method_row_2",
+        "method_row_3",
+        "method_row_4",
+        "method_recipe_link"
+      ]
+    },
+    "anchor_inside": {
+      "type": "custom-liquid",
+      "name": "Anchor #inside",
+      "settings": {
+        "custom_liquid": "<div id=\"inside\"></div>",
+        "background_color": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "inside": {
+      "type": "section",
+      "name": "What's included",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 32,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      },
+      "blocks": {
+        "inside_line": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "gap": 0,
+            "width": "fill",
+            "width_mobile": "fill",
+            "border": "solid",
+            "border_width": 1,
+            "border_color": "",
+            "border_opacity": 15
+          },
+          "blocks": {},
+          "block_order": [],
+          "name": "Line"
+        },
+        "inside_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>What’s included</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3"
+          },
+          "blocks": {}
+        },
+        "inside_items": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "gap": 28,
+            "width": "fill",
+            "width_mobile": "fill",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start"
+          },
+          "blocks": {
+            "inc_1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "inc_1_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/silicone-mold.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "inc_1_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Silicone mold</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5"
+                  },
+                  "blocks": {}
+                },
+                "inc_1_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>A 40 × 20 cm working area for casting the patterned brioche crust.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "inc_1_img",
+                "inc_1_title",
+                "inc_1_text"
+              ],
+              "name": "Silicone mold"
+            },
+            "inc_2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "inc_2_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/length-adjusting-bar.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "inc_2_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Length-adjusting bar</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5"
+                  },
+                  "blocks": {}
+                },
+                "inc_2_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Forms a movable end wall so you can cast a shorter sheet.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "inc_2_img",
+                "inc_2_title",
+                "inc_2_text"
+              ],
+              "name": "Length-adjusting bar"
+            },
+            "inc_3": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "inc_3_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/offset-spatula.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "inc_3_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Offset spatula</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5"
+                  },
+                  "blocks": {}
+                },
+                "inc_3_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Spread each layer evenly and smooth the surface before adding the next.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "inc_3_img",
+                "inc_3_title",
+                "inc_3_text"
+              ],
+              "name": "Offset spatula"
+            },
+            "inc_4": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "gap": 12,
+                "width": "fill",
+                "width_mobile": "fill"
+              },
+              "blocks": {
+                "inc_4_img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/activa-rm.webp",
+                    "image_ratio": "landscape",
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "inc_4_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Activa RM</h3>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5"
+                  },
+                  "blocks": {}
+                },
+                "inc_4_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>A 50 g pouch to help bond the layered wrap to the beef.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "inc_4_img",
+                "inc_4_title",
+                "inc_4_text"
+              ],
+              "name": "Activa RM"
+            }
+          },
+          "block_order": [
+            "inc_1",
+            "inc_2",
+            "inc_3",
+            "inc_4"
+          ],
+          "name": "Items"
+        }
+      },
+      "block_order": [
+        "inside_line",
+        "inside_title",
+        "inside_items"
+      ]
+    },
+    "adjustment": {
+      "type": "section",
+      "name": "Sizing",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      },
+      "blocks": {
+        "adjust_line": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "gap": 0,
+            "width": "fill",
+            "width_mobile": "fill",
+            "border": "solid",
+            "border_width": 1,
+            "border_color": "",
+            "border_opacity": 15
+          },
+          "blocks": {},
+          "block_order": [],
+          "name": "Line"
+        },
+        "adjust_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Wellington for roasts large and small.</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3"
+          },
+          "blocks": {}
+        },
+        "adjust_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 40 cm length wraps around the roast; the 20 cm width runs along it. Fit the length-adjusting bar to make a shorter wrap for a slimmer tenderloin or roulade, leaving enough to overlap at the seam.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "adjust_guide": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "gap": 16,
+            "width": "fill",
+            "width_mobile": "fill",
+            "background_color": "{{ settings.color_palette.color7 }}",
+            "padding-block-start": 24,
+            "padding-block-end": 24,
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
+          },
+          "blocks": {
+            "adjust_img": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/full.webp",
+                "image_ratio": "adapt",
+                "border_radius": 0
+              },
+              "blocks": {}
+            },
+            "adjust_caption": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Remove the length-adjusting bar to use the full 40 cm. Its patterned underside is shown here.</p>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "adjust_img",
+            "adjust_caption"
+          ],
+          "name": "Sizing guide"
+        }
+      },
+      "block_order": [
+        "adjust_line",
+        "adjust_title",
+        "adjust_intro",
+        "adjust_guide"
+      ]
+    },
+    "thermometer": {
+      "type": "section",
+      "name": "Thermometer",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      },
+      "blocks": {
+        "therm_line": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "gap": 0,
+            "width": "fill",
+            "width_mobile": "fill",
+            "border": "solid",
+            "border_width": 1,
+            "border_color": "",
+            "border_opacity": 15
+          },
+          "blocks": {},
+          "block_order": [],
+          "name": "Line"
+        },
+        "therm_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Total Temperature Awareness™<br>for Wellington perfection.</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3"
+          },
+          "blocks": {}
+        },
+        "therm_img": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wellington-temperature-awareness-eight-sensors.webp",
+            "image_ratio": "adapt",
+            "border_radius": 0
+          },
+          "blocks": {}
+        },
+        "therm_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Know how the beef is cooking beneath the crust. Eight sensors let TrueCore find its coolest point. The Kitchen Display shows the temperature and time remaining, with Wi-Fi for checking the cook in the Combustion app.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "therm_button": {
+          "type": "button",
+          "settings": {
+            "label": "Choose the full bundle",
+            "link": "shopify://products/beef-wellington-bundle",
+            "style_class": "button"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "therm_line",
+        "therm_title",
+        "therm_img",
+        "therm_text",
+        "therm_button"
+      ]
+    },
+    "watch": {
+      "type": "section",
+      "name": "Watch",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      },
+      "blocks": {
+        "watch_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Watch Easiest Wellington Ever</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3"
+          },
+          "blocks": {}
+        },
+        "watch_img": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/food-and-mat-hero-v7.webp",
+            "image_ratio": "landscape",
+            "border_radius": 0
+          },
+          "blocks": {}
+        },
+        "watch_caption": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Coming soon on YouTube</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "watch_title",
+        "watch_img",
+        "watch_caption"
+      ]
+    },
+    "anchor_recipe": {
+      "type": "custom-liquid",
+      "name": "Anchor #recipe",
+      "settings": {
+        "custom_liquid": "<div id=\"recipe\"></div>",
+        "background_color": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "recipe": {
+      "type": "section",
+      "name": "Recipe",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      },
+      "blocks": {
+        "recipe_line": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "gap": 0,
+            "width": "fill",
+            "width_mobile": "fill",
+            "border": "solid",
+            "border_width": 1,
+            "border_color": "",
+            "border_opacity": 15
+          },
+          "blocks": {},
+          "block_order": [],
+          "name": "Line"
+        },
+        "recipe_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>The Wellington recipe</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3"
+          },
+          "blocks": {}
+        },
+        "recipe_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A patterned brioche crust, spinach and mushroom duxelles around a beef tenderloin. Here’s how the components come together.</p><p>Open the illustrated steps above for component recipes and preparation details. The complete cooking schedule will accompany the video.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "recipe_acc": {
+          "type": "accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "type_preset": "h6",
+            "border": "none"
+          },
+          "blocks": {
+            "recipe_ingredients": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Ingredients by component",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "recipe_ingredients_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Beef tenderloin</strong></p><p>A trimmed, evenly shaped center-cut roast, seasoned with salt.</p><p><strong>Chicken farce</strong></p><p>Skinless chicken breast, egg white, crème fraîche, water and salt. This smooth mixture forms the base of all three layers.</p><p><strong>Brioche crust</strong></p><p>Stale brioche, chicken farce, egg, heavy cream, crème fraîche, melted beef tallow, water and salt.</p><p><strong>Spinach farce</strong></p><p>Blanched spinach, chicken farce, heavy cream, salt and black pepper. Squeeze the spinach thoroughly before blending.</p><p><strong>Mushroom duxelles farce</strong></p><p>Cooked, cooled mushroom duxelles mixed with raw chicken farce and heavy cream. This mixture is spread uncooked after the brioche and spinach have been baked and cooled.</p><p><strong>For assembly and finishing</strong></p><p>Activa RM for a light dusting below and above the duxelles, plus egg wash for the crust.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "recipe_ingredients_text"
+              ]
+            },
+            "recipe_preparation": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Preparing and assembling the layers",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "recipe_preparation_text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<ol><li><strong>Prepare the components</strong> Cook the mushrooms and shallots for the duxelles, then cool before mixing with the raw chicken farce. Blanch the spinach, drain and squeeze dry. Prepare the brioche and spinach farces separately. Keep all three mixtures refrigerated until needed.</li><li><strong>Fill the mold and freeze</strong> Set the mold on an inverted sheet tray so the tray’s raised edges do not obstruct your spatula. Fit the bar if you need a shorter wrap. Spread the brioche farce into the diamond grooves and smooth it level with the rim. Freeze for about 15 minutes, until solid enough to spread the spinach without disturbing the crust.</li><li><strong>Add spinach, bake and cool</strong> Spread a thin, even layer of spinach farce over the frozen brioche. Bake at 250°F (120°C) for about 15 minutes, until set. Remove from the oven and let cool in the mold. The mushroom duxelles is added after this bake.</li><li><strong>Dust the spinach and add duxelles</strong> Lightly dust the cooled spinach surface with Activa RM. Spread the uncooked mushroom duxelles farce over it in a thin, even layer.</li><li><strong>Dust the duxelles and add the beef</strong> Apply a second light dusting of Activa RM over the duxelles. Place the raw tenderloin across one short end of the sheet and begin rolling promptly.</li><li><strong>Roll with the mold</strong> Lift the silicone to help roll the layered sheet around the tenderloin, peeling the mold away as you go. The brioche faces outward and the duxelles sits against the beef. Leave both cut ends uncovered. Once the roll is free of the mold, transfer it to a sheet of plastic wrap.</li><li><strong>Tighten and refrigerate</strong> Roll tightly in the plastic wrap to hold the layers in contact, with the seam underneath. Refrigerate overnight while the Activa bonds the layers together.</li><li><strong>Finish with egg wash and bake</strong> Remove the plastic wrap before brushing the crust with egg wash and baking. The full recipe will include the final cooking schedule and temperature targets.</li></ol>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "recipe_preparation_text"
+              ]
+            }
+          },
+          "block_order": [
+            "recipe_ingredients",
+            "recipe_preparation"
+          ],
+          "name": "Recipe"
+        },
+        "recipe_credit": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspired by the chicken-brioche Wellington technique of Mike Klaassen and Arjan Speelman at Ciel Bleu, shared through <a href=\"https://shop.moldbrothers.com/product/172373/\">MoldBrothers</a>.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "recipe_line",
+        "recipe_title",
+        "recipe_intro",
+        "recipe_acc",
+        "recipe_credit"
+      ]
+    },
+    "anchor_questions": {
+      "type": "custom-liquid",
+      "name": "Anchor #questions",
+      "settings": {
+        "custom_liquid": "<div id=\"questions\"></div>",
+        "background_color": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "questions": {
+      "type": "section",
+      "name": "FAQs",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      },
+      "blocks": {
+        "faq_line": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "gap": 0,
+            "width": "fill",
+            "width_mobile": "fill",
+            "border": "solid",
+            "border_width": 1,
+            "border_color": "",
+            "border_opacity": 15
+          },
+          "blocks": {},
+          "block_order": [],
+          "name": "Line"
+        },
+        "faq_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>FAQs</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3"
+          },
+          "blocks": {}
+        },
+        "faq_acc": {
+          "type": "accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "type_preset": "h6",
+            "border": "none"
+          },
+          "blocks": {
+            "faq_1": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What comes in the kit?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_1_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The $99 Wellington kit includes a silicone mold, length-adjusting bar, offset spatula and 50 g of Activa RM. The $299 full Wellington bundle adds a Predictive Thermometer and Kitchen Display, saving $29 compared with buying the kit and $229 thermometer-and-display set separately. Other recipe ingredients are not included.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_1_a"
+              ]
+            },
+            "faq_2": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What size roast fits the mold?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_2_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The 40 × 20 cm working area (about 15.7 × 7.9 in) is designed for a trimmed center-cut roast up to 20 cm long and about 7–8 cm in diameter before adding the layers. The 40 cm direction wraps around the roast; the 20 cm width runs along it. Allow for the layers and an overlap at the seam. A whole, untrimmed tenderloin may be too long. The mold measures 41 × 21 × 1 cm including the frame.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_2_a"
+              ]
+            },
+            "faq_3": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How do I use the length-adjusting bar?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_3_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Fit its patterned underside over a row of diamonds to make a shorter sheet for a slimmer roast. Fill between the bar and one end of the mold, leaving the other side empty. Check that the sheet will go around the roast and its layers, with an overlap at the seam. The width stays 20 cm.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_3_a"
+              ]
+            },
+            "faq_4": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How does the mold make the lattice?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_4_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The grooves cast the lattice pattern into a brioche-and-chicken crust. Filling to the rim creates a continuous backing above the diamonds, so the crust releases as one sheet. Spinach and mushroom duxelles farces form the next two layers.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_4_a"
+              ]
+            },
+            "faq_5": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How do I use the mold to roll the Wellington?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_5_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Keep the sheet in the mold while you bake and cool the brioche and spinach, then add Activa, uncooked duxelles farce, a second dusting of Activa and the raw tenderloin. Lift the silicone to help roll the sheet around the beef, peeling the mold away as you go. Leave both cut ends uncovered. Transfer the released roll onto plastic wrap, roll it tightly with the seam underneath and refrigerate overnight.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_5_a"
+              ]
+            },
+            "faq_6": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What is the mold made from, and how do I care for it?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_6_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The mold and bar are platinum-cured, food-grade silicone, specified for oven use up to 230°C / 446°F. Support the mold on a flat tray when filling or moving it. Wash with warm soapy water, rinse and dry. Avoid knives, abrasive scrubbers and direct contact with heating elements. Store flat or loosely rolled with the bar.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_6_a"
+              ]
+            },
+            "faq_7": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What else can I use the offset spatula for?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_7_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Frost a cake, smooth ganache or lift cookies and pastries. The angled neck keeps your fingers clear while the blade spreads and lifts. Use gentle pressure on silicone.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_7_a"
+              ]
+            },
+            "faq_8": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What is Activa RM?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_8_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Activa RM is a transglutaminase preparation from Ajinomoto, often called “meat glue.” It bonds proteins, helping the layered wrap hold against the beef.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_8_a"
+              ]
+            },
+            "faq_9": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How do I apply Activa RM, and how long does bonding take?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_9_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>For this Wellington, use two light, even dustings: one on the cooled spinach before spreading the uncooked duxelles farce, and one on the duxelles before adding the beef. Use the recipe’s measured amount across both applications. Roll promptly, then tighten in plastic wrap to keep the layers in contact.</p><p>Refrigerate overnight for bonding. Ajinomoto’s general guidance for Activa RM is 4–24 hours under refrigeration; the required time varies with the food and conditions.</p><p>Ajinomoto’s general dosage guidance is 0.75–1% of the total mixture’s weight (7.5–10 g per kilogram), but the amount depends on the application. The 50 g pouch is not a single dose.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_9_a"
+              ]
+            },
+            "faq_10": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How do I store and handle Activa RM?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_10_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Keep it dry, minimize exposure to air and reseal promptly. Freeze after opening and portion with a clean, dry utensil. Ajinomoto recommends using opened RM within one month for best quality. Follow the date on your pouch; repacking does not restart its shelf life.</p><p>Avoid breathing powder dust. Keep raw ingredients cold and follow the recipe’s cooking instructions. Activa bonds proteins; it does not preserve food or replace cooking.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_10_a"
+              ]
+            },
+            "faq_11": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Does Activa RM contain allergens?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_11_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Contains milk.</strong> Its ingredients are sodium caseinate (a milk protein), maltodextrin and transglutaminase. Activa RM is not suitable for a milk-free or vegan recipe.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_11_a"
+              ]
+            },
+            "faq_12": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Are the images photographs of the product?",
+                "open_by_default": false,
+                "icon": "none"
+              },
+              "blocks": {
+                "faq_12_a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>The food and process images are illustrations, and the mold-kit images are digital renders. Thermometer and display photos are from Combustion. Actual color and appearance may vary.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_12_a"
+              ]
+            }
+          },
+          "block_order": [
+            "faq_1",
+            "faq_2",
+            "faq_3",
+            "faq_4",
+            "faq_5",
+            "faq_6",
+            "faq_7",
+            "faq_8",
+            "faq_9",
+            "faq_10",
+            "faq_11",
+            "faq_12"
+          ],
+          "name": "FAQ"
+        },
+        "faq_sources": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.ajihealthandnutrition.com/product/activa-rm/\">More about Activa RM from Ajinomoto</a>. Activa is a trademark of Ajinomoto.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "faq_line",
+        "faq_title",
+        "faq_acc",
+        "faq_sources"
+      ]
+    },
+    "related": {
+      "type": "product-recommendations",
+      "blocks": {
+        "text_cbcgyb": {
+          "type": "text",
+          "name": "t:names.header",
+          "settings": {
+            "text": "<h2>You might also like </h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "background_color": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 8,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_DNizbJ": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "adapt",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_M7MJkb": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_gLWgA6": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "text_color": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_DNizbJ",
+            "product_title_M7MJkb",
+            "price_gLWgA6"
+          ]
+        }
+      },
+      "block_order": [
+        "text_cbcgyb"
+      ],
+      "name": "t:names.product_recommendations",
+      "settings": {
+        "product": "{{ closest.product }}",
+        "recommendation_type": "related",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 12,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 28,
+        "background_color": "",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "anchor_method",
+    "method",
+    "anchor_inside",
+    "inside",
+    "adjustment",
+    "thermometer",
+    "watch",
+    "anchor_recipe",
+    "recipe",
+    "anchor_questions",
+    "questions",
+    "related"
+  ]
+}
