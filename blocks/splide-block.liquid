@@ -41,7 +41,7 @@
 			console.log("video is playing");
 		});
 	{% endif %}
-		splide.mount( window.splide.Extensions );
+		splide.mount( window.splide?.Extensions );
 	{%- comment -%} {% if block.settings.splide_autoplay %}
 		var toggleButton = splide.root.querySelector( '#{{ title }} .toggle-button' );
 
@@ -71,7 +71,18 @@
 			<div class="splide" id="{{ title }}">
 			<div class="splide__track">
 				<ul class="splide__list">
-						{{ slides }}
+						{%- if slides != blank -%}
+							{{ slides }}
+						{%- else -%}
+							{%- assign entry = block.settings.mobj -%}
+							{%- assign object = metaobjects[entry.system.type][entry] -%}
+							{%- for slide in object.content_blocks.value -%}
+								<li class="splide__slide">
+									{{ slide.image | image_url: width: 1800 | image_tag }}
+									{{ slide.body | metafield_tag }}
+								</li>
+							{%- endfor -%}
+						{%- endif -%}
 				</ul>
 				{% if block.settings.splide_autoplay %}
 				<div class="autoplay-controls">
@@ -99,6 +110,7 @@
     { "type": "checkbox", "id": "splide_autoplay", "default": true, "label": "Autoplay", "info": "Using autoplay will add a play/pause control, which is required for accessibility. Make sure to include the right parameters for autoplay." },
     { "type": "liquid", "id": "parameters", "label": "Parameters", "info": "Settings for this splide carousel. E.g., perPage etc" },
     { "type": "liquid", "id": "slides", "label": "Splide slides", "info": "Put your <li> items code here. Use class splide__slide on the <li> and include an <img> in each <li>. Use additional <div class='splide__slide__container'> to put video in a container" },
+    { "type": "metaobject", "id": "mobj", "metaobject_type": "content_group", "label": "Content group", "info": "Used when Splide slides is empty. Each of its content blocks becomes a slide." },
     { "type": "liquid", "id": "liquid_before", "label": "Liquid before", "info": "Stuff that goes above the slides (outside of splide element)" },
     { "type": "liquid", "id": "liquid_after_inside", "label": "Liquid after inside", "info": "Stuff that goes after the slides (inside of splide element)" },
     { "type": "header", "content": "Padding" },

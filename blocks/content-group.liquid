@@ -5,8 +5,11 @@
 -%}
 
 {%- capture children -%}
-  {%- if object != blank -%}
-    {%- for item in object.content_blocks.value -%}
+  {%- assign items = block.settings.items -%}
+  {%- if items.value != blank -%}{%- assign items = items.value -%}{%- endif -%}
+  {%- if object != blank -%}{%- assign items = object.content_blocks.value -%}{%- endif -%}
+  {%- if items != blank -%}
+    {%- for item in items -%}
       {% content_for 'blocks', closest.metaobject.setup_step: item %}
     {%- endfor -%}
   {%- endif -%}
@@ -46,6 +49,13 @@
       "label": "Content group",
       "metaobject_type": "content_group",
       "info": "Select a content_group entry. Add blocks below to lay out its content blocks."
+    },
+    {
+      "type": "metaobject_list",
+      "id": "items",
+      "metaobject_type": "setup_step",
+      "label": "Content blocks",
+      "info": "Used when Content group is empty, e.g. connect to a content block's details."
     },
     {
       "type": "header",
