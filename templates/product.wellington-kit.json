@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -75,6 +84,7 @@
             },
             "kit_choose": {
               "type": "group",
+              "name": "Choose your kit",
               "settings": {
                 "content_direction": "column",
                 "gap": 10,
@@ -92,8 +102,8 @@
                     "type_preset": "custom",
                     "font": "var(--font-heading--family)",
                     "font_size": "0.75rem",
-                    "case": "uppercase",
-                    "letter_spacing": "loose"
+                    "letter_spacing": "loose",
+                    "case": "uppercase"
                   },
                   "blocks": {}
                 },
@@ -498,8 +508,7 @@
                 "kit_choose_cap",
                 "kit_opt_1",
                 "kit_opt_2"
-              ],
-              "name": "Choose your kit"
+              ]
             },
             "price": {
               "type": "price",
@@ -552,6 +561,7 @@
               "blocks": {
                 "quantity": {
                   "type": "quantity",
+                  "disabled": true,
                   "static": true,
                   "settings": {
                     "input_style": "default",
@@ -561,8 +571,7 @@
                     "border_width": 1,
                     "border_radius": 0
                   },
-                  "blocks": {},
-                  "disabled": true
+                  "blocks": {}
                 },
                 "add-to-cart": {
                   "type": "add-to-cart",
@@ -625,16 +634,6 @@
     },
     "method": {
       "type": "section",
-      "name": "How to build",
-      "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "gap": 32,
-        "section_width": "page-width",
-        "background_color": "",
-        "padding-block-start": 56,
-        "padding-block-end": 56
-      },
       "blocks": {
         "method_title": {
           "type": "text",
@@ -675,24 +674,25 @@
           "settings": {
             "mobj": "wellington-method",
             "content_direction": "row",
-            "gap": 40,
-            "width": "fill",
-            "width_mobile": "fill",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
-            "vertical_alignment": "flex-start"
+            "vertical_alignment": "flex-start",
+            "gap": 40,
+            "width": "fill",
+            "width_mobile": "fill"
           },
           "blocks": {
             "step": {
               "type": "group",
+              "name": "Step",
               "settings": {
                 "content_direction": "column",
+                "vertical_alignment_flex_direction_column": "space-between",
                 "gap": 12,
                 "width": "custom",
-                "width_mobile": "fill",
-                "height": "fit",
                 "custom_width": 46,
-                "vertical_alignment_flex_direction_column": "space-between"
+                "width_mobile": "fill",
+                "height": "fit"
               },
               "blocks": {
                 "step_copy": {
@@ -773,6 +773,7 @@
                 },
                 "step_more": {
                   "type": "accordion",
+                  "name": "Details",
                   "settings": {
                     "icon": "plus",
                     "dividers": true,
@@ -848,15 +849,13 @@
                   },
                   "block_order": [
                     "step_row"
-                  ],
-                  "name": "Details"
+                  ]
                 }
               },
               "block_order": [
                 "step_copy",
                 "step_more"
-              ],
-              "name": "Step"
+              ]
             }
           },
           "block_order": [
@@ -872,7 +871,17 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 750px) {.layout-panel-flex--row {flex-wrap: wrap; align-items: stretch;}.accordion:not(:has(details[open])) {display: flex; flex-direction: column; justify-content: flex-end;}}"
-      ]
+      ],
+      "name": "How to build",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 32,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
     },
     "anchor_inside": {
       "type": "custom-liquid",
@@ -887,19 +896,10 @@
     },
     "inside": {
       "type": "section",
-      "name": "What's included",
-      "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "gap": 32,
-        "section_width": "page-width",
-        "background_color": "",
-        "padding-block-start": 56,
-        "padding-block-end": 56
-      },
       "blocks": {
         "inside_line": {
           "type": "group",
+          "name": "Line",
           "settings": {
             "content_direction": "column",
             "gap": 0,
@@ -907,12 +907,10 @@
             "width_mobile": "fill",
             "border": "solid",
             "border_width": 1,
-            "border_color": "",
-            "border_opacity": 15
+            "border_opacity": 15,
+            "border_color": ""
           },
-          "blocks": {},
-          "block_order": [],
-          "name": "Line"
+          "blocks": {}
         },
         "inside_title": {
           "type": "text",
@@ -930,24 +928,25 @@
           "name": "Included items (product metafield)",
           "settings": {
             "mobj": "",
-            "content_direction": "row",
-            "gap": 28,
-            "width": "fill",
-            "width_mobile": "fill",
             "items": "{{ closest.product.metafields.description.includes_objects.value }}",
+            "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
-            "vertical_alignment": "flex-start"
+            "vertical_alignment": "flex-start",
+            "gap": 28,
+            "width": "fill",
+            "width_mobile": "fill"
           },
           "blocks": {
             "inc_item": {
               "type": "group",
+              "name": "Included item",
               "settings": {
                 "content_direction": "column",
                 "gap": 12,
                 "width": "custom",
-                "width_mobile": "fill",
-                "custom_width": 46
+                "custom_width": 46,
+                "width_mobile": "fill"
               },
               "blocks": {
                 "inc_panel": {
@@ -1006,8 +1005,7 @@
                 "inc_panel",
                 "inc_title",
                 "inc_text"
-              ],
-              "name": "Included item"
+              ]
             }
           },
           "block_order": [
@@ -1022,23 +1020,24 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 750px) {.layout-panel-flex--row {flex-wrap: wrap; align-items: stretch;}}"
-      ]
-    },
-    "adjustment": {
-      "type": "section",
-      "name": "Sizing",
+      ],
+      "name": "What's included",
       "settings": {
         "content_direction": "column",
         "horizontal_alignment_flex_direction_column": "flex-start",
-        "gap": 24,
+        "gap": 32,
         "section_width": "page-width",
         "background_color": "",
         "padding-block-start": 56,
         "padding-block-end": 56
-      },
+      }
+    },
+    "adjustment": {
+      "type": "section",
       "blocks": {
         "adjust_line": {
           "type": "group",
+          "name": "Line",
           "settings": {
             "content_direction": "column",
             "gap": 0,
@@ -1046,12 +1045,10 @@
             "width_mobile": "fill",
             "border": "solid",
             "border_width": 1,
-            "border_color": "",
-            "border_opacity": 15
+            "border_opacity": 15,
+            "border_color": ""
           },
-          "blocks": {},
-          "block_order": [],
-          "name": "Line"
+          "blocks": {}
         },
         "adjust_title": {
           "type": "text",
@@ -1099,11 +1096,11 @@
                 "splide_autoplay": false,
                 "parameters": "type: 'slide',\nperPage: 1,\ngap: '20px',\narrows: true,\npagination: false",
                 "slides": "",
+                "mobj": "wellington-sizing",
                 "liquid_before": "<script>window.splide = window.splide || { Extensions: {} };</script>",
                 "liquid_after_inside": "<div class=\"flex justify-right spacing-style\" style=\"--padding-block-start: 12px; --padding-block-end: 28px; --padding-inline-start: 28px; --padding-inline-end: 28px;\">\n  <span id=\"sizing-guide-counter\" aria-hidden=\"true\">1&nbsp;of&nbsp;3</span>\n  <div class=\"splide__arrows flex\">\n    <button class=\"splide__arrow--prev button-secondary\" type=\"button\">Previous</button>\n    <button class=\"splide__arrow--next button-secondary\" type=\"button\">Next</button>\n  </div>\n</div>\n<script>\n  (function () {\n    var root = document.getElementById('sizing-guide');\n    var counter = document.getElementById('sizing-guide-counter');\n    new MutationObserver(function () {\n      var active = root.querySelector('.splide__slide.is-active');\n      if (active) counter.textContent = active.getAttribute('aria-label').replace(/ /g, '\\u00a0');\n    }).observe(root, { subtree: true, attributes: true, attributeFilter: ['class'] });\n  })();\n</script>",
                 "padding_top": 0,
-                "padding_bottom": 0,
-                "mobj": "wellington-sizing"
+                "padding_bottom": 0
               },
               "blocks": {}
             }
@@ -1125,11 +1122,8 @@
         ".splide-parent :is(span,button){font-size:var(--font-size--sm)}",
         ".splide__arrows{--button-padding-block:8px;--button-padding-inline:16px}",
         ".splide__slide .metafield-rich_text_field{padding:20px 28px 0}"
-      ]
-    },
-    "thermometer": {
-      "type": "section",
-      "name": "Thermometer",
+      ],
+      "name": "Sizing",
       "settings": {
         "content_direction": "column",
         "horizontal_alignment_flex_direction_column": "flex-start",
@@ -1138,10 +1132,14 @@
         "background_color": "",
         "padding-block-start": 56,
         "padding-block-end": 56
-      },
+      }
+    },
+    "thermometer": {
+      "type": "section",
       "blocks": {
         "therm_line": {
           "type": "group",
+          "name": "Line",
           "settings": {
             "content_direction": "column",
             "gap": 0,
@@ -1149,12 +1147,10 @@
             "width_mobile": "fill",
             "border": "solid",
             "border_width": 1,
-            "border_color": "",
-            "border_opacity": 15
+            "border_opacity": 15,
+            "border_color": ""
           },
-          "blocks": {},
-          "block_order": [],
-          "name": "Line"
+          "blocks": {}
         },
         "therm_title": {
           "type": "text",
@@ -1645,11 +1641,8 @@
       ],
       "custom_css": [
         ".product-card:not(:has(.is-current)){display:none}"
-      ]
-    },
-    "watch": {
-      "type": "section",
-      "name": "Watch",
+      ],
+      "name": "Thermometer",
       "settings": {
         "content_direction": "column",
         "horizontal_alignment_flex_direction_column": "flex-start",
@@ -1658,7 +1651,10 @@
         "background_color": "",
         "padding-block-start": 56,
         "padding-block-end": 56
-      },
+      }
+    },
+    "watch": {
+      "type": "section",
       "blocks": {
         "watch_title": {
           "type": "text",
@@ -1696,7 +1692,17 @@
         "watch_title",
         "watch_img",
         "watch_caption"
-      ]
+      ],
+      "name": "Watch",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
     },
     "anchor_recipe": {
       "type": "custom-liquid",
@@ -1711,19 +1717,10 @@
     },
     "recipe": {
       "type": "section",
-      "name": "Recipe",
-      "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "gap": 24,
-        "section_width": "page-width",
-        "background_color": "",
-        "padding-block-start": 56,
-        "padding-block-end": 56
-      },
       "blocks": {
         "recipe_line": {
           "type": "group",
+          "name": "Line",
           "settings": {
             "content_direction": "column",
             "gap": 0,
@@ -1731,12 +1728,10 @@
             "width_mobile": "fill",
             "border": "solid",
             "border_width": 1,
-            "border_color": "",
-            "border_opacity": 15
+            "border_opacity": 15,
+            "border_color": ""
           },
-          "blocks": {},
-          "block_order": [],
-          "name": "Line"
+          "blocks": {}
         },
         "recipe_title": {
           "type": "text",
@@ -1762,6 +1757,7 @@
         },
         "recipe_acc": {
           "type": "accordion",
+          "name": "Recipe",
           "settings": {
             "icon": "plus",
             "dividers": true,
@@ -1874,8 +1870,7 @@
           "block_order": [
             "recipe_ingredients",
             "recipe_preparation"
-          ],
-          "name": "Recipe"
+          ]
         },
         "recipe_credit": {
           "type": "text",
@@ -1895,7 +1890,17 @@
         "recipe_intro",
         "recipe_acc",
         "recipe_credit"
-      ]
+      ],
+      "name": "Recipe",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
     },
     "anchor_questions": {
       "type": "custom-liquid",
@@ -1910,19 +1915,10 @@
     },
     "questions": {
       "type": "section",
-      "name": "FAQs",
-      "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "gap": 24,
-        "section_width": "page-width",
-        "background_color": "",
-        "padding-block-start": 56,
-        "padding-block-end": 56
-      },
       "blocks": {
         "faq_line": {
           "type": "group",
+          "name": "Line",
           "settings": {
             "content_direction": "column",
             "gap": 0,
@@ -1930,12 +1926,10 @@
             "width_mobile": "fill",
             "border": "solid",
             "border_width": 1,
-            "border_color": "",
-            "border_opacity": 15
+            "border_opacity": 15,
+            "border_color": ""
           },
-          "blocks": {},
-          "block_order": [],
-          "name": "Line"
+          "blocks": {}
         },
         "faq_title": {
           "type": "text",
@@ -1950,6 +1944,7 @@
         },
         "faq_acc": {
           "type": "accordion",
+          "name": "FAQ",
           "settings": {
             "icon": "plus",
             "dividers": true,
@@ -2259,8 +2254,7 @@
             "faq_10",
             "faq_11",
             "faq_12"
-          ],
-          "name": "FAQ"
+          ]
         },
         "faq_sources": {
           "type": "text",
@@ -2279,7 +2273,17 @@
         "faq_title",
         "faq_acc",
         "faq_sources"
-      ]
+      ],
+      "name": "FAQs",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
     },
     "related": {
       "type": "product-recommendations",
